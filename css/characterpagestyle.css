@@ -1,0 +1,568 @@
+.banner{
+    background-color: transparent;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;  
+    padding-top: 0px;
+    font-family: inter;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:auto ;
+    margin-right:auto ;
+    text-align: center;
+    border-radius: 10px;
+    top: 10px;
+    flex-direction: row-reverse;
+
+}
+
+.splash-art{
+    width: auto;
+    height: 120%;
+    position: relative;
+    right: 30px;
+    animation: splash 1s linear;
+    animation-fill-mode: forwards;  
+
+}
+
+.splash-art img{
+    width: auto;
+    height: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    background-color: transparent;
+}
+
+@keyframes splash {
+    0%{ 
+      opacity: 0; 
+      transform: scale(1.3) translateX(-20px);
+      filter: brightness(0%);
+
+    }
+
+    30%{ 
+        opacity: 1; 
+        transform: scale(1) translateX(-20px);
+        filter: brightness(0%);
+
+      }
+
+      70%{ 
+        opacity: 1; 
+        transform: scale(1) translateX(-20px);
+        filter: brightness(0%);
+
+      }
+
+
+    100%{ 
+      opacity: 1; 
+      transform: translateX(0px);
+      filter: brightness(100%);
+
+    }
+}
+
+
+
+.banner-detail-container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top:auto ;   
+    margin-bottom:auto ;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    background-color: transparent;
+}
+
+.banner-details{
+    top: 20px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-family: genshin;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700;
+
+}
+
+.banner-icons{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+
+}
+
+.banner-icons img{
+    width: 25px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+.banner-icons .rarity{
+    height: 25px;
+    width: auto;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+.banner-description{
+    margin: 0px;
+    font-weight: 500;
+    font-family: inter;
+    width: 60%;
+
+
+}
+
+.information{
+    position: relative;
+    top: 50px;
+    padding-bottom: 100px;
+
+}
+
+@media all and (max-width: 1600px) {
+    .splash-art{
+        width: 100%;
+        background-color: transparent;
+        text-align: center;
+        margin-top:auto ;   
+        margin-bottom:auto ;
+        display: flex;
+        text-align: center;
+        justify-content: center; 
+        align-items: center; 
+        position: relative;
+        top: 20px;
+
+        position: absolute;
+        right: -30px;
+        width: 50%;
+    
+    }
+    .splash-art img{
+        height: 120%;
+        width: auto;
+        
+    }
+
+    .banner-detail-container{
+        width: 50%;
+        left: 0px;
+        position: absolute;
+
+
+    }
+
+    .banner{
+        flex-direction: row-reverse;
+        height: 300px;
+
+    }
+
+    .banner-description{
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 1200px) {
+    .splash-art{
+        position: absolute;
+        right: 0px;
+        width: 50%;
+        top: 0px;
+        
+    }
+    .splash-art img{
+        width: auto;
+        height: 100%;        
+    }
+
+    .banner-detail-container{
+        width: 90%;
+        left: 0px;
+        position: absolute;
+        background-image: linear-gradient(to left, transparent, #f8f8f8 50%);
+        height: 100%;
+
+    }
+
+    .banner{
+        overflow: hidden;
+    }
+
+    
+    .banner-description{
+        width: 60%;
+        overflow-y: auto;
+        height: 100px;        
+    }
+
+}
+
+
+
+@media all and (max-width: 1200px) {
+    .information{
+        position: relative;
+        top:10px ;
+        padding-bottom: 100px;
+
+    }
+}
+
+
+
+
+.sources{
+    position: relative;
+    top: -30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+@media all and (max-width: 1600px) {
+    .sources{
+        top:-35px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .sources{
+        top:5px;
+    }
+}
+
+.sources p{
+    font-size: 14px;
+    position: relative;
+    padding-right:5px ;
+    font-family: inter;
+}
+
+.sources a{
+    display: flex;
+    position: relative;
+    height: 25px;
+    margin-top: 8px;
+    padding-top: 7px;
+    padding-left:10px ;
+    padding-right:10px ;
+    margin-right: 3px;
+    border-radius:20px ;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: inter;
+    color: var(--topnav-color);
+    background-color: var(--highlighted-color);
+    filter: brightness(95%);
+    -webkit-filter: brightness(95%);
+    -moz-filter: brightness(95%);  
+    -o-filter: brightness(95%);  
+    -ms-filter: brightness(95%);
+    transition: all 0.2s ease-in-out;
+    font-family: inter;
+
+}
+
+.sources a:focus{
+    text-decoration: none;
+    color: var(--topnav-color);
+}
+
+
+#dark a{
+    color: var(--primary-text-color);
+}
+
+#dark a:focus{
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+
+
+.sources a img{
+    position: relative;
+    top: -3px;
+    width: auto;
+    height:90% ;
+    padding-right: 5px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.sources a i{
+    position: relative;
+    top: 4px;
+    left: 4px;
+    font-size: 10px;
+
+}
+
+
+.talent-card{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+.talent-icon{
+    text-align: center;
+    padding: 10px;
+    background-color: #2F3446;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.talent-icon img{
+    width: 35px;
+    height: 35px;    
+    height: auto;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+.talent-card-heading{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.talent-card-text{
+    background-color: transparent;
+    padding-top:5px ;
+    padding-right: 20px;
+    width: 80%;
+    margin-top:auto ;
+    margin-bottom: auto;
+}
+
+.talent-card-title{
+    font-family: Arial;
+    font-size: 20px;
+    margin:0px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 700;
+
+}
+
+.talent-card-description-title{
+    font-family: intersemibold;
+    font-size: 0.9rem;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.talent-card-description{
+    font-family: inter;
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.scalingtable{
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #e7e5e5;
+    overflow-x: auto;
+
+}
+
+.stt{
+    position: absolute;
+}
+
+span{
+    padding: 0px;
+    margin: 0px;
+}
+
+wbr{
+    padding: 0px;
+    margin: 0px;
+}
+
+tr{
+    background-color: #dadada;
+    padding: 0px;
+    width: 10px;
+    color: #2F3446;
+
+}
+
+td{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    width: 10px;
+
+}
+
+td{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    width: 10px;
+
+}
+
+.base-stat-table{
+    width: 600px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+
+
+}
+
+@media all and (max-width: 650px) {  
+    .base-stat-table{
+        width: 100%;
+        overflow-x: auto;
+
+    }
+
+    .base-stat-table .scalingtable{
+        width: 600px;
+
+    }
+  }
+
+
+.passive-deck{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+.passive-card{
+    width: 200px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    text-align:center ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.passive-card .talent-icon{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.passive-card h1{
+    font-size: 20px;
+}
+
+.passive-card p{
+    margin: 0;
+    font-size: 15px;
+
+}
+
+.constellations{
+    display: block;
+}
+
+.constellations .constellation{
+    width: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+    border-radius: 5px;
+    padding-top:15px ;
+    padding-bottom:15px ;
+    padding-left:15px ;
+    padding-right:15px ;
+    
+    margin-bottom: 5px;
+    display: block;
+}
+
+.constellation-heading{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.constellation-text{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-content: center;  
+    justify-content: center;  
+}
+
+.constellations .constellation h1{    
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.constellations .constellation p{    
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+
+}

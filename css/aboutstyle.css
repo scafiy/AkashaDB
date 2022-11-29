@@ -1,0 +1,108 @@
+h1{
+    font-size:20px ;
+    margin: 0px;
+    margin-top: 15px;
+
+}
+
+h4{
+    font-size:14px ;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 5px;
+
+}
+
+a{
+    color: #50C6CE;
+}
+
+.infomation{
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+.filler{
+    width: 100%;
+}
+
+.logs{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(56, 56, 56);
+    color: rgb(228, 228, 228);
+}
+
+.heading-section{
+    width: 100%;
+    height: 60%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:  url('../images/resoureses/aboutheading.png');
+}
+
+.explore-section{
+    position: relative;
+    background-color: #efefef;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.sectiondetail{
+    position: absolute;
+    padding-top: 30vh;
+    padding-left: 60px;
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, transparent, #efefef 50%);
+
+}
+
+.sectiondetail h1{
+    font-family: inter;
+    font-size: 36px;
+
+}
+
+.sectiondetail p{
+    font-family: inter;
+    margin-left: 5px;
+    margin-top: -25px;
+    margin-bottom: 20px;
+
+}
+
+.sectiondetail a{
+    font-family: inter;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--highlighted-color);
+    text-decoration: none;
+    color: black;
+}
+
+.bgscreenshot img{
+    position: absolute;
+    right: -200px;
+    top: 0px;
+    height: 100%;
+    background-color: transparent;
+}
+
+
+.img{
+    margin: 10px;
+}
+
+.stuff{
+    display: block;
+}
+

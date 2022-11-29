@@ -1,0 +1,208 @@
+.sortmetatag{
+    display: none;
+}
+
+
+.item{
+    width: 110px;
+    height: auto;
+    min-height: 145px;
+    max-height: 145px;
+}
+.item-text{
+    position: relative;
+    background-color: transparent;
+    height: 35px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;    
+    display: flex;
+    font-size: 12px;
+    z-index: 9;
+}
+
+.rarity-stars{
+    position: absolute;
+    bottom: 30px;
+    width:100%;
+    left: auto;
+    right: auto;
+    text-align: center;
+    color: #ffcc32;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.rarity-stars img{
+    transform: scale(1.3);
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+.selected{
+    display: block;
+}
+
+.item-list-container{
+    display: block;
+}
+
+.item-list-container li{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 1px;
+    margin-left:auto ;
+    margin-right:auto ;
+    text-align: center;
+}
+
+
+
+.item-list-container li .item{
+    width: 100%;
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    background-color: transparent;
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+
+} 
+
+.item-list-container li .item .item-icon{
+    height: 80px;
+    width: 80px;
+
+
+} 
+
+
+.item-list-container li a .item-text{
+    width: 100%;
+    background-color: transparent;
+    padding-left: 10px;
+    margin-left: 0px;
+    display: flex;
+    width: 25%;
+    font-size: 14px;
+    text-align: left;
+    justify-content: left; 
+    align-items: left;    
+    position: relative;
+
+
+
+}
+
+.item-baseatk, .item-stat{
+    width: 100%;
+    background-color: transparent;
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    width: 25%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;    
+    color: #495366;
+}
+
+.item-baseatk p{
+    font-family: genshin;
+    font-size: 14px;
+}
+
+
+.baseatk-container{
+    margin-left:auto ;
+    margin-right:auto ;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    background-color: transparent;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;   
+
+}
+
+.baseatk-container p{
+    font-family: genshin;
+    font-size: 14px;
+}
+
+
+
+
+
+.item-baseatk, .item-stat{
+    width: 100%;
+    background-color: transparent;
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    width: 25%;
+
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;   
+    font-family: genshin;
+    font-size: 14px;
+}
+
+.item-stat p{
+    font-family: genshin;
+    font-size: 14px;
+}
+
+#stat{
+    margin-right: 10px;
+}
+
+#min{
+    margin-right: 2px;
+
+}
+
+.nstat{
+    color: transparent;
+}
+
+.table-sortable th {
+    cursor: pointer;
+  }
+  
+  .table-sortable .th-sort-asc::after {
+    content: "\25b4";
+  }
+  
+  .table-sortable .th-sort-desc::after {
+    content: "\25be";
+  }
+  
+  .table-sortable .th-sort-asc::after,
+  .table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+  }
+  
+  .table-sortable .th-sort-asc,
+  .table-sortable .th-sort-desc {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  

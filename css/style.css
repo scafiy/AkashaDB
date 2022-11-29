@@ -1,0 +1,465 @@
+::selection {
+  color: #ffffff;
+  background: var(--highlighted-color);
+}
+
+@font-face{
+  font-family: inter;
+  src:url(../fonts/inter/Inter[wght].ttf);
+}
+
+@font-face{
+  font-family: interbold;
+  src:url(../fonts/inter/Inter-Bold.ttf);
+}
+
+@font-face{
+  font-family: intersemibold;
+  src:url(../fonts/inter/Inter-SemiBold.ttf);
+}
+
+
+
+@font-face{
+  font-family: genshin;
+  src:url(../fonts/HanyiWenHei/zh-cn.ttf);
+}
+
+/* custem scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(206, 206, 206); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(175, 175, 175); 
+}
+
+::-webkit-scrollbar-corner { display: none; }
+
+
+body{
+    background-color: var( --primary-background-color);
+    color: var(--primary-text-color);
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family: inter;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.nav{
+  position: sticky;
+  z-index: 10;
+  top:0px;
+  left:0px;
+}
+
+
+.container{
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  left: 0px;
+  margin-left: -30px;
+  overflow-y: hidden;
+  height: 100%;
+}
+
+.maincontent{
+  background-color:transparent;
+  color: var(--primary-text-color);
+  position: relative;
+  top: 60px;
+  padding-left: 290px;
+  transition: all 0.2s ease-in-out;
+  margin-left:auto ;
+  margin-right:auto ;
+  overflow-x:hidden ;
+  overflow-y: scroll;
+  height: 100%;
+
+
+}
+
+.content-container{
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin-left:auto ;
+  margin-right:auto ;
+  text-align: left;
+  background-color: transparent;
+  padding-bottom: 60px;
+}
+
+@media all and (max-width: 1240px) {  
+  .content-container{
+    width: 90%;
+
+  }
+}
+
+@media all and (max-width: 875px) {  
+  .content-container{
+    width: 95%;
+
+  }
+}
+
+.maincontent-collapse{
+  padding-left: 100px;
+  transition: all 0.2s ease-in-out;
+
+}
+
+@media all and (max-width: 1240px) {  
+  .maincontent{
+    padding-left: 100px;
+
+  }
+}
+
+
+@media all and (max-width: 1240px) {  
+  .maincontent-collapse{
+    padding-left: 100px;
+
+  }
+}
+
+@media all and (max-width: 875px) {  
+  .container{
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 875px) {  
+  .maincontent{
+    padding-left: 10px;
+
+  }
+}
+
+@media all and (max-width: 875px) {  
+  .maincontent-collapse{
+    padding-left: 10px;
+
+  }
+}
+
+
+button{
+    outline: none;
+    border: none;
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
+button .ripple {
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1.6);
+  position: absolute;
+  transform: scale(0);
+  animation: ripple 0.5s linear;
+  opacity: 0.1;
+}
+
+@keyframes ripple {
+  to {
+      transform: scale(2.5);
+      opacity: 0;
+  }
+}
+
+
+.overlay{ 
+  width: 100%;
+  z-index:11;
+}
+
+.unfocus{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  margin-top:-100vh ;
+  background-color:black;
+  opacity: 0.5;
+} 
+
+@media all and (min-width: 1240px) {  
+  .overlay{
+    display: none;
+
+  }
+}
+
+
+
+
+
+[tooltip] {
+  position: relative;
+  }
+  [tooltip]::before,
+  [tooltip]::after {
+  text-transform: none;
+  font-size: 0.9em;
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  }
+  [tooltip]::before {
+  content: "";
+  border: 5px solid transparent;
+  z-index: 1001;
+  }
+  [tooltip]::after {
+  content: attr(tooltip);
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  min-width: 3em;
+  max-width: 21em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.5em 1em;
+  border-radius: 2px;
+  background: #252525;
+  color: #fff;
+  z-index: 1000;
+  text-align: center;
+  }
+  [tooltip]:hover::before,
+  [tooltip]:hover::after {
+  display: block;
+  }
+  [tooltip=""]::before,
+  [tooltip=""]::after {
+  display: none !important;
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up"]::before {
+  bottom: 100%;
+  border-bottom-width: 0;
+  border-top-color: transparent;
+  }
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^="up"]::after {
+  bottom: calc(100% + 5px);
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^="up"]::before,
+  [tooltip][flow^="up"]::after {
+  left: 50%;
+  transform: translate(-50%, -0.5em);
+  }
+  
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up-left"]::before {
+  bottom: 100%;
+  border-bottom-width: 0;
+  border-top-color: transparent;
+  }
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^="up-left"]::after {
+  bottom: calc(100% + 5px);
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up-left"]::before {
+  left: 25%;
+  }
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^="up-left"]::after {
+  left: 50%;
+  }
+  
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up-right"]::before {
+  bottom: 100%;
+  border-bottom-width: 0;
+  border-top-color: transparent;
+  }
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^="up-right"]::after {
+  bottom: calc(100% + 5px);
+  }
+  [tooltip]:not([flow])::before,
+  [tooltip][flow^="up-right"]::before {
+  left: 75%;
+  transform: translate(-50%, -0.5em);
+  }
+  [tooltip]:not([flow])::after,
+  [tooltip][flow^="up-right"]::after {
+  left: 50%;
+  transform: translate(-50%, -0.5em);
+  }
+  
+  [tooltip][flow^="down"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: transparent;
+  }
+  [tooltip][flow^="down"]::after {
+  top: calc(100% + 5px);
+  }
+  [tooltip][flow^="down"]::before,
+  [tooltip][flow^="down"]::after {
+  left:50%;
+  transform: translate(-50%, 0.5em);
+  }
+  
+  [tooltip][flow^="down-left"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: transparent;
+  }
+  [tooltip][flow^="down-left"]::after {
+  top: calc(100% + 5px);
+  }
+  [tooltip][flow^="down-left"]::before {
+  left: 30%;
+  }
+  [tooltip][flow^="down-left"]::after {
+  left: 50%;
+  }
+  
+  [tooltip][flow^="down-right"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: transparent;
+  }
+  [tooltip][flow^="down-right"]::after {
+  top: calc(100% + 5px);
+  }
+  [tooltip][flow^="down-right"]::before {
+  left: 70%;
+  transform: translate(-85%, 0.5em);
+  }
+  [tooltip][flow^="down-right"]::after {
+  left: 50%;
+  transform: translate(-50%, 0.5em);
+  }
+  
+  [tooltip][flow^="left"]::before {
+  top: 50%;
+  border-right-width: 0;
+  border-left-color: transparent;
+  left: calc(0em - 5px);
+  transform: translate(-0.5em, -50%);
+  }
+  [tooltip][flow^="left"]::after {
+  top: 50%;
+  right: calc(100% + 5px);
+  transform: translate(-0.5em, -50%);
+  }
+  [tooltip][flow^="right"]::before {
+  top: 50%;
+  border-left-width: 0;
+  border-right-color: transparent;
+  right: calc(0em - 5px);
+  transform: translate(0.5em, -50%);
+  }
+  [tooltip][flow^="right"]::after {
+  top: 50%;
+  left: calc(100% + 5px);
+  transform: translate(0.5em, -50%);
+  }
+  
+  [tooltip]:not([flow]):hover::before,
+  [tooltip]:not([flow]):hover::after,
+  [tooltip][flow^="up"]:hover::before,
+  [tooltip][flow^="up"]:hover::after,
+  [tooltip][flow^="up-left"]:hover::before,
+  [tooltip][flow^="up-left"]:hover::after,
+  [tooltip][flow^="up-right"]:hover::before,
+  [tooltip][flow^="up-right"]:hover::after,
+  [tooltip][flow^="down"]:hover::before,
+  [tooltip][flow^="down"]:hover::after,
+  [tooltip][flow^="down-left"]:hover::before,
+  [tooltip][flow^="down-left"]:hover::after,
+  [tooltip][flow^="down-right"]:hover::before,
+  [tooltip][flow^="down-right"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
+  }
+  [tooltip][flow^="left"]:hover::before,
+  [tooltip][flow^="left"]:hover::after,
+  [tooltip][flow^="right"]:hover::before,
+  [tooltip][flow^="right"]:hover::after {
+  animation: tooltips-horz 300ms ease-out forwards;
+  }
+  @-moz-keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+  }
+  @-webkit-keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+  }
+  @-o-keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+  }
+  @keyframes tooltips-vert {
+  to {
+    opacity: 0.9;
+    transform: translate(-50%, 0);
+  }
+  }
+  @-moz-keyframes tooltips-horz {
+  to {
+    opacity: 0.9;
+    transform: translate(0, -50%);
+  }
+  }
+  @-webkit-keyframes tooltips-horz {
+  to {
+    opacity: 0.9;
+    transform: translate(0, -50%);
+  }
+  }
+  @-o-keyframes tooltips-horz {
+  to {
+    opacity: 0.9;
+    transform: translate(0, -50%);
+  }
+  }
+  @keyframes tooltips-horz {
+  to {
+    opacity: 0.9;
+    transform: translate(0, -50%);
+  }
+  }
+
+
+
