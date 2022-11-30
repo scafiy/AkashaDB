@@ -7,11 +7,9 @@
 		$img = addslashes($_POST['img']);
 		$url = addslashes($_POST['url']);
 		$category = addslashes($_POST['category']);
-		$fivestar = addslashes($_POST['fivestar']);
-		$fourstar = addslashes($_POST['fourstar']);
-		$threestar = addslashes($_POST['threestar']);
-		$twostar = addslashes($_POST['twostar']);
-		$onestar = addslashes($_POST['onestar']);
+		$fivestar = addslashes($_POST['raritymax']);
+		$fourstar = addslashes($_POST['raritymin']);
+
 
 		mysqli_query($conn, "INSERT INTO `artifacts` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$fivestar' , '$fourstar', '$threestar', '$twostar', '$onestar')") or die(mysqli_error());
 		

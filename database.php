@@ -20,15 +20,20 @@
         <div class="maincontent">
             <div class="content-container">
                 <div class="dbheader">
-                    <p>AkashaDataBase</p>
-                    <a class="right" href="/phpmyadmin/index.php?route=/database/structure&db=akashadb" target="_blank">phpmyadmin</a>
+                    <p>Akasha Database</p>
+                    <div class="right">
+                      <a href="/phpmyadmin/index.php?route=/table/export&db=akashadb&table=characters&single_table=true" target="_blank">export</a>
+                      <a href="/phpmyadmin/index.php?route=/database/structure&db=akashadb" target="_blank">phpmyadmin</a>
+                    </div>
                 </div>
 
                 <div class="dataset" id="set1">
                     <div class="dbheader">
-                        <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=characters">Characters</a>
-                        <a href="upload/uploadcharacter.php">upload</a>
-                        <a id="showtable1">hide</a>
+                        <a target="_blank" href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=characters">Characters</a>
+                        <div class="right">
+                          <a id="showtable1">hide</a>
+                          <a onClick="MyWindow=window.open('upload/uploadcharacter.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
+                        </div>
                         <input type="text" id="charasearch" onkeyup="charasearch()" autocomplete="off">
                     </div>
                     <div class="datatable" id="table1">
@@ -75,8 +80,10 @@
                 <div class="dataset" id="set2">
                     <div class="dbheader">
                         <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=artifacts">Artifacts</a>
-                        <a href="upload"></a>
-                        <a id="showtable2">hide</a>
+                        <div class="right">
+                          <a id="showtable2">hide</a>
+                          <a onClick="MyWindow=window.open('upload/uploadartifact.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
+                        </div>
                         <input type="text" id="artsearch" onkeyup="artsearch()" autocomplete="off">
                     </div>
                     <div class="datatable" id="table2">
@@ -114,6 +121,62 @@
                 </div>
 
 
+
+
+                <div class="dataset" id="set3">
+                    <div class="dbheader">
+                        <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=weapons">Weapons</a>
+                        <div class="right">
+                          <a id="showtable3">hide</a>
+                          <a onClick="MyWindow=window.open('upload/uploadweapon.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
+                        </div>
+                        <input type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
+                    </div>
+                    <div class="datatable" id="table3">
+                    <table id="content3">
+                        <tr>
+                            <th>id</th>
+                            <th>name</th>
+                            <th>keywords</th>
+                            <th>img</th>
+                            <th>url</th>
+                            <th>category</th>
+                            <th>weapon</th>
+                            <th>stat</th>
+                            <th>basemin</th>
+                            <th>basemax</th>
+                            <th>statmin</th>
+                            <th>statmax</th>
+
+                        </tr>
+                        <?php
+                            $query = mysqli_query($conn, "SELECT * FROM `weapons` WHERE `id` ORDER BY `id` DESC LIMIT 0,9999999") or die(mysqli_error());
+                            while($fetch = mysqli_fetch_array($query)){
+                        ?>
+                            <tr>
+                                <td><?php echo $fetch['id']?></td>
+                                <td><?php echo $fetch['name']?></td>
+                                <td><?php echo $fetch['keywords']?></td>
+                                <td><?php echo $fetch['img']?></td>
+                                <td><?php echo $fetch['url']?></td>
+                                <td><?php echo $fetch['category']?></td>
+                                <td><?php echo $fetch['weapon']?></td>
+                                <td><?php echo $fetch['stat']?></td>
+                                <td><?php echo $fetch['basemin']?></td>
+                                <td><?php echo $fetch['basemax']?></td>
+                                <td><?php echo $fetch['statmin']?></td>
+                                <td><?php echo $fetch['statmax']?></td>
+
+                            </tr>
+                        <?php
+                            }
+                        ?>
+                    </table>
+                    </div>
+                </div>
+
+
+
                 
              
 
@@ -131,10 +194,17 @@ $(window).on("load resize", function() {
 $("#showtable1").click(function(){
     $("#table1").toggleClass("show");
 
+
+
 });
 
 $("#showtable2").click(function(){
     $("#table2").toggleClass("show");
+
+});
+
+$("#showtable3").click(function(){
+    $("#table3").toggleClass("show");
 
 });
 </script>
@@ -185,7 +255,7 @@ function wepsearch() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("wepsearch");
   filter = input.value.toUpperCase();
-  table = document.getElementById("content");
+  table = document.getElementById("content3");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[2];

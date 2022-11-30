@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 27, 2022 at 10:06 AM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 8.1.10
+-- Generation Time: Nov 29, 2022 at 09:57 PM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 8.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `genshindb`
+-- Database: `akashadb`
 --
 
 -- --------------------------------------------------------
@@ -41,7 +41,7 @@ CREATE TABLE `artifacts` (
   `threestar` text DEFAULT NULL,
   `twostar` text DEFAULT NULL,
   `onestar` text DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `artifacts`
@@ -74,7 +74,7 @@ INSERT INTO `artifacts` (`id`, `name`, `keywords`, `img`, `url`, `category`, `ra
 (31, 'Viridescent Venerer', 'Viridescent Venerer VV', 'images/artifacts/viridescent-venerer/flower.png', 'viridescent-venerer', 'Artifact', '5', '4', '5', '4', '', '', ''),
 (32, 'Archaic Petra', 'Archaic Petra AP', 'images/artifacts/archaic-petra/flower.png', 'archaic-petra', 'Artifact', '5', '4', '5', '4', '', '', ''),
 (33, 'Retracing Bolide', 'Retracing Bolide RB', 'images/artifacts/retracing-bolide/flower.png', 'retracing-bolide', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(34, 'Thunder­soother', 'Thunder­soother Thunder ­Soother TS', 'images/artifacts/thundersoother/flower.png', 'thundersoother', 'Artifact', '5', '4', '5', '4', '', '', ''),
+(34, 'Thundersoother', 'Thundersoother Thunder Soother TS', 'images/artifacts/thundersoother/flower.png', 'thundersoother', 'Artifact', '5', '4', '5', '4', '', '', ''),
 (35, 'Thundering Fury', 'Thundering Fury TF', 'images/artifacts/thundering-fury/flower.png', 'thundering-fury', 'Artifact', '5', '4', '5', '4', '', '', ''),
 (36, 'Lavawalker', 'Lavawalker LW', 'images/artifacts/lavawalker/flower.png', 'lavawalker', 'Artifact', '5', '4', '5', '4', '', '', ''),
 (37, 'Crimson Witch of Flames', 'Crimson Witch of Flames CWOF CW CWF', 'images/artifacts/crimson-witch-of-flames/flower.png', 'crimson-witch-of-flames', 'Artifact', '5', '4', '5', '4', '', '', ''),
@@ -109,7 +109,7 @@ CREATE TABLE `characters` (
   `weapon` text NOT NULL,
   `region` text NOT NULL,
   `stat` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `characters`
@@ -195,7 +195,7 @@ CREATE TABLE `weapons` (
   `basemax` text NOT NULL,
   `statmin` text DEFAULT NULL,
   `statmax` text DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `weapons`

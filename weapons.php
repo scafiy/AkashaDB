@@ -90,7 +90,7 @@
                 <div class="item-container" id="item-results">
 
                 <?php
-                     $query = mysqli_query($conn, "SELECT * FROM `weapons` WHERE `id` ORDER BY `id` DESC") or die(mysqli_error());
+                     $query = mysqli_query($conn, "SELECT * FROM `weapons` WHERE `id` ORDER BY `id` DESC LIMIT 0,9999999") or die(mysqli_error());
                      while($fetch = mysqli_fetch_array($query)){
                   ?>
 

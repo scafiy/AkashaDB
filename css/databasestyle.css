@@ -1,26 +1,45 @@
+*{
+    text-decoration: none;
+}
+
 .dbheader{
     top: 0px;
     position: sticky;
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 10px;
     width: 100%;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(219, 219, 219);
     z-index: 10;
-    
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .dbheader a, p{
     padding-right: 10px;
-
 }
 
 
 .dbheader .right{
     position: absolute;
     right: 0px;
+    top: 12px;
 
 }
+
+.dbheader .right a{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: var(--highlighted-color);
+    border-radius: 10px;
+    margin-right: 10px;
+    color: black;
+
+}
+
 
 .datatable{
     display: none;

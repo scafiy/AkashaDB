@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+	$conn = mysqli_connect('localhost', 'root', '', 'akashadb') or die(mysqli_error());
+	
+	if(!$conn){
+		die("Error: Failed to connect to database");
+	}
+?>
+
 <html lang="en">
 	<head>
 		<title>Upload Artifact</title>
@@ -6,11 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	</head>
-			<form action="save_artifact.php" method="POST" enctype="multipart/form-data">
-				<div class="modal-content">
-					<div class="modal-body">
-						<div class="col-md-2"></div>
-						<div class="col-md-8">
+			<form method="POST">
 							<p>Upload</p>
 							<div class="form-group">
 								<label>name</label>
@@ -34,42 +37,29 @@
 								<input type="text" class="form-control" name="category" autocomplete="off" required="required" value="Artifact"/>
 							</div>
 							<div class="form-group">
-								<label>5 star</label>
-								<input type="text" class="form-control" name="fivestar" autocomplete="off"/>
+								<label>raritymax</label>
+								<input type="text" class="form-control" name="raritymax" autocomplete="off"/>
 							</div>
 							<div class="form-group">
-								<label>4 star</label>
-								<input type="text" class="form-control" name="fourstar" autocomplete="off"/>
-							</div>
-						
-							<div class="form-group">
-								<label>3 star</label>
-								<input type="text" class="form-control" name="threestar" autocomplete="off"/>
-							</div>
-						
-							<div class="form-group">
-								<label>2 star</label>
-								<input type="text" class="form-control" name="twostar" autocomplete="off"/>
-							</div>
-							<div class="form-group">
-								<label>1 star</label>
-								<input type="text" class="form-control" name="onestar" autocomplete="off"/>
+								<label>raritymin</label>
+								<input type="text" class="form-control" name="raritymin" autocomplete="off"/>
 							</div>
 						
 
-						
-
-
-
-							
-						</div>
-						</div>
-						</div>
 					</div>
-					<div style="clear:both;"></div>
-					<div class="modal-footer">
-						<button name="save" class="btn btn-primary"><span class="glyphicon glyphicon-save"></span> Upload</button>
-					</div>
+					<button name="save">Upload</button>
 				</div>
 			</form>
-			
+	<?php
+	if(ISSET($_POST['save'])){
+		$name = addslashes($_POST['name']);
+		$keywords = addslashes($_POST['keywords']);
+		$img = addslashes($_POST['img']);
+		$url = addslashes($_POST['url']);
+		$category = addslashes($_POST['category']);
+		$raritymax = addslashes($_POST['raritymax']);
+		$raritymin = addslashes($_POST['raritymin']);
+		mysqli_query($conn, "INSERT INTO `artifacts` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$raritymax', '$raritymin')") or die(mysqli_error());
+		header('location: uploadartifact.php');	
+		}
+	?>

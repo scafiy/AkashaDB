@@ -72,7 +72,7 @@
                      while($fetch = mysqli_fetch_array($query)){
                   ?>
                      <li>
-                        <a class="keywords" href="/Akasha/weapons/<?php echo $fetch['url']?>.php"><?php echo $fetch['keyword']?></a>
+                        <a class="keywords" href="/Akasha/weapons/<?php echo $fetch['url']?>.php"><?php echo $fetch['keywords']?></a>
                            <div class="result-details">
                               <img class="bg-<?php echo $fetch['rarity']?>-star" src="/Akasha/<?php echo $fetch['img']?>">
                               <div class="result-details-text">
