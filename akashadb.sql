@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2022 at 09:57 PM
+-- Generation Time: Dec 08, 2022 at 11:40 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -36,60 +36,60 @@ CREATE TABLE `artifacts` (
   `category` text NOT NULL,
   `raritymax` text NOT NULL,
   `raritymin` text NOT NULL,
-  `fivestar` text DEFAULT NULL,
-  `fourstar` text DEFAULT NULL,
-  `threestar` text DEFAULT NULL,
-  `twostar` text DEFAULT NULL,
-  `onestar` text DEFAULT NULL
+  `flowerdescription` text NOT NULL,
+  `twopiece` text NOT NULL,
+  `fourpiece` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `artifacts`
 --
 
-INSERT INTO `artifacts` (`id`, `name`, `keywords`, `img`, `url`, `category`, `raritymax`, `raritymin`, `fivestar`, `fourstar`, `threestar`, `twostar`, `onestar`) VALUES
-(1, 'Initiate', 'Initiate', 'images/artifacts/Initiate/flower.png', 'Initiate', 'Artifact', '1', '1', '', '', NULL, NULL, '1'),
-(8, 'Adventurer', 'Adventurer', 'images/artifacts/adventurer/flower.png', 'adventurer', 'Artifact', '3', '1', '', '', '3', '2', '1'),
-(10, 'Lucky Dog', 'Lucky Dog LD', 'images/artifacts/lucky-dog/flower.png', 'lucky-dog', 'Artifact', '3', '1', '', '', '3', '2', '1'),
-(11, 'Traveling Doctor', 'Traveling Doctor TD', 'images/artifacts/traveling-doctor/flower.png', 'traveling-doctor', 'Artifact', '3', '1', '', '', '3', '2', '1'),
-(12, 'Resolution of Sojourner', 'Resolution of Sojourner ROS', 'images/artifacts/resolution-of-sojourner/flower.png', 'resolution-of-sojourner', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(13, 'Tiny Miracle', 'Tiny Miracle TM', 'images/artifacts/tiny-miracle/flower.png', 'tiny-miracle', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(14, 'Berserker', 'Berser Blood-Soakedker Blood Soaked', 'images/artifacts/berserker/flower.png', 'berserker', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(15, 'Instructor', 'Instructor', 'images/artifacts/instructor/flower.png', 'instructor', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(16, 'The Exile', 'The Exile TE', 'images/artifacts/the-exile/flower.png', 'the-exile', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(17, 'Defender\'s Will', 'Defender\'s Will Defenders Will Defender Will DW', 'images/artifacts/defenders-will/flower.png', 'defenders-will', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(18, 'Brave Heart', 'Brave Heart BH', 'images/artifacts/brave-heart/flower.png', 'brave-heart', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(19, 'Martial Artist', 'Martial Artist MA', 'images/artifacts/martial-artist/flower.png', 'martial-artist', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(20, 'Gambler', 'Gambler', 'images/artifacts/gambler/flower.png', 'gambler', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(21, 'Scholar', 'Scholar', 'images/artifacts/scholar/flower.png', 'scholar', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(22, 'Prayers for Illumination', 'Prayers for Illumination Prayer for Illumination PFI POI', 'images/artifacts/prayers-for-illumination/flower.png', 'prayers-for-illumination', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(23, 'Prayers for Destiny', 'Prayers for Destiny Prayer for Destiny PFD POD', 'images/artifacts/prayers-for-destiny/flower.png', 'prayers-for-destiny', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(24, 'Prayers for Wisdom', 'Prayers for Wisdom Prayer for Wisdom PFW POW', 'images/artifacts/prayers-to-springtime/flower.png', 'prayers-for-wisdom', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(25, 'Prayers to Springtime', 'Prayers to Springtime Prayer to Springtime PTS POS', 'images/artifacts/prayers-to-springtime/flower.png', 'prayers-to-springtime', 'Artifact', '4', '3', '', '4', '3', '', ''),
-(26, 'Gladiator\'s Finale', 'Gladiator\'s Finale Gladiators Finale Gladiator Finale Glad GF', 'images/artifacts/gladiators-finale/flower.png', 'gladiators-finale', 'Artifact', '5', '4', '5', '4', NULL, '', ''),
-(27, 'Wanderer\'s Troupe', 'Wanderer\'s Troupe Wanderers Troupe Wanderer Troupe WT', 'images/artifacts/wanderers-troupe/flower.png', 'wanderers-troupe', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(28, 'Noblesse Oblige', 'Noblesse Oblige NO', 'images/artifacts/noblesse-oblige/flower.png', 'noblesse-oblige', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(29, 'Bloodstained Chivalry', 'Bloodstained Chivalry Bloodstain Chivalry BC BSC', 'images/artifacts/bloodstained-chivalry/flower.png', 'bloodstained-chivalry', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(30, 'Maiden Beloved', 'Maiden Beloved MB Maidens', 'images/artifacts/maiden-beloved/flower.png', 'maiden-beloved', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(31, 'Viridescent Venerer', 'Viridescent Venerer VV', 'images/artifacts/viridescent-venerer/flower.png', 'viridescent-venerer', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(32, 'Archaic Petra', 'Archaic Petra AP', 'images/artifacts/archaic-petra/flower.png', 'archaic-petra', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(33, 'Retracing Bolide', 'Retracing Bolide RB', 'images/artifacts/retracing-bolide/flower.png', 'retracing-bolide', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(34, 'Thundersoother', 'Thundersoother Thunder Soother TS', 'images/artifacts/thundersoother/flower.png', 'thundersoother', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(35, 'Thundering Fury', 'Thundering Fury TF', 'images/artifacts/thundering-fury/flower.png', 'thundering-fury', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(36, 'Lavawalker', 'Lavawalker LW', 'images/artifacts/lavawalker/flower.png', 'lavawalker', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(37, 'Crimson Witch of Flames', 'Crimson Witch of Flames CWOF CW CWF', 'images/artifacts/crimson-witch-of-flames/flower.png', 'crimson-witch-of-flames', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(38, 'Blizzard Strayer', 'Blizzard Strayer BS', 'images/artifacts/blizzard-strayer/flower.png', 'blizzard-strayer', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(39, 'Heart of Depth', 'Heart of Depth HOD', 'images/artifacts/heart-of-depth/flower.png', 'heart-of-depth', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(40, 'Tenacity of the Millelith', 'Tenacity of the Millelith Tenacity of Millelith Tenacity Millelith TOM TM TOTM', 'images/artifacts/tenacity-of-the-millelith/flower.png', 'tenacity-of-the-millelith', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(41, 'Pale Flame', 'Pale Flame PF', 'images/artifacts/pale-flame/flower.png', 'pale-flame', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(42, 'Shimenawa\'s Reminiscence', 'Shimenawa\'s Reminiscence Shimenawas Reminiscence Shimenawa Reminiscence SR', 'images/artifacts/shimenawas-reminiscence/flower.png', 'shimenawas-reminiscence', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(43, 'Emblem of Severed Fate', 'Emblem of Severed Fate EOSF ESF', 'images/artifacts/emblem-of-severed-fate/flower.png', 'emblem-of-severed-fate', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(44, 'Husk of Opulent Dreams', 'Husk of Opulent Dreams HOOD HFOD ', 'images/artifacts/husk-of-opulent-dreams/flower.png', 'husk-of-opulent-dreams', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(45, 'Ocean-Hued Clam', ' Ocean-Hued Clam Ocean Hued Clam OHD OC', 'images/artifacts/ocean-hued-clam/flower.png', 'ocean-hued-clam', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(46, 'Vermillion Hereafter', 'Vermillion Hereafter VH', 'images/artifacts/vermillion-hereafter/flower.png', 'vermillion-hereafter', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(47, 'Echoes of an Offering', 'Echoes of an Offering Echoe of an Offering Echoes of Offering EOAO EOO', 'images/artifacts/echoes-of-an-offering/flower.png', 'echoes-of-an-offering', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(48, 'Deepwood Memories', 'Deepwood Memories DM', 'images/artifacts/deepwood-memories/flower.png', 'deepwood-memories', 'Artifact', '5', '4', '5', '4', '', '', ''),
-(49, 'Gilded Dreams', 'Gilded Dreams GD', 'images/artifacts/gilded-dreams/flower.png', 'gilded-dreams', 'Artifact', '5', '4', '5', '4', '', '', '');
+INSERT INTO `artifacts` (`id`, `name`, `keywords`, `img`, `url`, `category`, `raritymax`, `raritymin`, `flowerdescription`, `twopiece`, `fourpiece`) VALUES
+(1, 'Initiate', 'Initiate', 'images/artifacts/Initiate/flower.png', 'Initiate', 'Artifact', '1', '1', 'A small flower. Cute and adorable, just like the early spring of North Teyvat.', '', ''),
+(2, 'Adventurer', 'Adventurer', 'images/artifacts/adventurer/flower.png', 'adventurer', 'Artifact', '3', '1', 'A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal.', 'Max HP increased by 1,000.', 'Opening a chest regenerates 30% Max HP over 5s.'),
+(3, 'Lucky Dog', 'Lucky Dog LD', 'images/artifacts/lucky-dog/flower.png', 'lucky-dog', 'Artifact', '3', '1', 'A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck.', 'DEF increased by 100.', 'Picking up Mora restores 300 HP.'),
+(4, 'Traveling Doctor', 'Traveling Doctor TD', 'images/artifacts/traveling-doctor/flower.png', 'traveling-doctor', 'Artifact', '3', '1', 'A precious medicinal ingredient that has lost all medicinal value after years in storage.', 'Increases incoming healing by 20%.', 'Using Elemental Burst restores 20% HP.'),
+(5, 'Resolution of Sojourner', 'Resolution of Sojourner ROS', 'images/artifacts/resolution-of-sojourner/flower.png', 'resolution-of-sojourner', 'Artifact', '4', '3', 'A small cerulean flower with somebody\'s ribbon pinned to the stem.', 'ATK +18%.', 'Increases Charged Attack CRIT Rate by 30%.'),
+(6, 'Tiny Miracle', 'Tiny Miracle TM', 'images/artifacts/tiny-miracle/flower.png', 'tiny-miracle', 'Artifact', '4', '3', 'A flower that grew from a rock, breaking through the stone as it strove to reach the light.', 'All Elemental RES increased by 20%.', 'Incoming Elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.'),
+(7, 'Berserker', 'Berser Blood-Soakedker Blood Soaked', 'images/artifacts/berserker/flower.png', 'berserker', 'Artifact', '4', '3', 'An exquisite flower that has been dyed red. It represents the qualities of the Berserker.', 'CRIT Rate +12%.', 'When HP is below 70%, CRIT Rate increases by an additional 24%.'),
+(8, 'Instructor', 'Instructor', 'images/artifacts/instructor/flower.png', 'instructor', 'Artifact', '4', '3', 'Whenever the instructor wore this brooch, it meant there would be no training sessions that day.', 'Increases Elemental Mastery by 80.', 'Upon triggering an Elemental Reaction, increases all party members\' Elemental Mastery by 120 for 8s.'),
+(9, 'The Exile', 'The Exile TE', 'images/artifacts/the-exile/flower.png', 'the-exile', 'Artifact', '4', '3', 'A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something.', 'Energy Recharge +20%.', 'Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.'),
+(10, 'Defender\'s Will', 'Defender\'s Will Defenders Will Defender Will DW', 'images/artifacts/defenders-will/flower.png', 'defenders-will', 'Artifact', '4', '3', 'An iris that was cherished by the Guardian. Unfortunately, the chance never came for it to be given to whom the Guardian loved.', 'DEF +30%.', 'For each different element present in your own party, the wearer\'s Elemental RES to that corresponding element is increased by 30%.'),
+(11, 'Brave Heart', 'Brave Heart BH', 'images/artifacts/brave-heart/flower.png', 'brave-heart', 'Artifact', '4', '3', 'A simple flower brooch that is a keepsake from someone\'s first adventure.', ' ATK +18%.', 'ncreases DMG by 30% against opponents with more than 50% HP.'),
+(12, 'Martial Artist', 'Martial Artist MA', 'images/artifacts/martial-artist/flower.png', 'martial-artist', 'Artifact', '4', '3', 'http://localhost/Akasha/artifacts/martial-artist.php', 'Increases Normal Attack and Charged Attack DMG by 15%.', 'After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.'),
+(13, 'Gambler', 'Gambler', 'images/artifacts/gambler/flower.png', 'gambler', 'Artifact', '4', '3', 'This particular kind of red flower was the only thing that could alleviate the Martial Artist\'s pain.', 'Increases Elemental Skill DMG by 20%.', 'Defeating an opponent has 100% chance to remove Elemental Skill CD. Can only occur once every 15s.'),
+(14, 'Scholar', 'Scholar', 'images/artifacts/scholar/flower.png', 'scholar', 'Artifact', '4', '3', 'A dried flower used as a bookmark, it had absorbed the scent from the pages.', 'Energy Recharge +20%.', 'Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.'),
+(15, 'Prayers for Illumination', 'Prayers for Illumination Prayer for Illumination PFI POI', 'images/artifacts/prayers-for-illumination/flower.png', 'prayers-for-illumination', 'Artifact', '4', '3', 'A tiara worn by those tasked with offering sacrifices in ancient times. After being subjected to the dancing sacrificial flames year in and year out, it possesses remarkable resistance.', 'Affected by Pyro for 40% less time.', ''),
+(16, 'Prayers for Destiny', 'Prayers for Destiny Prayer for Destiny PFD POD', 'images/artifacts/prayers-for-destiny/flower.png', 'prayers-for-destiny', 'Artifact', '4', '3', 'A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.', 'Affected by Hydro for 40% less time.', ''),
+(17, 'Prayers for Wisdom', 'Prayers for Wisdom Prayer for Wisdom PFW POW', 'images/artifacts/prayers-to-springtime/flower.png', 'prayers-for-wisdom', 'Artifact', '4', '3', 'A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.', 'Affected by Electro for 40% less time.', ''),
+(18, 'Prayers to Springtime', 'Prayers to Springtime Prayer to Springtime PTS POS', 'images/artifacts/prayers-to-springtime/flower.png', 'prayers-to-springtime', 'Artifact', '4', '3', 'A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance.', 'Affected by Cryo for 40% less time.', ''),
+(19, 'Gladiator\'s Finale', 'Gladiator\'s Finale Gladiators Finale Gladiator Finale Glad GF', 'images/artifacts/gladiators-finale/flower.png', 'gladiators-finale', 'Artifact', '5', '4', 'No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior\'s only weakness.', 'ATK +18%.', 'If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.'),
+(20, 'Wanderer\'s Troupe', 'Wanderer\'s Troupe Wanderers Troupe Wanderer Troupe WT', 'images/artifacts/wanderers-troupe/flower.png', 'wanderers-troupe', 'Artifact', '5', '4', 'A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing.', 'Increases Elemental Mastery by 80.', 'Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.'),
+(21, 'Noblesse Oblige', 'Noblesse Oblige NO', 'images/artifacts/noblesse-oblige/flower.png', 'noblesse-oblige', 'Artifact', '5', '4', 'A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside.', 'Elemental Burst DMG +20%.', 'Using an Elemental Burst increases all party members\' ATK by 20% for 12s. This effect cannot stack.'),
+(22, 'Bloodstained Chivalry', 'Bloodstained Chivalry Bloodstain Chivalry BC BSC', 'images/artifacts/bloodstained-chivalry/flower.png', 'bloodstained-chivalry', 'Artifact', '5', '4', 'A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master.', 'Physical DMG Bonus +25%.', 'After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs.'),
+(23, 'Maiden Beloved', 'Maiden Beloved MB Maidens', 'images/artifacts/maiden-beloved/flower.png', 'maiden-beloved', 'Artifact', '5', '4', 'A fragrant flower that will bloom for all eternity and never wither.', ' Character Healing Effectiveness +15%.', 'Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.'),
+(24, 'Viridescent Venerer', 'Viridescent Venerer VV', 'images/artifacts/viridescent-venerer/flower.png', 'viridescent-venerer', 'Artifact', '5', '4', 'A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest.', 'Anemo DMG Bonus +15%.', 'Increases Swirl DMG by 60%. Decreases opponent\'s Elemental RES to the element infused in the Swirl by 40% for 10s.'),
+(25, 'Archaic Petra', 'Archaic Petra AP', 'images/artifacts/archaic-petra/flower.png', 'archaic-petra', 'Artifact', '5', '4', 'A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive.', 'Geo DMG Bonus +15%.', 'Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.'),
+(26, 'Retracing Bolide', 'Retracing Bolide RB', 'images/artifacts/retracing-bolide/flower.png', 'retracing-bolide', 'Artifact', '5', '4', 'A man-made flower in eternal bloom. Who knows if there truly is life in there?', 'Increases Shield Strength by 35%.', 'While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.'),
+(27, 'Thundersoother', 'Thundersoother Thunder Soother TS', 'images/artifacts/thundersoother/flower.png', 'thundersoother', 'Artifact', '5', '4', 'A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms.', 'Electro RES increased by 40%.', 'Increases DMG against opponents affected by Electro by 35%.'),
+(28, 'Thundering Fury', 'Thundering Fury TF', 'images/artifacts/thundering-fury/flower.png', 'thundering-fury', 'Artifact', '5', '4', 'A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster.', '.Electro DMG Bonus +15%.', 'Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.'),
+(29, 'Lavawalker', 'Lavawalker LW', 'images/artifacts/lavawalker/flower.png', 'lavawalker', 'Artifact', '5', '4', 'A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire.', 'Pyro RES increased by 40%.', 'Increases DMG against opponents affected by Pyro by 35%.'),
+(30, 'Crimson Witch of Flames', 'Crimson Witch of Flames CWOF CW CWF', 'images/artifacts/crimson-witch-of-flames/flower.png', 'crimson-witch-of-flames', 'Artifact', '5', '4', 'A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it.', '.Pyro DMG Bonus +15%.', 'Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.'),
+(31, 'Blizzard Strayer', 'Blizzard Strayer BS', 'images/artifacts/blizzard-strayer/flower.png', 'blizzard-strayer', 'Artifact', '5', '4', 'A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it.', 'Cryo DMG Bonus +15%.', 'When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.'),
+(32, 'Heart of Depth', 'Heart of Depth HOD', 'images/artifacts/heart-of-depth/flower.png', 'heart-of-depth', 'Artifact', '5', '4', 'A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago.', 'Hydro DMG Bonus +15%.', 'After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.'),
+(33, 'Tenacity of the Millelith', 'Tenacity of the Millelith Tenacity of Millelith Tenacity Millelith TOM TM TOTM', 'images/artifacts/tenacity-of-the-millelith/flower.png', 'tenacity-of-the-millelith', 'Artifact', '5', '4', 'A flower made from gold leaf. It represents the glories and honors attained by its wearer', 'HP +20%.', 'When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.'),
+(34, 'Pale Flame', 'Pale Flame PF', 'images/artifacts/pale-flame/flower.png', 'pale-flame', 'Artifact', '5', '4', 'A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade.', 'Physical DMG Bonus +25%.', ' When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.'),
+(35, 'Shimenawa\'s Reminiscence', 'Shimenawa\'s Reminiscence Shimenawas Reminiscence Shimenawa Reminiscence SR', 'images/artifacts/shimenawas-reminiscence/flower.png', 'shimenawas-reminiscence', 'Artifact', '5', '4', 'A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true.', 'ATK +18%.', 'When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.'),
+(36, 'Emblem of Severed Fate', 'Emblem of Severed Fate EOSF ESF', 'images/artifacts/emblem-of-severed-fate/flower.png', 'emblem-of-severed-fate', 'Artifact', '5', '4', 'Legends has it that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun.', 'Energy Recharge +20%.', 'Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.'),
+(37, 'Husk of Opulent Dreams', 'Husk of Opulent Dreams HOOD HFOD ', 'images/artifacts/husk-of-opulent-dreams/flower.png', 'husk-of-opulent-dreams', 'Artifact', '5', '4', 'A small golden ornament with six petals that shall never wilt. It symbolizes the transience of mortal glories.', 'DEF +30%.', 'A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.'),
+(38, 'Ocean-Hued Clam', ' Ocean-Hued Clam Ocean Hued Clam OHD OC', 'images/artifacts/ocean-hued-clam/flower.png', 'ocean-hued-clam', 'Artifact', '5', '4', 'A soft flower that has taken on the many shades of the capricious ocean. It shines with wondrous colors under the moon\'s silver light.', 'Healing Bonus +15%.', 'When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.'),
+(39, 'Vermillion Hereafter', 'Vermillion Hereafter VH', 'images/artifacts/vermillion-hereafter/flower.png', 'vermillion-hereafter', 'Artifact', '5', '4', 'An ancient memento. It still looks as alive as the being that preserved it several centuries ago.', 'ATK +18%.', 'After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character\'s HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.'),
+(40, 'Echoes of an Offering', 'Echoes of an Offering Echoe of an Offering Echoes of Offering EOAO EOO', 'images/artifacts/echoes-of-an-offering/flower.png', 'echoes-of-an-offering', 'Artifact', '5', '4', 'A jade carved into the shape of a flower. A phantom scent, here one instant and gone the next, swirls around it.', 'ATK +18%.', 'When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.'),
+(41, 'Deepwood Memories', 'Deepwood Memories DM', 'images/artifacts/deepwood-memories/flower.png', 'deepwood-memories', 'Artifact', '5', '4', 'This lovely gold-plated flower was plucked from the crown of the ruler of the forest.', 'Dendro DMG Bonus +15%', 'After Elemental Skills or Bursts hit opponents, the targets\' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.'),
+(42, 'Gilded Dreams', 'Gilded Dreams GD', 'images/artifacts/gilded-dreams/flower.png', 'gilded-dreams', 'Artifact', '5', '4', 'A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.', 'Elemental Mastery +80. ', 'Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members, ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.'),
+(43, 'Desert Pavilion Chronicle', 'Desert Pavilion Chronicle DPC', 'images/artifacts/desert-pavilion-chronicle/flower.png', 'desert-pavilion-chronicle', 'Artifact', '5', '4', 'An artificial flower that shimmers with a strange light. If you incline your ear to it, you can vaguely hear charming laughter issuing from within.', 'Anemo DMG Bonus +15%.', 'When Charged Attacks hit opponents, the equipping character\'s Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s.'),
+(51, 'Flower of Paradise Lost', 'Flower of Paradise Lost FOPL FPL', 'images/artifacts/flower-of-paradise-lost/flower.png', 'flower-of-paradise-lost', 'Artifact', '5', '5', 'An amethyst bloom that has been beautifully sculpted in the image of an ancient, extinct flower.', 'Increases Elemental Mastery by 80.', 'The equipping character\'s Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.');
 
 -- --------------------------------------------------------
 
@@ -108,72 +108,77 @@ CREATE TABLE `characters` (
   `element` text NOT NULL,
   `weapon` text NOT NULL,
   `region` text NOT NULL,
-  `stat` text NOT NULL
+  `stat` text NOT NULL,
+  `description` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `characters`
 --
 
-INSERT INTO `characters` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `category`, `element`, `weapon`, `region`, `stat`) VALUES
-(531, 'Amber', 'Amber', 'images/characters/amber/profile.png', 'amber', '4', 'Character', 'Pyro', 'Bow', 'Mondstadt', 'ATK'),
-(532, 'Kaeya', 'Kaeya', 'images/characters/Kaeya/profile.png', 'kaeya', '4', 'Character', 'Cryo', 'Sword', 'Mondstadt', 'ER'),
-(533, 'Lisa', 'Lisa Minic', 'images/characters/lisa/profile.png', 'lisa', '4', 'Character', 'Electro', 'Catalyst', 'Mondstadt', 'EM'),
-(534, 'Barbara', 'Barbara Pegg', 'images/characters/barbara/profile.png', 'barbara', '4', 'Character', 'Hydro', 'Catalyst', 'Mondstadt', 'HP'),
-(535, 'Razor', 'Razor', 'images/characters/razor/profile.png', 'razor', '4', 'Character', 'Electro', 'Claymore', 'Mondstadt', 'physicalDMG'),
-(536, 'Xiangling', 'Xiangling Mao XL', 'images/characters/xiangling/profile.png', 'xiangling', '4', 'Character', 'Pyro', 'Polearm', 'Liyue', 'EM'),
-(537, 'Beidou', 'Beidou', 'images/characters/beidou/profile.png', 'beidou', '4', 'Character', 'Electro', 'Claymore', 'Liyue', 'electroDMG'),
-(538, 'Xingqiu', 'Xingqiu XQ', 'images/characters/xingqiu/profile.png', 'xingqiu', '4', 'Character', 'Hydro', 'Sword', 'Liyue', 'ATK'),
-(539, 'Ningguang', 'Ningguang', 'images/characters/ningguang/profile.png', 'ningguang', '4', 'Character', 'Geo', 'Catalyst', 'Liyue', 'geoDMG'),
-(540, 'Fischl', 'Fischl Fish Amy', 'images/characters/fischl/profile.png', 'fischl', '4', 'Character', 'Electro', 'Bow', 'Mondstadt', 'ATK'),
-(541, 'Bennett', 'Bennett', 'images/characters/bennett/profile.png', 'bennett', '4', 'Character', 'Pyro', 'Sword', 'Mondstadt', 'ER'),
-(542, 'Noelle', 'Noelle', 'images/characters/noelle/profile.png', 'noelle', '4', 'Character', 'Geo', 'Claymore', 'Mondstadt', 'DEF'),
-(543, 'Chongyun', 'Chongyun', 'images/characters/chongyun/profile.png', 'chongyun', '4', 'Character', 'Cryo', 'Claymore', 'Liyue', 'ATK'),
-(544, 'Sucrose', 'Sucrose', 'images/characters/sucrose/profile.png', 'sucrose', '4', 'Character', 'Anemo', 'Catalyst', 'Mondstadt', 'anemoDMG'),
-(545, 'Jean', 'Jean', 'images/characters/jean/profile.png', 'jean', '5', 'Character', 'Anemo', 'Sword', 'Mondstadt', 'HB'),
-(546, 'Diluc', 'Diluc', 'images/characters/diluc/profile.png', 'diluc', '5', 'Character', 'Pyro', 'Claymore', 'Mondstadt', 'CR'),
-(547, 'Qiqi', 'Qiqi', 'images/characters/qiqi/profile.png', 'qiqi', '5', 'Character', 'Cryo', 'Sword', 'Liyue', 'HB'),
-(548, 'Mona', 'Mona Astrologist Mona Megistus', 'images/characters/mona/profile.png', 'mona', '5', 'Character', 'Hydro', 'Catalyst', 'Mondstadt', 'ER'),
-(549, 'Keqing', 'Keqing KQ', 'images/characters/keqing/profile.png', 'keqing', '5', 'Character', 'Electro', 'Sword', 'Liyue', 'CD'),
-(550, 'Venti', 'Venti', 'images/characters/venti/profile.png', 'venti', '5', 'Character', 'Anemo', 'Bow', 'Mondstadt', 'ER'),
-(551, 'Klee', 'Klee', 'images/characters/klee/profile.png', 'klee', '5', 'Character', 'Pyro', 'Catalyst', 'Mondstadt', 'pyroDMG'),
-(552, 'Diona', 'Diona', 'images/characters/diona/profile.png', 'diona', '4', 'Character', 'Cryo', 'Bow', 'Mondstadt', 'cryoDMG'),
-(553, 'Tartaglia', 'Tartaglia Childe Ajax', 'images/characters/tartaglia/profile.png', 'tartaglia', '5', 'Character', 'Hydro', 'Bow', 'Liyue', 'hydroDMG'),
-(554, 'Xinyan', 'Xinyan XN', 'images/characters/xinyan/profile.png', 'xinyan', '4', 'Character', 'Pyro', 'Claymore', 'Liyue', 'ATK'),
-(555, 'Zhongli', 'Zhongli ZL', 'images/characters/zhongli/profile.png', 'zhongli', '5', 'Character', 'Geo', 'Polearm', 'Liyue', 'geoDMG'),
-(556, 'Albedo', 'Albedo', 'images/characters/albedo/profile.png', 'albedo', '5', 'Character', 'Geo', 'Sword', 'Mondstadt', 'geoDMG'),
-(557, 'Ganyu', 'Ganyu Cocogoat', 'images/characters/ganyu/profile.png', 'ganyu', '5', 'Character', 'Cryo', 'Bow', 'Liyue', 'CD'),
-(558, 'Xiao', 'Xiao', 'images/characters/xiao/profile.png', 'xiao', '5', 'Character', 'Anemo', 'Polearm', 'Liyue', 'CR'),
-(559, 'Hu Tao', 'Hu Tao HuTao Hu-Tao Who Tao WhoTao HT', 'images/characters/hutao/profile.png', 'hutao', '5', 'Character', 'Pyro', 'Polearm', 'Liyue', 'CD'),
-(560, 'Rosaria', 'Rosaria', 'images/characters/rosaria/profile.png', 'rosaria', '4', 'Character', 'Cryo', 'Polearm', 'Mondstadt', 'ATK'),
-(561, 'Yanfei', 'Yanfei Feiyan', 'images/characters/yanfei/profile.png', 'yanfei', '4', 'Character', 'Pyro', 'Catalyst', 'Liyue', 'pyroDMG'),
-(562, 'Eula', 'Eula End User License Agreement', 'images/characters/eula/profile.png', 'eula', '5', 'Character', 'Cryo', 'Claymore', 'Mondstadt', 'CD'),
-(563, 'Kazuha', 'Kazuha Kaedehara Kazuha', 'images/characters/kazuha/profile.png', 'kazuha', '5', 'Character', 'Anemo', 'Sword', 'Inazuma', 'EM'),
-(564, 'Ayaka', 'Ayaka Kamisato Ayaka Ayaya', 'images/characters/ayaka/profile.png', 'ayaka', '5', 'Character', 'Cryo', 'Sword', 'Inazuma', 'CD'),
-(565, 'Sayu', 'Sayu', 'images/characters/sayu/profile.png', 'sayu', '4', 'Character', 'Anemo', 'Claymore', 'Inazuma', 'EM'),
-(566, 'Yoimiya', 'Yoimiya', 'images/characters/yoimiya/profile.png', 'yoimiya', '5', 'Character', 'Pyro', 'Bow', 'Inazuma', 'CR'),
-(567, 'Aloy', 'Aloy', 'images/characters/aloy/profile.png', 'aloy', '5-5', 'Character', 'Cryo', 'Bow', 'NULL', 'cryoDMG'),
-(568, 'Sara', 'Sara Kujou Sara', 'images/characters/sara/profile.png', 'sara', '4', 'Character', 'Electro', 'Bow', '0', 'ATK'),
-(569, 'Raiden', 'Raiden Shogun Ei Baal', 'images/characters/raiden/profile.png', 'raiden', '5', 'Character', 'Electro', 'Polearm', 'Inazuma', 'ER'),
-(570, 'Kokomi', 'Kokomi Sangonomiya Kokomi', 'images/characters/kokomi/profile.png', 'kokomi', '5', 'Character', 'Hydro', 'Catalyst', 'Inazuma', 'hydroDMG'),
-(571, 'Thoma', 'Thoma', 'images/characters/thoma/profile.png', 'thoma', '4', 'Character', 'Pyro', 'Polearm', 'Inazuma', 'ATK'),
-(572, 'Gorou', 'Gorou', 'images/characters/gorou/profile.png', 'gorou', '4', 'Character', 'Geo', 'Bow', 'Inazuma', 'geoDMG'),
-(573, 'Itto', 'Itto Arataki Itto Oni', 'images/characters/itto/profile.png', 'itto', '5', 'Character', 'Geo', 'Claymore', 'Inazuma', 'CR'),
-(574, 'Yun Jin', 'Yun Jin YunJin Yun-Jin', 'images/characters/yunjin/profile.png', 'yunjin', '4', 'Character', 'Geo', 'Polearm', 'Inazuma', 'ER'),
-(575, 'Shenhe', 'Shenhe', 'images/characters/shenhe/profile.png', 'shenhe', '5', 'Character', 'Cryo', 'Polearm', 'Liyue', 'ATK'),
-(576, 'Yae', 'Yae Miko', 'images/characters/yae/profile.png', 'yae', '5', 'Character', 'Electro', 'Catalyst', 'Inazuma', 'CR'),
-(577, 'Ayato', 'Ayayo Kamisato Ayato Ayayo', 'images/characters/ayato/profile.png', 'ayato', '5', 'Character', 'Hydro', 'Sword', 'Inazuma', 'CD'),
-(578, 'Yelan', 'Yelan', 'images/characters/yelan/profile.png', 'yelan', '5', 'Character', 'Hydro', 'Bow', 'Inazuma', 'CR'),
-(579, 'Kuki', 'Kuki Shinobu Cookie', 'images/characters/kuki/profile.png', 'kuki', '4', 'Character', 'Electro', 'Sword', 'Inazuma', 'HP'),
-(580, 'Heizou', 'Heizou Shikanoin Heizou', 'images/characters/heizou/profile.png', 'heizou', '4', 'Character', 'Anemo', 'Catalyst', 'Inazuma', 'anemoDMG'),
-(581, 'Collei', 'Collei', 'images/characters/collei/profile.png', 'collei', '4', 'Character', 'Dendro', 'Bow', 'Sumeru', 'ATK'),
-(582, 'Tighnari', 'Tighnari', 'images/characters/tighnari/profile.png', 'tighnari', '5', 'Character', 'Dendro', 'Bow', 'Sumeru', 'dendroDMG'),
-(584, 'Dori', 'Dori', 'images/characters/dori/profile.png', 'dori', '4', 'Character', 'Electro', 'Claymore', 'Sumeru', 'HP'),
-(585, 'Candace', 'Candace Candice Kandake ', 'images/characters/candace/profile.png', 'candace', '4', 'Character', 'Hydro', 'Polearm', 'Sumeru', 'HP'),
-(586, 'Cyno', 'Cyno', 'images/characters/cyno/profile.png', 'cyno', '5', 'Character', 'Electro', 'Polearm', 'Sumeru', 'CD'),
-(587, 'Nilou', 'Nilou', 'images/characters/nilou/profile.png', 'nilou', '5', 'Character', 'Hydro', 'Sword', 'Sumeru', 'HP'),
-(588, 'Nahida', 'Nahida Kusanali', 'images/characters/nahida/profile.png', 'nahida', '5', 'Character', 'Dendro', 'Catalyst', 'Sumeru', 'EM'),
-(589, 'Layla', 'Layla', 'images/characters/layla/profile.png', 'layla', '4', 'Character', 'Cryo', 'Sword', 'Sumeru', 'HP');
+INSERT INTO `characters` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `category`, `element`, `weapon`, `region`, `stat`, `description`) VALUES
+(1, 'Aether', 'Aether Traveler Main Character Anemo Aether Anemo Traveler Anemo Main Character AMC AT AA Aether Traveler Main Character Geo Aether Geo Traveler Geo Main Character GMC GT GA Aether Traveler Main Character Dendro Aether Dendro Traveler Dendro Main Character DMC DT DA Aether Traveler Main Character Electro Aether Electro Traveler Electro Main Character EMC ET EA', 'images/characters/aether/profile.png', 'aether', '5', 'Characters', 'Anemo', 'Sword', 'none', 'ATK', 'A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.'),
+(2, 'Lumine', 'Lumine Traveler Main Character Anemo Lumine Anemo Traveler Anemo Main Character AMC AT ALLumine Traveler Main Character Geo Lumine Geo Traveler Geo Main Character GMC GT GL Lumine Traveler Main Character Dendro Lumine Dendro Traveler Dendro Main Character DMC DT DL Lumine Traveler Main Character Electro Lumine Electro Traveler Electro Main Character EMC ET', 'images/characters/lumine/profile.png', 'lumine', '5', 'Characters', 'Anemo', 'Sword', 'none', 'ATK', 'A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.'),
+(5, 'Amber', 'Amber', 'images/characters/amber/profile.png', 'amber', '4', 'Character', 'Pyro', 'Bow', 'Mondstadt', 'ATK', 'Always energetic and full of life, Amber\'s the best - albeit only - Outrider of the Knights of Favonius.'),
+(6, 'Kaeya', 'Kaeya', 'images/characters/Kaeya/profile.png', 'kaeya', '4', 'Character', 'Cryo', 'Sword', 'Mondstadt', 'ER', 'A thinker in the Knights of Favonius with a somewhat exotic appearance.'),
+(7, 'Lisa', 'Lisa Minic', 'images/characters/lisa/profile.png', 'lisa', '4', 'Character', 'Electro', 'Catalyst', 'Mondstadt', 'EM', 'The languid but knowledgeable Librarian of the Knights of Favonius, deemed by Sumeru Akademiya to be their most distinguished graduate in the past two centuries.'),
+(8, 'Barbara', 'Barbara Pegg', 'images/characters/barbara/profile.png', 'barbara', '4', 'Character', 'Hydro', 'Catalyst', 'Mondstadt', 'HP', 'Every citizen of Mondstadt adores Barbara. She learned the word idol from a magazine.'),
+(9, 'Razor', 'Razor', 'images/characters/razor/profile.png', 'razor', '4', 'Character', 'Electro', 'Claymore', 'Mondstadt', 'physicalDMG', 'A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.'),
+(10, 'Xiangling', 'Xiangling Mao XL', 'images/characters/xiangling/profile.png', 'xiangling', '4', 'Character', 'Pyro', 'Polearm', 'Liyue', 'EM', 'A renowned chef from Liyue. She\'s extremely passionate about cooking and excels at making her signature hot and spicy dishes.'),
+(11, 'Beidou', 'Beidou', 'images/characters/beidou/profile.png', 'beidou', '4', 'Character', 'Electro', 'Claymore', 'Liyue', 'electroDMG', 'Captain of her crew, The Crux. She\'s quite an unbound and forthright woman.'),
+(12, 'Xingqiu', 'Xingqiu XQ', 'images/characters/xingqiu/profile.png', 'xingqiu', '4', 'Character', 'Hydro', 'Sword', 'Liyue', 'ATK', 'A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.'),
+(13, 'Ningguang', 'Ningguang', 'images/characters/ningguang/profile.png', 'ningguang', '4', 'Character', 'Geo', 'Catalyst', 'Liyue', 'geoDMG', 'The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.'),
+(14, 'Fischl', 'Fischl Fish Amy', 'images/characters/fischl/profile.png', 'fischl', '4', 'Character', 'Electro', 'Bow', 'Mondstadt', 'ATK', 'A mysterious girl who calls herself \"Prinzessin der Verurteilung\" and travels with a night raven named Oz.'),
+(15, 'Bennett', 'Bennett', 'images/characters/bennett/profile.png', 'bennett', '4', 'Character', 'Pyro', 'Sword', 'Mondstadt', 'ER', 'A good-natured adventurer from Mondstadt who\'s unfortunately extremely unlucky.'),
+(16, 'Noelle', 'Noelle', 'images/characters/noelle/profile.png', 'noelle', '4', 'Character', 'Geo', 'Claymore', 'Mondstadt', 'DEF', 'A maid who faithfully serves the Knights of Favonius. She dreams of joining their ranks someday.'),
+(17, 'Chongyun', 'Chongyun', 'images/characters/chongyun/profile.png', 'chongyun', '4', 'Character', 'Cryo', 'Claymore', 'Liyue', 'ATK', 'A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.'),
+(18, 'Sucrose', 'Sucrose', 'images/characters/sucrose/profile.png', 'sucrose', '4', 'Character', 'Anemo', 'Catalyst', 'Mondstadt', 'anemoDMG', 'An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue\'s mountains, she has become every bit as cool and distant as the adepti themselves.'),
+(19, 'Jean', 'Jean', 'images/characters/jean/profile.png', 'jean', '5', 'Character', 'Anemo', 'Sword', 'Mondstadt', 'HB', 'The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.'),
+(20, 'Diluc', 'Diluc', 'images/characters/diluc/profile.png', 'diluc', '5', 'Character', 'Pyro', 'Claymore', 'Mondstadt', 'CR', 'The tycoon of a winery empire in Mondstadt, unmatched in every possible way.'),
+(21, 'Qiqi', 'Qiqi', 'images/characters/qiqi/profile.png', 'qiqi', '5', 'Character', 'Cryo', 'Sword', 'Liyue', 'HB', 'An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.'),
+(22, 'Mona', 'Mona Astrologist Mona Megistus', 'images/characters/mona/profile.png', 'mona', '5', 'Character', 'Hydro', 'Catalyst', 'Mondstadt', 'ER', 'A mysterious young astrologer who proclaims herself to be \"Astrologist Mona Megistus,\" and who possesses abilities to match the title. Erudite, but prideful.'),
+(23, 'Keqing', 'Keqing KQ', 'images/characters/keqing/profile.png', 'keqing', '5', 'Character', 'Electro', 'Sword', 'Liyue', 'CD', 'The Yuheng of the Liyue Qixing. Keqing has much to say about Rex Lapis\' unilateral approach to policymaking in Liyue - but in truth, gods admire skeptics such as her quite a lot.'),
+(24, 'Venti', 'Venti', 'images/characters/venti/profile.png', 'venti', '5', 'Character', 'Anemo', 'Bow', 'Mondstadt', 'ER', 'One of the many bards of Mondstadt, who freely wanders the city\'s streets and alleys.'),
+(25, 'Klee', 'Klee', 'images/characters/klee/profile.png', 'klee', '5', 'Character', 'Pyro', 'Catalyst', 'Mondstadt', 'pyroDMG', 'An explosives expert and a regular at the Knights of Favonius\' confinement room. Also known as Fleeing Sunlight.'),
+(26, 'Diona', 'Diona', 'images/characters/diona/profile.png', 'diona', '4', 'Character', 'Cryo', 'Bow', 'Mondstadt', 'cryoDMG', 'A young lady who has inherited trace amounts of non-human blood. She is the incredibly popular bartender of the Cat\'s Tail tavern.'),
+(27, 'Tartaglia', 'Tartaglia Childe Ajax', 'images/characters/tartaglia/profile.png', 'tartaglia', '5', 'Character', 'Hydro', 'Bow', 'Liyue', 'hydroDMG', 'No. 11 of The Harbingers, also known as \"Childe.\" His name is highly feared onthe battlefield.'),
+(28, 'Xinyan', 'Xinyan XN', 'images/characters/xinyan/profile.png', 'xinyan', '4', 'Character', 'Pyro', 'Claymore', 'Liyue', 'ATK', 'Liyue\'s sole rock \'n\' roll musician. She rebels against ossified prejudices using her music and passionate singing.'),
+(29, 'Zhongli', 'Zhongli ZL', 'images/characters/zhongli/profile.png', 'zhongli', '5', 'Character', 'Geo', 'Polearm', 'Liyue', 'geoDMG', 'A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.'),
+(30, 'Albedo', 'Albedo', 'images/characters/albedo/profile.png', 'albedo', '5', 'Character', 'Geo', 'Sword', 'Mondstadt', 'geoDMG', 'A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.'),
+(31, 'Ganyu', 'Ganyu Cocogoat', 'images/characters/ganyu/profile.png', 'ganyu', '5', 'Character', 'Cryo', 'Bow', 'Liyue', 'CD', 'The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.'),
+(32, 'Xiao', 'Xiao', 'images/characters/xiao/profile.png', 'xiao', '5', 'Character', 'Anemo', 'Polearm', 'Liyue', 'CR', 'A Yaksha Adeptus who defends Liyue. Also heralded as the \"Conquer of Demons\" or \"Vigilant Yaksha\"'),
+(33, 'Hu Tao', 'Hu Tao HuTao Hu-Tao Who Tao WhoTao HT', 'images/characters/hutao/profile.png', 'hutao', '5', 'Character', 'Pyro', 'Polearm', 'Liyue', 'CD', 'The 77th Director of the Wangsheng Funeral Parlor. She took over the business at a rather young age.'),
+(34, 'Rosaria', 'Rosaria', 'images/characters/rosaria/profile.png', 'rosaria', '4', 'Character', 'Cryo', 'Polearm', 'Mondstadt', 'ATK', 'A sister of the church, though you wouldn\'t know it if it weren\'t for her attire. Known for her sharp, cold words and manner, she often works alone.'),
+(35, 'Yanfei', 'Yanfei Feiyan', 'images/characters/yanfei/profile.png', 'yanfei', '4', 'Character', 'Pyro', 'Catalyst', 'Liyue', 'pyroDMG', 'A well-known legal adviser active in Liyue Harbor. A briliant young lady in whose veins runs the blood of an illuminated beast.'),
+(36, 'Eula', 'Eula End User License Agreement', 'images/characters/eula/profile.png', 'eula', '5', 'Character', 'Cryo', 'Claymore', 'Mondstadt', 'CD', 'The Spindrift Knight, a scion of old aristocracy, and the Captain of the Knights of Favonius Reconnaissance Company.'),
+(37, 'Kazuha', 'Kazuha Kaedehara Kazuha', 'images/characters/kazuha/profile.png', 'kazuha', '5', 'Character', 'Anemo', 'Sword', 'Inazuma', 'EM', 'A wandering samurai from Inazuma who is currently with Liyue\'s Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.'),
+(40, 'Ayaka', 'Ayaka Kamisato Ayaka Ayaya', 'images/characters/ayaka/profile.png', 'ayaka', '5', 'Character', 'Cryo', 'Sword', 'Inazuma', 'CD', 'Daughter of the Yashiro Commission\'s Kamisato Clan. Dignified and elegant, as well as wise and strong.'),
+(41, 'Sayu', 'Sayu', 'images/characters/sayu/profile.png', 'sayu', '4', 'Character', 'Anemo', 'Claymore', 'Inazuma', 'EM', 'A pint-sized ninja attached to the Shuumatsuban, who always seems sleep-deprived.'),
+(42, 'Yoimiya', 'Yoimiya', 'images/characters/yoimiya/profile.png', 'yoimiya', '5', 'Character', 'Pyro', 'Bow', 'Inazuma', 'CR', 'Owner of Naganohara Fireworks. Known as the \"Queen of the Summer Festival,\" she excels in her craft of creating fireworks that symbolize people\'s hopes and dreams.'),
+(43, 'Aloy', 'Aloy', 'images/characters/aloy/profile.png', 'aloy', '5-5', 'Character', 'Cryo', 'Bow', 'NULL', 'cryoDMG', 'Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.'),
+(44, 'Sara', 'Sara Kujou Sara', 'images/characters/sara/profile.png', 'sara', '4', 'Character', 'Electro', 'Bow', 'Inazuma', 'ATK', 'A general of the Tenryou Commission. Bold, decisive, and skilled in battle.'),
+(45, 'Raiden', 'Raiden Shogun Ei Baal', 'images/characters/raiden/profile.png', 'raiden', '5', 'Character', 'Electro', 'Polearm', 'Inazuma', 'ER', 'Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.'),
+(46, 'Kokomi', 'Kokomi Sangonomiya Kokomi', 'images/characters/kokomi/profile.png', 'kokomi', '5', 'Character', 'Hydro', 'Catalyst', 'Inazuma', 'hydroDMG', 'The Divine Priestess of Watatsumi Island. All of the island\'s affairs are at this young lady\'s fingertips.'),
+(47, 'Thoma', 'Thoma', 'images/characters/thoma/profile.png', 'thoma', '4', 'Character', 'Pyro', 'Polearm', 'Inazuma', 'ATK', 'The Kamisato Clan\'s housekeeper. A well-known \"fixer\" in Inazuma.'),
+(48, 'Gorou', 'Gorou', 'images/characters/gorou/profile.png', 'gorou', '4', 'Character', 'Geo', 'Bow', 'Inazuma', 'geoDMG', 'The great general of Watatsumi Island\'s forces. He is deeply trusted by his subordinates.'),
+(49, 'Itto', 'Itto Arataki Itto Oni', 'images/characters/itto/profile.png', 'itto', '5', 'Character', 'Geo', 'Claymore', 'Inazuma', 'CR', 'The first and greatest head of the Arataki Gang, famed throughout Inazuma City\'s Hanamizaka... Wait, what? You\'ve never heard of them? Are you trying to be funny here?'),
+(50, 'Yun Jin', 'Yun Jin YunJin Yun-Jin', 'images/characters/yunjin/profile.png', 'yunjin', '4', 'Character', 'Geo', 'Polearm', 'Inazuma', 'ER', 'A renowned Liyue opera singer who is skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much like the person herself.'),
+(51, 'Shenhe', 'Shenhe', 'images/characters/shenhe/profile.png', 'shenhe', '5', 'Character', 'Cryo', 'Polearm', 'Liyue', 'ATK', 'An adepti disciple with a most unusual air about her. Having spent much time cultivating in isolation in Liyue\'s mountains, she has become every bit as cool and distant as the adepti themselves.'),
+(52, 'Yae', 'Yae Miko', 'images/characters/yae/profile.png', 'yae', '5', 'Character', 'Electro', 'Catalyst', 'Inazuma', 'CR', 'Lady Guuji of the Grand Narukami Shrine also serves as the editor-in-chief of Yae Publishing House. Unimaginable intelligence and cunning are hidden under her beautiful appearance.'),
+(53, 'Ayato', 'Ayayo Kamisato Ayato Ayayo', 'images/characters/ayato/profile.png', 'ayato', '5', 'Character', 'Hydro', 'Sword', 'Inazuma', 'CD', 'The young but highly accomplished head of the Yashiro Commission\'s Kamisato Clan. Cultured and polite, he is a man of many ways and means.'),
+(54, 'Yelan', 'Yelan', 'images/characters/yelan/profile.png', 'yelan', '5', 'Character', 'Hydro', 'Bow', 'Inazuma', 'CR', 'A mysterious person who claims to work for the Ministry of Civil Affairs, but is a \"non-entity\" on the Ministry of Civil Affairs\' list.'),
+(55, 'Kuki', 'Kuki Shinobu Cookie', 'images/characters/kuki/profile.png', 'kuki', '4', 'Character', 'Electro', 'Sword', 'Inazuma', 'HP', 'The capable and reliable deputy leader of the \"Arataki Gang.\" Please note: capable and reliable are not appellations for the \"Arataki Gang,\" but for their deputy leader in specific.'),
+(56, 'Heizou', 'Heizou Shikanoin Heizou', 'images/characters/heizou/profile.png', 'heizou', '4', 'Character', 'Anemo', 'Catalyst', 'Inazuma', 'anemoDMG', 'A young prodigy detective from the Tenryou Commission. His senses are sharp and his thoughts are clear.'),
+(59, 'Collei', 'Collei', 'images/characters/collei/profile.png', 'collei', '4', 'Character', 'Dendro', 'Bow', 'Sumeru', 'ATK', 'A trainee ranger active in Avidya Forest. Behind her enthusiastic words and actions hides a slightly introverted personality.'),
+(60, 'Tighnari', 'Tighnari', 'images/characters/tighnari/profile.png', 'tighnari', '5', 'Character', 'Dendro', 'Bow', 'Sumeru', 'dendroDMG', 'A young researcher well-versed in botany who currently serves as a Forest Watcher in Avidya Forest. He is a straight shooter with a warm heart - and a dab hand at guiding even the dullest of pupils.'),
+(61, 'Dori', 'Dori', 'images/characters/dori/profile.png', 'dori', '4', 'Character', 'Electro', 'Claymore', 'Sumeru', 'HP', 'An elusive merchant who has a fondness for glittering Mora.'),
+(62, 'Candace', 'Candace Candice Kandake ', 'images/characters/candace/profile.png', 'candace', '4', 'Character', 'Hydro', 'Polearm', 'Sumeru', 'HP', 'A descendant of King Deshret with an amber left eye. The defender of Aaru Village.'),
+(63, 'Cyno', 'Cyno', 'images/characters/cyno/profile.png', 'cyno', '5', 'Character', 'Electro', 'Polearm', 'Sumeru', 'CD', 'The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.'),
+(64, 'Nilou', 'Nilou', 'images/characters/nilou/profile.png', 'nilou', '5', 'Character', 'Hydro', 'Sword', 'Sumeru', 'HP', 'A dancer under the Zubayr Theater, Nilou\'s dancing is but elegant and graceful - however, outside the stage\'s spotlight, she\'s just like any girl her age; warm, smiling, and friendly.'),
+(65, 'Nahida', 'Nahida Kusanali', 'images/characters/nahida/profile.png', 'nahida', '5', 'Character', 'Dendro', 'Catalyst', 'Sumeru', 'EM', 'A caged bird secluded within the confines of the Sanctuary of Surasthana who can only see the world in her dreams.'),
+(66, 'Layla', 'Layla', 'images/characters/layla/profile.png', 'layla', '4', 'Character', 'Cryo', 'Sword', 'Sumeru', 'HP', 'A Rtawahist student who specializes in Theoretical Astrology. Heavily prone to somnambulism and locked in a grinding war with sleep deprivation, the problem of restful slumber is a most troubling one to her.'),
+(67, 'Faruzan', 'Faruzan', 'images/characters/faruzan/profile.png', 'faruzan', '4', 'Characters', 'Anemo', 'Bow', 'Sumeru', 'ATK', 'A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone\'s senior, and has significant knowledge of ancient scripts and machines of all kinds.'),
+(68, 'Wanderer', 'Wanderer Scaramouche', 'images/characters/wanderer/profile.png', 'wanderer', '5', 'Characters', 'Anemo', 'Catalyst', 'Sumeru', 'CR', 'A wayfaring figure whose identity is a mystery. He dresses like a shugenja, but he certainly does not act the part.');
 
 -- --------------------------------------------------------
 
@@ -184,7 +189,7 @@ INSERT INTO `characters` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `cat
 CREATE TABLE `weapons` (
   `id` int(255) NOT NULL,
   `name` text NOT NULL,
-  `keyword` text NOT NULL,
+  `keywords` text NOT NULL,
   `img` text NOT NULL,
   `url` text NOT NULL,
   `rarity` text NOT NULL,
@@ -201,7 +206,7 @@ CREATE TABLE `weapons` (
 -- Dumping data for table `weapons`
 --
 
-INSERT INTO `weapons` (`id`, `name`, `keyword`, `img`, `url`, `rarity`, `category`, `weapon`, `stat`, `basemin`, `basemax`, `statmin`, `statmax`) VALUES
+INSERT INTO `weapons` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `category`, `weapon`, `stat`, `basemin`, `basemax`, `statmin`, `statmax`) VALUES
 (1, 'Apprentice\'s Notes', 'Apprentice\'s Notes Apprentices Notes', 'images/weapons/apprentices-notes/profile.png', 'apprentices-notes', '1', 'Weapon', 'Catalyst', 'n', '23', '185', 'n', 'n'),
 (2, 'Beginner\'s Protector', 'Beginner\'s Protector Beginners Protector', 'images/weapons/beginners-protector/profile.png', 'beginners-protector', '1', 'Weapon', 'Polearm', 'n', '23', '185', 'n', 'n'),
 (3, 'Dull Blade', 'Dull Blade', 'images/weapons/dull-blade/profile.png', 'dull-blade', '1', 'Weapon', 'Sword', 'n', '23', '185', 'n', 'n'),
@@ -328,7 +333,7 @@ INSERT INTO `weapons` (`id`, `name`, `keyword`, `img`, `url`, `rarity`, `categor
 (124, 'Wavebreaker\'s Fin', 'Wavebreaker\'s Fin Wavebreakers Fin WF', 'images/weapons/wavebreakers-fin/profile.png', 'wavebreakers-fin', '4', 'Weapon', 'Polearm', 'ATK', '45', '620', '3%', '13.8%'),
 (125, 'Polar Star', 'Polar Star PS', 'images/weapons/polar-star/profile.png', 'polar-star', '5', 'Weapon', 'Bow', 'CR', '46', '608', '7.2%', ' 33.1%'),
 (126, 'Cinnabar Spindle', 'Cinnabar Spindle CS', 'images/weapons/cinnabar-spindle/profile.png', 'cinnabar-spindle', '4', 'Weapon', 'Sword', 'DEF', '41', '454', '15%', '69.0%'),
-(127, 'Redhorn Stone­thresher', 'Redhorn Stone­thresher RS RHST', 'images/weapons/redhorn-stonethresher/profile.png', 'redhorn-stonethresher', '5', 'Weapon', 'Claymore', 'CD', '44', '542', '19.2%', '88.2%'),
+(127, 'Redhorn Stonethresher', 'Redhorn Stonethresher RS RHST', 'images/weapons/redhorn-stonethresher/profile.png', 'redhorn-stonethresher', '5', 'Weapon', 'Claymore', 'CD', '44', '542', '19.2%', '88.2%'),
 (128, 'Calamity Queller', 'Calamity Queller CQ', 'images/weapons/calamity-queller/profile.png', 'calamity-queller', '5', 'Weapon', 'Polearm', 'ATK', '49', '741', '3.6%', '16.5%'),
 (129, 'Oathsworn Eye', 'Oathsworn Eye OE', 'images/weapons/oathsworn-eye/profile.png', 'oathsworn-eye', '4', 'Weapon', 'Catalyst', 'ATK', '44', '565', '6%', '27.6%'),
 (130, 'Kagura\'s Verity', 'Kagura\'s Verity Kaguras Verity KV', 'images/weapons/kaguras-verity/profile.png', 'kaguras-verity', '5', 'Weapon', 'Catalyst', 'CD', '46', '608', '14.4%', '66.2%'),
@@ -382,13 +387,13 @@ ALTER TABLE `weapons`
 -- AUTO_INCREMENT for table `artifacts`
 --
 ALTER TABLE `artifacts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 
 --
 -- AUTO_INCREMENT for table `characters`
 --
 ALTER TABLE `characters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=590;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=601;
 
 --
 -- AUTO_INCREMENT for table `weapons`
