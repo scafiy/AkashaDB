@@ -19,6 +19,8 @@
         <div class="overlay"></div>
         <div class="maincontent">
             <div class="content-container">
+                <li>Disclaimer: If you don't own this copy of akashadb, the database will be in view only mode. You'll not be able to add or edit data.</li>
+
                 <div class="dbheader">
                     <p>Akasha Database</p>
                     <div class="right">
@@ -50,6 +52,7 @@
                             <th>weapon</th>
                             <th>region</th>
                             <th>stat</th>
+                            <th>description</th>
                         </tr>
                         <?php
                             $query = mysqli_query($conn, "SELECT * FROM `characters` WHERE `id` ORDER BY `id` DESC LIMIT 0,9999999") or die(mysqli_error());
@@ -67,6 +70,8 @@
                                 <td><?php echo $fetch['weapon']?></td>
                                 <td><?php echo $fetch['region']?></td>
                                 <td><?php echo $fetch['stat']?></td>
+                                <td><?php echo $fetch['description']?></td>
+                                
                             </tr>
                         <?php
                             }
@@ -97,6 +102,11 @@
                             <th>category</th>
                             <th>raritymax</th>
                             <th>raritymin</th>
+                            <th>flowerdescription</th>
+                            <th>twopiece</th>
+                            <th>fourpiece</th>
+                            <th>primarycolor</th>
+                            <th>secondarycolor</th>
 
                         </tr>
                         <?php
@@ -112,6 +122,12 @@
                                 <td><?php echo $fetch['category']?></td>
                                 <td><?php echo $fetch['raritymax']?></td>
                                 <td><?php echo $fetch['raritymin']?></td>
+                                <td><?php echo $fetch['flowerdescription']?></td>
+                                <td><?php echo $fetch['twopiece']?></td>
+                                <td><?php echo $fetch['fourpiece']?></td>
+                                <td><?php echo $fetch['primarycolor']?></td>
+                                <td><?php echo $fetch['secondarycolor']?></td>
+
                             </tr>
                         <?php
                             }
@@ -147,6 +163,9 @@
                             <th>basemax</th>
                             <th>statmin</th>
                             <th>statmax</th>
+                            <th>description</th>
+                            <th>passivetitle</th>
+                            <th>passiveeffect</th>
 
                         </tr>
                         <?php
@@ -166,6 +185,9 @@
                                 <td><?php echo $fetch['basemax']?></td>
                                 <td><?php echo $fetch['statmin']?></td>
                                 <td><?php echo $fetch['statmax']?></td>
+                                <td><?php echo $fetch['description']?></td>
+                                <td><?php echo $fetch['passivetitle']?></td>
+                                <td><?php echo $fetch['passiveeffect']?></td>
 
                             </tr>
                         <?php

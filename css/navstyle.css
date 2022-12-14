@@ -947,3 +947,9 @@
     transition: all 0.2s ease-in-out;
 
 }
+
+.sidefooter{
+    position: sticky;
+    bottom: 0px;
+    background-color: var(--primary-background-color);
+}

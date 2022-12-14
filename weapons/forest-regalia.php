@@ -68,23 +68,41 @@
                     </div>
                 </div>
 
+
                 <div class="information">
-                    <div class="sources">
-                        <p>Sources:</p>
-                        <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                            Fandom Wiki
-                        </a>
+                    <div class="forefront">
+                        <div class="base-stat-table">
+                            <div class="talent-card-heading">
+                                <p class="talent-card-title">Base Stats</p>
+                            </div>
+                            <table class="scalingtable">
+                                <tr>
+                                    <td>Level</td>
+                                    <td>Base ATK</td>
+                                    <td><?php echo $fetch['stat']?></td>
+                                </tr>
+                                <tr>
+                                    <td>Min</td>
+                                    <td><?php echo $fetch['basemin']?></td>
+                                    <td><?php echo $fetch['statmin']?></td>
+                                </tr>
 
+                                <tr>
+                                    <td>Max</td>
+                                    <td><?php echo $fetch['basemax']?></td>
+                                    <td><?php echo $fetch['statmax']?></td>
+                                </tr>
+                            </table>
+                        </div>
 
-                        <a href="https://library.keqingmains.com/equipment/weapons/<?php echo strtolower($fetch['weapon'])?>s#<?php echo $fetch['url']?>" target="_blank">
-                            <img src="https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F2275081558-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MeN8niDZ_g-q-R-ncjF%252Ficon%252FfrTob9Gh9NeRIHWboFbu%252FLogo%2520Final.png%3Falt%3Dmedia%26token%3D574e0e1b-7a2b-42d4-8f76-311c5a885176" alt="">
-                            KQM TCL
-                        </a>
-
-
-
-                    </div>   
+                        <div class="passive-container">
+                            <div class="passive-content">
+                                <b><?php echo $fetch['passivetitle']?></b>
+                                <p><?php echo $fetch['passiveeffect']?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
 
 
 

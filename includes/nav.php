@@ -53,7 +53,7 @@
                      <li>
                         <a class="keywords" href="/Akasha/artifacts/<?php echo $fetch['url']?>.php"><?php echo $fetch['keywords']?></a>
                            <div class="result-details">
-                              <img class="bg-<?php echo $fetch['fivestar']?>-star bg-<?php echo $fetch['fourstar']?>-star bg-<?php echo $fetch['threestar']?>-star bg-<?php echo $fetch['twostar']?>-star bg-<?php echo $fetch['onestar']?>-star" src="/Akasha/<?php echo $fetch['img']?>">
+                              <img class="bg-<?php echo $fetch['raritymax']?>-star" src="/Akasha/<?php echo $fetch['img']?>">
                               <div class="result-details-text">
                               <p><?php echo $fetch['name']?></p>
                               <div class="result-tags">
@@ -186,7 +186,7 @@
                }
             ?>
          </div>
-
-
+        
+         <p class="sidefooter">© All rights reserved by miHoYo.</p>
    </div>
 

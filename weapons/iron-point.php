@@ -68,18 +68,32 @@
                     </div>
                 </div>
 
+
                 <div class="information">
-                    <div class="sources">
-                        <p>Sources:</p>
-                        <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                            Fandom Wiki
-                        </a>
+                    <div class="forefront">
+                        <div class="base-stat-table">
+                            <div class="talent-card-heading">
+                                <p class="talent-card-title">Base Stats</p>
+                            </div>
+                            <table class="scalingtable">
+                                <tr>
+                                    <td>Level</td>
+                                    <td>Base ATK</td>
+                                </tr>
+                                <tr>
+                                    <td>Min</td>
+                                    <td><?php echo $fetch['basemin']?></td>
+                                </tr>
 
+                                <tr>
+                                    <td>Max</td>
+                                    <td><?php echo $fetch['basemax']?></td>
+                                </tr>
+                            </table>
+                        </div>
 
-
-                    </div>   
-
+                    </div>
+                </div>   
 
 
 

@@ -38,6 +38,7 @@
 <?php
     $query = mysqli_query($conn, "SELECT * FROM `weapons` WHERE `url` = 'a-thousand-floating-dreams' ") or die(mysqli_error());
     while($fetch = mysqli_fetch_array($query)){
+
 ?>
 
 <title><?php echo $fetch['name']?> - Akasha</title>
@@ -61,34 +62,45 @@
                                     <img class="icons" src="../images/icons/b_<?php echo $fetch['weapon']?>.png" alt="">
                                 </div>
                             </div>
-                            <p class="banner-description">This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days.
-
-</p>
+                            <p class="banner-description"><?php echo $fetch['description']?></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="information">
-                    <div class="sources">
-                        <p>Sources:</p>
-                        <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
-                            <img src="../images/icons/fandom.svg" alt="">
-                            Fandom Wiki
-                        </a>
+                    <div class="forefront">
+                        <div class="base-stat-table">
+                            <div class="talent-card-heading">
+                                <p class="talent-card-title">Base Stats</p>
+                            </div>
+                            <table class="scalingtable">
+                                <tr>
+                                    <td>Level</td>
+                                    <td>Base ATK</td>
+                                    <td><?php echo $fetch['stat']?></td>
+                                </tr>
+                                <tr>
+                                    <td>Min</td>
+                                    <td><?php echo $fetch['basemin']?></td>
+                                    <td><?php echo $fetch['statmin']?></td>
+                                </tr>
 
+                                <tr>
+                                    <td>Max</td>
+                                    <td><?php echo $fetch['basemax']?></td>
+                                    <td><?php echo $fetch['statmax']?></td>
+                                </tr>
+                            </table>
+                        </div>
 
-                        <a href="https://library.keqingmains.com/equipment/weapons/<?php echo strtolower($fetch['weapon'])?>s#<?php echo $fetch['url']?>" target="_blank">
-                            <img src="../images/icons/kqm.png" alt="">
-                            KQM TCL
-                        </a>
-
-                    
-                        <a href="https://library.keqingmains.com/evidence/equipment/weapons#<?php echo $fetch['url']?>" target="_blank">
-                            <img src="../images/icons/kqm.png" alt="">
-                            Evidence Vault
-                        </a>
-
-                    </div>   
+                        <div class="passive-container">
+                            <div class="passive-content">
+                                <b><?php echo $fetch['passivetitle']?></b>
+                                <p><?php echo $fetch['passiveeffect']?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
 
 
 

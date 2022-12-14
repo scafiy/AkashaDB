@@ -49,17 +49,28 @@
                     </div>
                 </div>
                 
-                <div class="sources">
-                    <p>Sources:</p>
-                    <a href="https://genshin-impact.fandom.com/wiki/Traveling_Doctor" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                        Fandom Wiki
-                    </a>
+                <?php
+                    $query = mysqli_query($conn, "SELECT * FROM `artifacts` WHERE `url` = 'traveling-doctor' ") or die(mysqli_error());
+                    while($fetch = mysqli_fetch_array($query)){
+                ?>
 
-
-
-                    
+                <div class="information">
+                    <div class="forefront">
+                        <div class="set-bonus-container">
+                            <b>Set Bonus </b>                        
+                            <div class="flex">
+                                <p><b>2-Piece Set: </b> <?php echo $fetch['twopiece']?></p>
+                            </div>
+                            <div class="flex">
+                                <p><b>4-Piece Set:</b> <?php echo $fetch['fourpiece']?></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <?php
+                    }
+                ?>
 
 
                 

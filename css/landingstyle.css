@@ -1,0 +1,100 @@
+.akashabanner{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-image: url("../images/bg/aboutheading.png");
+    height:30%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+    border-radius:3px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+@media all and (min-width: 1240px) {  
+    .akashabanner{
+        height:50%;
+
+    
+    }
+}
+
+.akashabannercontainer{
+    height: 100%;
+    width: 30%;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-left:20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
+
+}
+
+
+
+
+
+
+.akashabannercontainer h1{
+    font-size: 60px;
+    color: rgb(22, 22, 22);
+    margin-bottom: -20px;
+}
+
+.akashabannercontainer b{
+    font-size: 60px;
+    color: var(--highlighted-color);
+    margin-bottom: -20px;
+    font-family: genshin;
+}
+
+.akashabannercontainer .links{
+    display: flex;
+}
+
+.akashabannercontainer .githubbtn{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: flex;
+    height: 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+
+.akashabannercontainer .githubbtn img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -2px;
+
+}
+
+
+
+.akashabannercontent{
+    text-align: left;
+}
+
+.aboutsection{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    border: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.aboutsection p{
+    margin-left: 10px;
+}
+

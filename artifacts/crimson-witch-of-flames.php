@@ -49,27 +49,28 @@
                     </div>
                 </div>
                 
-                <div class="sources">
-                    <p>Sources:</p>
-                    <a href="https://genshin-impact.fandom.com/wiki/Crimson_Witch_of_Flames" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                        Fandom Wiki
-                    </a>
+                <?php
+                    $query = mysqli_query($conn, "SELECT * FROM `artifacts` WHERE `url` = 'crimson-witch-of-flames' ") or die(mysqli_error());
+                    while($fetch = mysqli_fetch_array($query)){
+                ?>
 
-                    <a href="https://library.keqingmains.com/equipment/artifacts#crimson-witch-of-flames" target="_blank">
-                        <img src="https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F2275081558-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MeN8niDZ_g-q-R-ncjF%252Ficon%252FfrTob9Gh9NeRIHWboFbu%252FLogo%2520Final.png%3Falt%3Dmedia%26token%3D574e0e1b-7a2b-42d4-8f76-311c5a885176" alt="">
-                        KQM TCL
-                    </a>
-
-                    
-                    <a href="https://library.keqingmains.com/evidence/equipment/artifacts#crimson-witch-of-flames" target="_blank">
-                        <img src="https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F2275081558-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MeN8niDZ_g-q-R-ncjF%252Ficon%252FfrTob9Gh9NeRIHWboFbu%252FLogo%2520Final.png%3Falt%3Dmedia%26token%3D574e0e1b-7a2b-42d4-8f76-311c5a885176" alt="">
-                        Evidence Vault
-                    </a>
-
-
-                    
+                <div class="information">
+                    <div class="forefront">
+                        <div class="set-bonus-container">
+                            <b>Set Bonus </b>                        
+                            <div class="flex">
+                                <p><b>2-Piece Set: </b> <?php echo $fetch['twopiece']?></p>
+                            </div>
+                            <div class="flex">
+                                <p><b>4-Piece Set:</b> <?php echo $fetch['fourpiece']?></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <?php
+                    }
+                ?>
 
 
                 

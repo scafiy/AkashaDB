@@ -6,11 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	</head>
-	
+	<?php 
+			session_start();
+			include '../includes/head.php';
+    	?>
 
 
 
-			<form action="save_character.php" method="POST" enctype="multipart/form-data">
+			<form method="POST">
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="col-md-2"></div>
@@ -115,9 +118,12 @@
 								<tr>cryoDMG</tr>
 								<tr>geoDMG</tr>
 
+							<div class="form-group">
+								<label>description</label>
+								<input type="text" class="form-control" name="description" autocomplete="off" required="required"/>
+							</div>
 
-							</td>
-							
+
 						</div>
 						</div>
 						</div>
@@ -128,4 +134,23 @@
 					</div>
 				</div>
 			</form>
-			
+			<?php
+	require_once 'conn.php';
+	
+	if(ISSET($_POST['save'])){
+		$name = addslashes($_POST['name']);
+		$keywords = addslashes($_POST['keywords']);
+		$img = addslashes($_POST['img']);
+		$url = addslashes($_POST['url']);
+		$rarity = addslashes($_POST['rarity']);
+		$category = addslashes($_POST['category']);
+		$element = addslashes($_POST['element']);
+		$weapon = addslashes($_POST['weapon']);
+		$region = addslashes($_POST['region']);
+		$stat = addslashes($_POST['stat']);
+		$description = addslashes($_POST['description']);
+
+		mysqli_query($conn, "INSERT INTO `characters` VALUES('', '$name', '$keywords', '$img', '$url', '$rarity', '$category', '$element', '$weapon', '$region', '$stat', $description)") or die(mysqli_error());
+				
+	}
+?>

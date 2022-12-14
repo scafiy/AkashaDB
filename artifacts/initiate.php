@@ -48,17 +48,7 @@
                     </div>
                 </div>
                 
-                <div class="sources" id="dark">
-                    <p>Sources:</p>
-                    <a href="https://genshin-impact.fandom.com/wiki/Initiate" target="_blank">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                        Fandom Wiki
-                    </a>
 
-
-
-                    
-                </div>
 
 
                 

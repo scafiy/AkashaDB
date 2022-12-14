@@ -68,18 +68,41 @@
                     </div>
                 </div>
 
+
                 <div class="information">
-                    <div class="sources">
-                        <p>Sources:</p>
-                        <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                            Fandom Wiki
-                        </a>
+                    <div class="forefront">
+                        <div class="base-stat-table">
+                            <div class="talent-card-heading">
+                                <p class="talent-card-title">Base Stats</p>
+                            </div>
+                            <table class="scalingtable">
+                                <tr>
+                                    <td>Level</td>
+                                    <td>Base ATK</td>
+                                    <td><?php echo $fetch['stat']?></td>
+                                </tr>
+                                <tr>
+                                    <td>Min</td>
+                                    <td><?php echo $fetch['basemin']?></td>
+                                    <td><?php echo $fetch['statmin']?></td>
+                                </tr>
 
+                                <tr>
+                                    <td>Max</td>
+                                    <td><?php echo $fetch['basemax']?></td>
+                                    <td><?php echo $fetch['statmax']?></td>
+                                </tr>
+                            </table>
+                        </div>
 
-
-
-                    </div>   
+                        <div class="passive-container">
+                            <div class="passive-content">
+                                <b><?php echo $fetch['passivetitle']?></b>
+                                <p><?php echo $fetch['passiveeffect']?></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
 
 
 

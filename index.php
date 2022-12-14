@@ -5,7 +5,7 @@
     ?>
     <title>Home - Akasha</title>
     <link rel="stylesheet" href="css/indexstyle.css">
-    <link rel="stylesheet" href="css/indexstyle.css">
+    <link rel="stylesheet" href="css/landingstyle.css">
 
 </head>
 
@@ -20,18 +20,37 @@
         <div class="maincontent">
             <div class="content-container">
 
+            <div class="akashabanner">
+                <div class="akashabannercontainer">
+                    <h1>Akasha<b>DB</b></h1>
+                    <p>An open sourse genshin impact sql database.</p>
+                   
+                        <div class="links">
+                        <a class="githuba" href="https://github.com/scafiy/AkashaDB/blob/main/akashadb.sql">
+                            <button class="githubbtn"><img src="images/icons/github.png" alt="">Github</button>    
+                        </a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="aboutsection">
+                <h1>About Us</h1>
+                <p>
+                    <i>"We collect information from the game genshin impact by hand and curate data into our sql database. This project is created for archival purposes and our work is applicable to be used by others"</i>
+                    <i>"All intellectual property, Genshin Impact MATERIALS and rights are reserved to miHoYo Co., Ltd, HoYoverse and Cognosphere."</i>
+                </p>
+            </div>
+
+
+
+
             <div class="canonical">
                 <div class="banner-section">
-                    <h1>Current Banner</h1>
 
-                    <div class="banner-container">
-                        <img class="focus" src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/5/50/Nahida_Banner_November_2022.jpg?width=814" alt="">
-                        
-                    </div>
 
 
                     <div class="whatsnew">
-                        <h1>Whats New</h1>
+                        <h1>Whats New?</h1>
 
                         <p>Latest Characters</p>
                         <div class="item-slider">

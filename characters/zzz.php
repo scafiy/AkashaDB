@@ -79,6 +79,7 @@
                     </div>
                 </div>
                 <div class="information">
+                    
                 <div class="sources">
                         <p>Sources:</p>
                         <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">

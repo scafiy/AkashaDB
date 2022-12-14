@@ -1,16 +1,12 @@
-<?php
-	$conn = mysqli_connect('localhost', 'root', '', 'akashadb') or die(mysqli_error());
-	
-	if(!$conn){
-		die("Error: Failed to connect to database");
-	}
-?>
-
 <html lang="en">
 	<head>
 		<title>Upload Artifact</title>
 		<meta charset="UTF-8" name="viewport" content="width=device-width"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<?php 
+			session_start();
+			include '../includes/head.php';
+    	?>
 
 	</head>
 			<form method="POST">
@@ -38,19 +34,47 @@
 							</div>
 							<div class="form-group">
 								<label>raritymax</label>
-								<input type="text" class="form-control" name="raritymax" autocomplete="off"/>
+								<input type="text" class="form-control" name="raritymax" autocomplete="off" required="required"/>
 							</div>
 							<div class="form-group">
 								<label>raritymin</label>
-								<input type="text" class="form-control" name="raritymin" autocomplete="off"/>
+								<input type="text" class="form-control" name="raritymin" autocomplete="off" required="required"/>
 							</div>
+
+							<div class="form-group">
+								<label>flowerdescription</label>
+								<input type="text" class="form-control" name="flowerdescription" autocomplete="off" required="required"/>
+							</div>
+
+
+							<div class="form-group">
+								<label>twopiece</label>
+								<input type="text" class="form-control" name="twopiece" autocomplete="off" required="required"/>
+							</div>
+
+							<div class="form-group">
+								<label>fourpiece</label>
+								<input type="text" class="form-control" name="fourpiece" autocomplete="off" required="required"/>
+							</div>
+
+							<div class="form-group">
+								<label>primarycolor</label>
+								<input type="text" class="form-control" name="primarycolor" autocomplete="off" required="required"/>
+							</div>
+
+
+							<div class="form-group">
+								<label>secondarycolor</label>
+								<input type="text" class="form-control" name="secondarycolor" autocomplete="off" required="required"/>
+							</div>
+
 						
 
 					</div>
 					<button name="save">Upload</button>
 				</div>
 			</form>
-	<?php
+			<?php	
 	if(ISSET($_POST['save'])){
 		$name = addslashes($_POST['name']);
 		$keywords = addslashes($_POST['keywords']);
@@ -59,7 +83,15 @@
 		$category = addslashes($_POST['category']);
 		$raritymax = addslashes($_POST['raritymax']);
 		$raritymin = addslashes($_POST['raritymin']);
-		mysqli_query($conn, "INSERT INTO `artifacts` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$raritymax', '$raritymin')") or die(mysqli_error());
-		header('location: uploadartifact.php');	
-		}
-	?>
+		$flowerdescription = addslashes($_POST['flowerdescription']);
+		$twopiece = addslashes($_POST['twopiece']);
+		$fourpiece = addslashes($_POST['fourpiece']);
+		$primarycolor = addslashes($_POST['primarycolor']);
+		$secondarycolor = addslashes($_POST['secondarycolor']);
+
+
+		mysqli_query($conn, "INSERT INTO `artifacts` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$raritymax', '$raritymax', '$flowerdescription', '$twopiece', '$fourpiece', '$primarycolor', '$secondarycolor')") or die(mysqli_error());
+		
+		
+	}
+?>

@@ -75,29 +75,7 @@
                 </div>
                 
             <div class="information">
-                <div class="sources">
-                    <p>Sources:</p>
-                    <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Fandom_heart-logo.svg" alt="">
-                            Fandom Wiki
-                        </a>
-
-                        <a href="https://keqingmains.com/<?php echo $fetch['url']?>" target="_blank">
-                            <img src="https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F2275081558-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MeN8niDZ_g-q-R-ncjF%252Ficon%252FfrTob9Gh9NeRIHWboFbu%252FLogo%2520Final.png%3Falt%3Dmedia%26token%3D574e0e1b-7a2b-42d4-8f76-311c5a885176" alt="">
-                            KQM Guide
-                        </a>
-
-                        <a href="https://library.keqingmains.com/characters/<?php echo strtolower($fetch['element'])?>/<?php echo $fetch['url']?>" target="_blank">
-                            <img src="https://www.gitbook.com/cdn-cgi/image/width=40,height=40,fit=contain,dpr=1,format=auto/https%3A%2F%2F2275081558-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MeN8niDZ_g-q-R-ncjF%252Ficon%252FfrTob9Gh9NeRIHWboFbu%252FLogo%2520Final.png%3Falt%3Dmedia%26token%3D574e0e1b-7a2b-42d4-8f76-311c5a885176" alt="">
-                            KQM TCL
-                        </a>
-
-                    
-                        <a href="https://library.keqingmains.com/evidence/characters/<?php echo strtolower($fetch['element'])?>/<?php echo $fetch['url']?>" target="_blank">
-                            <img src="../images/icons/kqm.png" alt="">
-                            Evidence Vault
-                        </a>
-                </div>     
+                
 
                 <div class="base-stat-table">
                     <div class="talent-card-heading">
@@ -247,17 +225,7 @@
                         <td></td>
 
                     </tr>
-
-
-
-
-
-
-
-
-
                     </table>
-                
                 </div>
 
                 
@@ -272,6 +240,19 @@
                             <p class="talent-card-title">Sharpshooter</p>
                             <p class="talent-card-description-title">Normal Attack</p>
                             <p class="talent-card-description">Perform up to 5 consecutive shots with a bow.</p>
+                            <table>
+                                    <tr>
+                                        <td>1-Hit DMG</td>
+                                        <td>36.66.36%</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>50/60</td>
+                                        <td></td>
+
+                                    </tr>
+                                </table>
+                            
                             <p class="talent-card-description-title">Charged Attack</p>
                             <p class="talent-card-description">Perform a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead. A fully charged flaming arrow will deal Pyro DMG.</p>
                             <p class="talent-card-description-title">Plunging Attack</p>

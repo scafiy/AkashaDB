@@ -30,21 +30,7 @@
 
                     <div class="filter-btn-container">
 
-                    <div class="layout-toggle">
-                        
-                            <button class="layout-btn toggle-list ">
-                                <a href="artifactlist.php">
-                                    <i class="material-symbols-outlined">table_rows</i>
-                                </a>
-                            </button>
 
-                            <button class="layout-btn toggle-browse active-layout">
-                                <a href="">
-                                    <i class="material-symbols-outlined">grid_view</i>
-                                </a>
-                            </button>
-
-                        </div>
 
                         <button class="filter-btn">
                             <i class="material-symbols-outlined">filter_alt</i>
@@ -80,7 +66,7 @@
 
                     <li>
                         <div>
-                            <a href="artifacts/<?php echo $fetch['url']?>.php" class="item artifact-<?php echo $fetch['fivestar']?>-star artifact-<?php echo $fetch['fourstar']?>-star artifact-<?php echo $fetch['threestar']?>-star artifact-<?php echo $fetch['twostar']?>-star artifact-<?php echo $fetch['onestar']?>-star artifact-item">
+                            <a href="artifacts/<?php echo $fetch['url']?>.php" class="item artifact-<?php echo $fetch['raritymax']?>-star artifact-<?php echo $fetch['raritymin']?>-star artifact-item">
                                 <div class="item-icon bg-<?php echo $fetch['raritymax']?>-star">
                                     <img class="item-img" src="<?php echo $fetch['img']?>">
                                 </div>

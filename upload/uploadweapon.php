@@ -6,8 +6,12 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	</head>
+	<?php 
+			session_start();
+			include '../includes/head.php';
+    	?>
 	
-			<form action="save_weapon.php" method="POST" enctype="multipart/form-data">
+			<form method="POST">
 				<div class="modal-content">
 					<div class="modal-body">
 						<div class="col-md-2"></div>
@@ -100,6 +104,21 @@
 								<input type="text" class="form-control" name="statmax" autocomplete="off"/>
 							</div>
 
+							<div class="form-group">
+							<label>description</label>
+								<input type="text" class="form-control" name="description" autocomplete="off"/>
+							</div>
+
+							<div class="form-group">
+							<label>passivetitle</label>
+								<input type="text" class="form-control" name="passivetitle" autocomplete="off"/>
+							</div>
+
+							<div class="form-group">
+							<label>passiveeffect</label>
+								<input type="text" class="form-control" name="passiveeffect" autocomplete="off"/>
+							</div>
+
 
 							
 						</div>
@@ -112,4 +131,28 @@
 					</div>
 				</div>
 			</form>
-			
+			<?php
+	require_once 'conn.php';
+	
+	if(ISSET($_POST['save'])){
+		$name = addslashes($_POST['name']);
+		$keywords = addslashes($_POST['keywords']);
+		$img = addslashes($_POST['img']);
+		$url = addslashes($_POST['url']);
+		$rarity = addslashes($_POST['rarity']);
+		$category = addslashes($_POST['category']);
+		$weapon = addslashes($_POST['weapon']);
+		$stat = addslashes($_POST['stat']);
+		$basemin = addslashes($_POST['basemin']);
+		$basemax = addslashes($_POST['basemax']);
+		$statmin = addslashes($_POST['statmin']);
+		$statmax = addslashes($_POST['statmax']);
+		$description = addslashes($_POST['description']);
+		$passivetitle = addslashes($_POST['passivetitle']);
+		$passiveeffect = addslashes($_POST['passiveeffect']);
+
+		mysqli_query($conn, "INSERT INTO `weapons` VALUES('', '$name', '$keywords', '$img', '$url', '$rarity', '$category', '$weapon', '$stat', '$basemin', '$basemax', '$statmin', '$statmax', '$description', '$passivetitle', '$passiveeffect')") or die(mysqli_error());
+		
+		
+	}
+?>
