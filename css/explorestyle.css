@@ -186,7 +186,7 @@
     padding-left:10px ;
     padding-right:15px ;
     background-color: transparent;
-    color: #424651;
+    color:var(--primary-text-color);
     text-align: 12px;
     display: flex;
     border-radius:50px ;
@@ -195,14 +195,14 @@
 
 .filter-btn i{
     margin-top: 0px;
-    color: #424651;
+    color:var(--primary-text-color);
     text-align: 10px;
 }
 
 
 .filter-btn p{
     margin-top: 3px;
-    color: #424651;
+    color:var(--primary-text-color);
     text-align: 12px;
 }
 
@@ -212,7 +212,7 @@
     height: 35px;
     width: 35px;
     background-color: transparent;
-    color: #424651;
+    color:var(--primary-text-color);
     text-align: 12px;
     display: flex;
     border-radius:50px ;
@@ -222,7 +222,7 @@
 
 .sortbtn i{
     margin-top: 3px;
-    color: #424651;
+    color:var(--primary-text-color);
     text-align: 12px;
     transition: all 0.2s ease-in-out;
 
@@ -397,7 +397,7 @@
 }
 
 .active-layout{
-    background-color: #e4e4e4;
+    background-color: #303030;
 
 }
 
@@ -489,7 +489,7 @@
 
 
 .active-filter-btn{
-    background-color: #e4e4e4;
+    background-color: #3f3f3f;
 }
 
 .search-results-container{

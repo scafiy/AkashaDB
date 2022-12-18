@@ -104,7 +104,7 @@
         width: 90%;
         left: 0px;
         position: absolute;
-        background-image: linear-gradient(to left, transparent, #f8f8f8 50%);
+        background-image: linear-gradient(to left, transparent, var(--background-color) 50%);
 
     }
     
@@ -283,7 +283,7 @@
     display: block;
     padding: 10px;
     width: 50%;
-    background-color: var(--search-bar-precolour);
+    background-color:var(--hover-colour) ;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 15px;
@@ -304,8 +304,8 @@
 .set-bonus-container .flex{
     display: flex;
     padding-left: 10px;
-    background-color: var(--search-bar-precolour);
-    filter: brightness(95%);
+    background-color:var(--hover-colour) ;
+    filter: brightness(115%);
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 3px;

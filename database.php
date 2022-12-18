@@ -24,7 +24,7 @@
                 <div class="dbheader">
                     <p>Akasha Database</p>
                     <div class="right">
-                      <a href="/phpmyadmin/index.php?route=/table/export&db=akashadb&table=characters&single_table=true" target="_blank">export</a>
+                      <a href="http://localhost/phpmyadmin/index.php?route=/database/export&db=akashadb" target="_blank">export</a>
                       <a href="/phpmyadmin/index.php?route=/database/structure&db=akashadb" target="_blank">phpmyadmin</a>
                     </div>
                 </div>
@@ -53,6 +53,9 @@
                             <th>region</th>
                             <th>stat</th>
                             <th>description</th>
+                            <th>primarycolor</th>
+                            <th>secondarycolor</th>
+
                         </tr>
                         <?php
                             $query = mysqli_query($conn, "SELECT * FROM `characters` WHERE `id` ORDER BY `id` DESC LIMIT 0,9999999") or die(mysqli_error());
@@ -62,7 +65,11 @@
                                 <td><?php echo $fetch['id']?></td>
                                 <td><?php echo $fetch['name']?></td>
                                 <td><?php echo $fetch['keywords']?></td>
-                                <td><?php echo $fetch['img']?></td>
+                                <td>
+                                    <a href="<?php echo $fetch['img']?>"><?php echo $fetch['img']?></a>
+                                    <a href="images/characters/<?php echo $fetch['url']?>/splash.png">	images/characters/<?php echo $fetch['url']?>/splash.png</a>
+                                    <a href="images/characters/<?php echo $fetch['url']?>/banner.png">	images/characters/<?php echo $fetch['url']?>/banner.png</a>
+                                </td>
                                 <td><?php echo $fetch['url']?></td>
                                 <td><?php echo $fetch['rarity']?></td>
                                 <td><?php echo $fetch['category']?></td>
@@ -71,7 +78,9 @@
                                 <td><?php echo $fetch['region']?></td>
                                 <td><?php echo $fetch['stat']?></td>
                                 <td><?php echo $fetch['description']?></td>
-                                
+                                <td><?php echo $fetch['primarycolor']?></td>
+                                <td><?php echo $fetch['secondarycolor']?></td>
+
                             </tr>
                         <?php
                             }
@@ -117,7 +126,7 @@
                                 <td><?php echo $fetch['id']?></td>
                                 <td><?php echo $fetch['name']?></td>
                                 <td><?php echo $fetch['keywords']?></td>
-                                <td><?php echo $fetch['img']?></td>
+                                <td><a href="<?php echo $fetch['img']?>"><?php echo $fetch['img']?></a></td>
                                 <td><?php echo $fetch['url']?></td>
                                 <td><?php echo $fetch['category']?></td>
                                 <td><?php echo $fetch['raritymax']?></td>
@@ -176,7 +185,11 @@
                                 <td><?php echo $fetch['id']?></td>
                                 <td><?php echo $fetch['name']?></td>
                                 <td><?php echo $fetch['keywords']?></td>
-                                <td><?php echo $fetch['img']?></td>
+                                <td>
+                                    <a href="<?php echo $fetch['img']?>"><?php echo $fetch['img']?></a>
+                                    <a href="images/weapons/<?php echo $fetch['url']?>/splash.png">images/weapons/<?php echo $fetch['url']?>/splash.png</a>
+
+                                </td>
                                 <td><?php echo $fetch['url']?></td>
                                 <td><?php echo $fetch['category']?></td>
                                 <td><?php echo $fetch['weapon']?></td>

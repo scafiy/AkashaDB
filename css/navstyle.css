@@ -102,7 +102,7 @@
 }
 
 .open-mobile-search-btn:hover{
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
     transition: all 0.2s ease;
     filter: brightness(96%);
     -webkit-filter: brightness(96%);
@@ -339,7 +339,7 @@
 }
 
 .hamburger:hover{
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
     transition: all 0.2s ease;
     filter: brightness(96%);
     -webkit-filter: brightness(96%);
@@ -354,8 +354,8 @@
 
 .logo{
     font-size:18px ;
-    font-family:genshin;
-    font-weight: 500;
+    font-family:roboto;
+    font-weight: 700;
     position: relative;
     margin-top: 9.5px;
     margin-left:2px ;
@@ -374,9 +374,9 @@
     position: absolute;
     top:0px ;
     padding-left: 1px;
-    font-family:genshin;
+    font-family:roboto;
     font-weight: 700;
-    color: var(--highlighted-color);
+    color: var(--bright-highlighted-color);
 
 }
 
@@ -396,8 +396,8 @@
     padding-left:30px ;
     padding-right:30px ;
     padding-bottom:10px ;
-    background-color:#f1f0e4;
-    background-color: var(--search-bar-precolour);
+    color:var(--primary-text-color);
+    background-color: var(--search-bar-precolour2);
 
     font-weight: 500;
     border-top-left-radius:5px ;
@@ -582,7 +582,7 @@
 }
 
 .mobile-back-btn:hover{
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
     transition: all 0.2s ease;
     filter: brightness(96%);
     -webkit-filter: brightness(96%);
@@ -625,7 +625,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     display: none;
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
     border-bottom-left-radius:5px ;
     border-bottom-right-radius:5px ;
     animation-duration: 0.2s;
@@ -699,7 +699,7 @@
 }
 
 .search-results li:hover{
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
 
     filter: brightness(96%);
     -webkit-filter: brightness(96%);
@@ -778,7 +778,7 @@
     padding-right:5px ;
     border-radius: 50px;
 
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
     filter: brightness(96%);
     -webkit-filter: brightness(96%);
     -moz-filter: brightness(96%);  
@@ -927,7 +927,7 @@
 
 
 .topnav-color{
-    background-color: var(--topnav-color);
+    background-color: var(--topnav-color2);
     transition: all 0.2s ease-in-out;
     box-shadow: 1px -11px 36px -7px rgba(0,0,0,0.23);
     -webkit-box-shadow: 1px -11px 36px -7px rgba(0,0,0,0.23);

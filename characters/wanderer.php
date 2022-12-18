@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="../css/characterpagestyle.css">
 
 <?php
-    $query = mysqli_query($conn, "SELECT * FROM `characters` WHERE `url` = 'faruzan' ") or die(mysqli_error());
+    $query = mysqli_query($conn, "SELECT * FROM `characters` WHERE `url` = 'wanderer' ") or die(mysqli_error());
     while($fetch = mysqli_fetch_array($query)){
 ?>
 

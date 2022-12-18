@@ -1,8 +1,8 @@
-Waves.attach('button', ['waves-effect', 'waves']);
-Waves.attach('#resultfilter li', ['waves-effect', 'waves']);
-Waves.attach('.ripple', ['waves-effect', 'waves']);
-Waves.attach('.item', ['waves-effect', 'waves']);
-Waves.attach('.sources a', ['waves-effect', 'waves']);
+Waves.attach('button', ['waves-effect', 'waves-light']);
+Waves.attach('#resultfilter li', ['waves-effect', 'waves-light']);
+Waves.attach('.ripple', ['waves-effect', 'waves-light']);
+Waves.attach('.item', ['waves-effect', 'waves-light']);
+Waves.attach('.sources a', ['waves-effect', 'waves-light']);
 
 Waves.init();
 

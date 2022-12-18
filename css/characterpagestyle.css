@@ -207,7 +207,7 @@
         width: 90%;
         left: 0px;
         position: absolute;
-        background-image: linear-gradient(to left, transparent, #f8f8f8 50%);
+        background-image: linear-gradient(to left, transparent, var(--background-color) 50%);
         height: 100%;
 
     }
@@ -280,7 +280,7 @@
     text-decoration: none;
     font-size: 14px;
     font-family: inter;
-    color: var(--topnav-color);
+    color: var(--topnav-color2);
     background-color: var(--highlighted-color);
     filter: brightness(95%);
     -webkit-filter: brightness(95%);
@@ -294,18 +294,8 @@
 
 .sources a:focus{
     text-decoration: none;
-    color: var(--topnav-color);
 }
 
-
-#dark a{
-    color: var(--primary-text-color);
-}
-
-#dark a:focus{
-    text-decoration: none;
-    color: var(--primary-text-color);
-}
 
 
 
@@ -330,24 +320,41 @@
 
 }
 
+.talent-deck{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .talent-card{
-    background-color: #f0f0f0;
+    background-color: var(--hover-colour);
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 10px;
+    width: 350px;
+    min-height: 500px;
+    margin-right: 10px;
+
 
 }
 
+
+
 .talent-icon{
-    text-align: center;
     padding: 10px;
-    background-color: #2F3446;
+    background-color: #191b1f;
     border-radius: 100px;
     overflow: hidden;
-    margin-right: 10px;
     width: 35px;
     height: 35px;
+    margin-right: 10px;
+
+}
+
+.talent-card-heading .talent-icon{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .talent-icon img{
@@ -364,56 +371,138 @@
 
 .talent-card-heading{
     width: 100%;
-    display: flex;
+    display: block;
     padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
-.talent-card-text{
+
+
+.talent-card-heading-text{
     background-color: transparent;
     padding-top:5px ;
-    padding-right: 20px;
-    width: 80%;
+    padding-right: 00px;
+    margin-left: 0px;
+    width: 100%;
     margin-top:auto ;
     margin-bottom: auto;
+    text-align: center;
+    text-align: center;
+    left: 0px;
+
+
 }
 
-.talent-card-title{
-    font-family: Arial;
+.talent-card-heading-text .level{
+    margin: 0px;
+    font-size: 15px;
+    
+}
+
+.title{
+    font-family: interbold;
     font-size: 20px;
     margin:0px;
     text-align: left;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    width: 100%;
     margin-bottom: 5px;
-    font-weight: 700;
 
 }
 
-.talent-card-description-title{
-    font-family: intersemibold;
-    font-size: 0.9rem;
-    margin: 0px;
-    font-weight: 600;
+
+.talent-card-title{
+    font-family: interbold;
+    font-size: 16px;
+    margin:0px;
+    text-align: left;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
 }
+
+
 
 .talent-card-description{
     font-family: inter;
     font-size: 0.9rem;
     margin: 0px;
     margin-bottom: 5px;
+    overflow: auto;
 }
+
+.talent-card-description h1{
+    font-family: intersemibold;
+    font-size: 0.9rem;
+    margin: 0px;
+    font-weight: 600;
+    margin-left: 15px;
+
+}
+
+.talent-card-description p{
+    font-family: inter;
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+
+}
+
+.talent-card-description li{
+    font-family: inter;
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    
+
+}
+
+.talent-card-description i{
+    font-family: inter;
+    font-size: 0.9rem;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+
+}
+
+
+
+
 
 .scalingtable{
     width: 100%;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #e7e5e5;
+    background-color:var(--hover-colour) ;
     overflow-x: auto;
+    margin-bottom: 5px;
+    filter: brightness(110%);
+
 
 }
 
-.stt{
-    position: absolute;
+.talent-card-description .scalingtable td{
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 13px;
+
 }
+
+
 
 span{
     padding: 0px;
@@ -426,10 +515,11 @@ wbr{
 }
 
 tr{
-    background-color: #dadada;
+    background-color:var(--hover-colour) ;
     padding: 0px;
     width: 10px;
-    color: #2F3446;
+    font-size: 15px;
+    filter: brightness(115%);
 
 }
 
@@ -453,7 +543,7 @@ td{
 
 .base-stat-table{
     width: 600px;
-    background-color: #f0f0f0;
+    background-color: var(--hover-colour);
     border-radius: 5px;
     padding-top: 2px;
     padding: 0px;
@@ -480,15 +570,19 @@ td{
 .passive-deck{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    box-sizing: border-box;
 }
 
+.passive-deck-wrapper{
+    display: flex;
 
+}
 
 .passive-card{
     width: 200px;
     height: 250px;
-    background-color: #f0f0f0;
+    background-color: var(--hover-colour);
     border-radius: 10px;
     overflow: hidden;
     padding: 25px;
@@ -525,7 +619,7 @@ td{
 
 .constellations .constellation{
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: var(--hover-colour);
     position: relative;
     border-radius: 5px;
     padding-top:15px ;

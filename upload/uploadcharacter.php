@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 	</head>
-	<?php 
+		<?php 
 			session_start();
 			include '../includes/head.php';
     	?>
@@ -134,7 +134,7 @@
 					</div>
 				</div>
 			</form>
-			<?php
+<?php
 	require_once 'conn.php';
 	
 	if(ISSET($_POST['save'])){
@@ -149,8 +149,15 @@
 		$region = addslashes($_POST['region']);
 		$stat = addslashes($_POST['stat']);
 		$description = addslashes($_POST['description']);
+		$primarycolor = addslashes($_POST['primarycolor']);
+		$secondarycolor = addslashes($_POST['secondarycolor']);
 
-		mysqli_query($conn, "INSERT INTO `characters` VALUES('', '$name', '$keywords', '$img', '$url', '$rarity', '$category', '$element', '$weapon', '$region', '$stat', $description)") or die(mysqli_error());
-				
+		mysqli_query($conn, "INSERT INTO `characters` VALUES('', '$name', '$keywords', '$img', '$url', '$rarity', '$category', '$element', '$weapon', '$region', '$stat', '$description', '$primarycolor', '$secondarycolor')") or die(mysqli_error());
+
 	}
+
+ 
+
+
 ?>
+

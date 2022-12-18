@@ -24,23 +24,39 @@
                 <div class="akashabannercontainer">
                     <h1>Akasha<b>DB</b></h1>
                     <p>An open sourse genshin impact sql database.</p>
-                   
                         <div class="links">
                         <a class="githuba" href="https://github.com/scafiy/AkashaDB/blob/main/akashadb.sql">
                             <button class="githubbtn"><img src="images/icons/github.png" alt="">Github</button>    
                         </a>
                         </div>
+
                 </div>
             </div>
 
-            <div class="aboutsection">
-                <h1>About Us</h1>
-                <p>
-                    <i>"We collect information from the game genshin impact by hand and curate data into our sql database. This project is created for archival purposes and our work is applicable to be used by others"</i>
-                    <i>"All intellectual property, Genshin Impact MATERIALS and rights are reserved to miHoYo Co., Ltd, HoYoverse and Cognosphere."</i>
-                </p>
-            </div>
+            <div class="features">
+                <h1>Why use us?</h1>
 
+                <div class="flex">
+                    <div>
+                        <img src="https://lh3.googleusercontent.com/_w9xZ-KglSVNibMtvqpKGEZG06lz2oQR0Auh4KB6EAGa7MYMkxvRmohH0-jyh8ciLXCnS-wxBlv62KUbaHObMik6bSQx_cT6DC2_olwfNHCvddX6eq4" alt="">
+                        <h1>User Interface</h1>
+                        <p>We follow Google's Material Design Philosophy and have implemented UI and UX methodologys.</p>
+                    </div>
+                    <div>
+                        <img src="https://lh3.googleusercontent.com/_w9xZ-KglSVNibMtvqpKGEZG06lz2oQR0Auh4KB6EAGa7MYMkxvRmohH0-jyh8ciLXCnS-wxBlv62KUbaHObMik6bSQx_cT6DC2_olwfNHCvddX6eq4" alt="">
+                        <h1>Search Fuction</h1>
+                        <p>Our simple yet powerful search bar and filter chips offer the best search functionality for a genshin database.</p>
+                    </div>
+
+                    <div>
+                        <img src="https://lh3.googleusercontent.com/_w9xZ-KglSVNibMtvqpKGEZG06lz2oQR0Auh4KB6EAGa7MYMkxvRmohH0-jyh8ciLXCnS-wxBlv62KUbaHObMik6bSQx_cT6DC2_olwfNHCvddX6eq4" alt="">
+                        <h1>Open Sourse</h1>
+                        <p></p>
+                    </div>
+                </div>
+
+
+            </div>
 
 
 

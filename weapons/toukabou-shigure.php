@@ -28,15 +28,15 @@
 
 
     :root {
-    --highlighted-color: #EBEBEB; 
-    --topnav-color: #EBEBEB;
-    --search-bar-precolour:#EBEBEB;
+    --highlighted-color: #AC3317; 
+    --topnav-color: #E5DAD8;
+    --search-bar-precolour:#E5DAD8;
     }
     
 </style>
 
 <?php
-    $query = mysqli_query($conn, "SELECT * FROM `weapons` WHERE `url` = 'a-thousand-floating-dreams' ") or die(mysqli_error());
+    $query = mysqli_query($conn, "SELECT * FROM `weapons` WHERE `url` = 'toukabou-shigure' ") or die(mysqli_error());
     while($fetch = mysqli_fetch_array($query)){
 
 ?>

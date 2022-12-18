@@ -3,7 +3,7 @@
     position: relative;
     text-align: center;
     background-image: url("../images/bg/aboutheading.png");
-    height:30%;
+    height:40%;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top right;
@@ -13,13 +13,7 @@
 
 }
 
-@media all and (min-width: 1240px) {  
-    .akashabanner{
-        height:50%;
 
-    
-    }
-}
 
 .akashabannercontainer{
     height: 100%;
@@ -28,7 +22,7 @@
     align-content: center;
     justify-content: center;
     padding-top: 5%;
-    padding-left:20px;
+    padding-left:0px;
     margin-top: auto;
     margin-bottom: auto;
     background-color: transparent;
@@ -86,10 +80,14 @@
 
 .aboutsection{
     width: 100%;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0.5);
     border: 10px;
     padding: 20px;
     box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    backdrop-filter: blur(10px);
+    display: block;
 
 
 }
@@ -98,3 +96,42 @@
     margin-left: 10px;
 }
 
+
+
+.features .flex{
+    text-align: center;
+
+
+}
+
+.features .flex div{
+    width: 100%;
+    background-color: #dcdcdd83;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.features .flex div h1{
+    font-family: interbold;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 0px;
+
+}
+
+.features .flex div p{
+    font-family: inter;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+
+.features div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
