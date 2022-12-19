@@ -131,7 +131,6 @@
     font-family: genshin;
     padding: 0px;
     margin: 0px;
-    font-weight: 700;
     
 }
 
@@ -329,7 +328,7 @@
     width: 600px;
     height: 145px;
     background-color: #f0f0f0;
-    border-radius: 3px;
+    border-radius: 5px;
     padding-top: 2px;
     padding: 0px;
     margin: 0px;
@@ -386,6 +385,8 @@
 
 .scalingtable{
     width: 100%;
+    position: relative;
+    top: 6px;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -441,12 +442,13 @@ td{
 .base-stat-table{
     width: 600px;
     background-color:var(--hover-colour) ;
-    border-radius: 3px;
     padding-top: 2px;
     padding: 0px;
     margin: 0px;
     margin-bottom: 10px;
-
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
 
 }
 
@@ -483,7 +485,7 @@ td{
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
     overflow: hidden;
 
 }
@@ -500,14 +502,17 @@ td{
 .passive-content p{
     background-color: #e7e5e5;
     background-color:var(--hover-colour) ;
-    filter: brightness(95%);
+    filter: brightness(110%);
     padding: 10px;
     margin: 0px;
     margin-top: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
     overflow: hidden;
 
 }
 
 
 
+.logo sup{
+    color: var(--highlighted-color);
+}

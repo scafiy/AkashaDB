@@ -77,8 +77,335 @@
                     </div>
                 </div>
                 <div class="information">
+                
+
+                    <div class="base-stat-table">
+                        <div class="talent-card-heading">
+                            <p class="title">Base Stats</p>
+                        </div>
+
+                        <table class="scalingtable">
+
+                        <tr>
+                            <td>Level</td>
+                            <td>Base HP</td>
+                            <td>Base ATK</td>
+                            <td>Base DEF</td>
+                            <td><?php echo $fetch['stat']?></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>90/90</td>
+                            <td>13226</td>
+                            <td>251</td>
+                            <td>876</td>
+                            <td>28.8%</td>
+
+                        </tr>
+                        </table>
+                    </div>
+
+                    <p class="title">Talents</p>
+                    <div class="talent-deck">
+                        <div class="talent-card">
+                            <div class="talent-card-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/na.png" alt="">
+                                </div>
+
+                                <div class="talent-card-heading-text">
+                                    <p class="talent-card-title">Normal Attack: Favonius Bladework - Weiss</p>
+                                    <p class="level">Lv.9</p>
+                                </div>
+                            </div>
+
+                            <div class="talent-card-description">
+                                <h1 class="">Normal Attack</h1>
+                                <p class="">Performs up to 5 rapid strikes.</p>
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>1-Hit DMG</td>
+                                            <td style="text-align:right;">67.5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2-Hit DMG</td>
+                                            <td style="text-align:right;">67.5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3-Hit DMG</td>
+                                            <td style="text-align:right;">87.2%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4-Hit DMG</td>
+                                            <td style="text-align:right;">91.4%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5-Hit DMG</td>
+                                            <td style="text-align:right;">114%</td>
+                                        </tr>
+
+                                    </table>
+
+                                    <h1>Charged Attack</h1>
+                                    <p>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.</p>
+                                    <table class="scalingtable">
+                                        <tr>
+                                            <td>Charged Attack DMG</td>
+                                            <td style="text-align:right;">86.9%+110.6%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Charged Attack Stamina Cost</td>
+                                            <td style="text-align:right;">20</td>
+                                        </tr>
 
 
+                                    </table>
+
+                                    <h1>Plunging Attack</h1>
+                                    <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>
+                                    <table class="scalingtable">
+                                        <tr>
+                                            <td>Collision Plunge DMG</td>
+                                            <td style="text-align:right;">117.5%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Low/High Plunge DMG</td>
+                                            <td style="text-align:right;">235%/293%</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+
+                        <div class="talent-card">
+                            <div class="talent-card-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/skill.png" alt="">
+                                </div>
+
+                                <div class="talent-card-heading-text">
+                                    <p class="talent-card-title">Elemental Skill: Abiogenesis: Solar Isotoma</p>
+                                    <p class="level">Lv.9</p>
+                                </div>
+                            </div>
+
+                            <div class="talent-card-description">
+                                <p class="talent-card-text"></p> 
+                                    <p>Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.</p>                           
+                                    <h1>Solar Isotoma</h1> 
+                                    <p>has the following properties:</p>
+                                    <li>When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF.</li>
+                                    <li>Transient Blossoms can only be generated once every 2s.</li>
+                                    <li>When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.</li>
+                                    <li>Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time.</li>
+                                    <p>Hold to designate the location of the skill.</p>
+                                    <table class="scalingtable">
+                                        <tr>
+                                            <td>Skill DMG</td>
+                                            <td style="text-align:right;">222%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Transient Blossom DMG</td>
+                                            <td style="text-align:right;">227% DEF</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duration</td>
+                                            <td style="text-align:right;">30s</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Skill CD</td>
+                                            <td style="text-align:right;">4s</td>
+                                        </tr>
+                                    </table>
+                                    <p><i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i></p>
+                                </div>
+                            </div>
+
+                        <div class="talent-card">
+                            <div class="talent-card-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/burst.png" alt="">
+                                </div>
+
+                                <div class="talent-card-heading-text">
+                                    <p class="talent-card-title">Elemental Burst: Rite of Progeniture: Tectonic Tide</p>
+                                    <p class="level">Lv.9</p>
+                                </div>
+                            </div>
+
+                            <div class="talent-card-description">
+                                <p class="">Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.</p>
+                                <p>If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.</p>
+                                <p>Tectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.</p>
+                                
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Burst DMG</td>
+                                            <td style="text-align:right;">624%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fatal Blossom DMG</td>
+                                            <td style="text-align:right;">122.4% each</td>
+                                        </tr>
+                                        <tr>
+                                            <td>CD</td>
+                                            <td style="text-align:right;">12s</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Energy Cost</td>
+                                            <td style="text-align:right;">40</td>
+                                        </tr>
+
+                                    </table>
+                                    <p><i>Under the Kreideprinz's command, the tectonic tide of creation seethes into life.
+</i></p>
+
+                                
+                            </div>
+                    </div>
+
+
+                    
+
+                    <p class="title">Passives</p>
+
+                    <div class="passive-deck">
+                        <div class="passive-deck-wrapper">
+
+                    
+                            <div class="passive-card">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
+                                </div>                        
+                                
+                                <h1>Flash of Genius</h1>
+                                <p>When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.
+</p>
+                            </div>
+
+                            <div class="passive-card">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
+                                </div> 
+                                <h1>Calcite Might</h1>
+                                <p>Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%.
+</p>
+                            </div>
+
+                            <div class="passive-card">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
+                                </div> 
+                                <h1>Homuncular Nature</h1>
+                                <p>Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s.</p>
+                            </div>
+                            </div>
+
+                    </div>
+
+
+
+
+
+                    <p class="title">Constellations</p>
+
+                    <div class="constellations">
+
+                        <div class="constellation">
+                            <div class="constellation-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/c1.png" alt="">
+                                </div>
+
+                                <div class="constellation-text">
+                                    <h1>C1: Flower of Eden</h1>
+                                    <p>Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo.
+</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="constellation">
+                            <div class="constellation-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
+                                </div>
+                                <div class="constellation-text">
+                                    <h1>C2: Opening of Phanerozoic</h1>
+                                    <p>Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:</p>
+                                    <li>Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.</li>
+                                    <li>This effect stacks up to 4 times.</li>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="constellation">
+                            <div class="constellation-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/c3.png" alt="">
+                                </div>
+
+                                <div class="constellation-text">
+                                    <h1>C3: Grace of Helios</h1>
+                                    <p>Increases the Level of Abiogenesis: Solar Isotoma by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
+                                </div>
+                            </div>
+                    
+                        </div>
+
+
+                        <div class="constellation">
+                            <div class="constellation-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
+                                </div>
+                                <div class="constellation-text">
+                                    <h1>C4: Descent of Divinity</h1>
+                                    <p>Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%.</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="constellation">
+                            <div class="constellation-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
+                                </div>
+                                <div class="constellation-text">
+                                    <h1>C5: Tide of Hadean</h1>
+                                    <p>Increases the Level of Rite of Progeniture: Tectonic Tide by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="constellation">
+                            <div class="constellation-heading">
+                                <div class="talent-icon">
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
+                                </div>
+                                <div class="constellation-text">
+                                    <h1>C6: Dust of Purification</h1>
+                                    <p>Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+
+
+                </div>     
 
 
                 </div>
@@ -88,10 +415,16 @@
     
 <script type="text/javascript">
 $(window).on("load", function() {
-    $("#albedo-button").addClass("active");
+    $("#<?php echo $fetch['url']?>-button").addClass("active");
     $("#character-dropdown-icon").addClass("active-dropdown-icon");
     $("#character-dropdown-content").addClass("active-dropdown-content");
+
+    $('html, body, .sidenav').animate({
+        scrollTop: $("#<?php echo $fetch['url']?>-button").offset().top - 50
+    }, 600);
  });
+
+ 
 </script>
 <script type="text/javascript" src="../js/waves.min.js"></script>
 <script type="text/javascript" src="../js/swiper.min.js"></script>

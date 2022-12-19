@@ -68,10 +68,20 @@
                     </div>
                 </div>
 
+                <script type="text/javascript">
+                    $(window).on("load", function() {
+                        $("#<?php echo $fetch['url']?>-button").addClass("active");
+                        $("#artifact-dropdown-icon").addClass("active-dropdown-icon");
+                        $("#artifact-dropdown-content").addClass("active-dropdown-content");
+
+                        $('html, body, .sidenav').animate({
+                            scrollTop: $("#<?php echo $fetch['url']?>-button").offset().top - 50
+                        }, 600);
+                    });
+                    </script>
                 <?php
                     }
                 ?>
-
                 
 
             </div>

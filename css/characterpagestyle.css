@@ -14,7 +14,13 @@
     border-radius: 10px;
     top: 10px;
     flex-direction: row-reverse;
+    
+}
 
+@media all and (max-width: 1200px) {
+    .banner{
+        margin-bottom: 40px;
+    }
 }
 
 .splash-art{
@@ -96,7 +102,6 @@
     font-family: genshin;
     padding: 0px;
     margin: 0px;
-    font-weight: 700;
 
 }
 
@@ -340,6 +345,7 @@
 
 
 
+
 .talent-icon{
     padding: 10px;
     background-color: #191b1f;
@@ -394,11 +400,46 @@
 
 }
 
+
+
 .talent-card-heading-text .level{
     margin: 0px;
-    font-size: 15px;
-    
+    font-size: 13px;
+    width: 70px;
+    background-color: var(--hover-colour);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 100px;
+    backdrop-filter: blur(100px);
+
 }
+
+@media all and (max-width: 1200px) {
+    .talent-card{
+        width: 100%;
+        height: auto;
+        min-height: auto;
+
+    }
+
+    .talent-card-heading{
+        display: flex;
+    }
+
+    .talent-card-heading-text{
+        text-align: left;
+    }
+
+    .talent-card-heading-text .talent-card-title, .talent-card-heading-text .level{
+        text-align: left;
+        margin-left: 10px;
+        width: 50%;
+
+    }
+
+}
+
 
 .title{
     font-family: interbold;
@@ -445,6 +486,7 @@
     margin: 0px;
     font-weight: 600;
     margin-left: 15px;
+    color: #E7C073;
 
 }
 
@@ -473,8 +515,7 @@
     font-size: 0.9rem;
     margin: 0px;
     margin-bottom: 5px;
-    margin-left: 15px;
-
+    width: 100%;
 }
 
 
@@ -591,6 +632,8 @@ td{
     text-align:center ;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+
     
 }
 
@@ -626,9 +669,11 @@ td{
     padding-bottom:15px ;
     padding-left:15px ;
     padding-right:15px ;
-    
     margin-bottom: 5px;
     display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+
 }
 
 .constellation-heading{
@@ -645,7 +690,9 @@ td{
     margin-top: auto;
     margin-bottom: auto;
     align-content: center;  
-    justify-content: center;  
+    justify-content: center; 
+    width: 80%;
+    overflow-x: auto;
 }
 
 .constellations .constellation h1{    
@@ -659,4 +706,8 @@ td{
     margin: 0px;
     font-size: 14px;
 
+}
+
+.logo sup{
+    color: var(--highlighted-color);
 }

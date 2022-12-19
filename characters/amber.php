@@ -115,7 +115,7 @@
                             </div>
 
                             <div class="talent-card-heading-text">
-                                <p class="talent-card-title">Sharpshooter</p>
+                                <p class="talent-card-title">Normal Attack: Sharpshooter</p>
                                 <p class="level">Lv.9</p>
                             </div>
                         </div>
@@ -185,7 +185,8 @@
                             </div>
 
                             <div class="talent-card-heading-text">
-                                <p class="talent-card-title">Explosive Puppet</p>
+                                <p class="talent-card-title">Elemental Skill: Explosive Puppet</p>
+                                <p class="level">Lv.9</p>
                             </div>
                         </div>
 
@@ -214,18 +215,19 @@
                                         <td style="text-align:right;">15s</td>
                                     </tr>
                                 </table>
-                                <i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i>
+                                <p><i>Baron Bunny hails from a storied lineage, but Amber has stopped keeping count since Baron Bunny the 893rd.</i></p>
                             </div>
                         </div>
 
                     <div class="talent-card">
                         <div class="talent-card-heading">
                             <div class="talent-icon">
-                                <img src="../images/characters/<?php echo $fetch['url']?>/na.png" alt="">
+                                <img src="../images/characters/<?php echo $fetch['url']?>/burst.png" alt="">
                             </div>
 
                             <div class="talent-card-heading-text">
-                                <p class="talent-card-title">Fiery Rain</p>
+                                <p class="talent-card-title">Elemental Burst: Fiery Rain</p>
+                                <p class="level">Lv.9</p>
                             </div>
                         </div>
 
@@ -254,7 +256,7 @@
                                     </tr>
 
                                 </table>
-                                <i>Amber's passion truly burns hot.</i>
+                                <p><i>Amber's passion truly burns hot.</i></p>
 
                               
                         </div>
@@ -408,8 +410,17 @@ $(window).on("load", function() {
     $("#amber-button").addClass("active");
     $("#character-dropdown-icon").addClass("active-dropdown-icon");
     $("#character-dropdown-content").addClass("active-dropdown-content");
+
+    $('html, body, .sidenav').animate({
+        scrollTop: $("#<?php echo $fetch['url']?>-button").offset().top - 50
+    }, 600);
+
  });
+
+
 </script>
+
+
 <script type="text/javascript" src="../js/waves.min.js"></script>
 <script type="text/javascript" src="../js/swiper.min.js"></script>
 <script type="text/javascript" src="../js/jquery.min.js"></script>

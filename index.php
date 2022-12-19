@@ -133,8 +133,7 @@
                 <div class="newsfeed">
                     <h1>News Feed</h1>
                     <div>
-                    <a class="twitter-timeline" href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Etfw">Tweets by GenshinImpact</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
+                    <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Etfw">Tweets by GenshinImpact</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    </div>
                 </div>
                 </div>
 

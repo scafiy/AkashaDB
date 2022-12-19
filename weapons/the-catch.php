@@ -89,9 +89,6 @@
                     </div>
                 </div>   
 
-                <?php
-    }
-?>
 
 
 
@@ -105,12 +102,7 @@
     </div>
 
     
-<script type="text/javascript">
-$(window).on("load", function() {
-    $("#the-catch-button").addClass("active");
-    $("#weapon-dropdown-icon").addClass("active-dropdown-icon");
-    $("#weapon-dropdown-content").addClass("active-dropdown-content");
- });
+
 </script>
 <script type="text/javascript" src="../js/waves.min.js"></script>
 <script type="text/javascript" src="../js/swiper.min.js"></script>
@@ -118,5 +110,20 @@ $(window).on("load", function() {
 <script type="text/javascript" src="../js/uniscript.js"></script>
 
 </body>
+<script type="text/javascript">
+    $(window).on("load", function() {
+        $("#<?php echo $fetch['url']?>-button").addClass("active");
+        $("#weapon-dropdown-icon").addClass("active-dropdown-icon");
+        $("#weapon-dropdown-content").addClass("active-dropdown-content");
+
+        $('html, body, .sidenav').animate({
+            scrollTop: $("#<?php echo $fetch['url']?>-button").offset().top - 50
+        }, 600);
+ });
+</script>
+
+                <?php
+    }
+?>
 
 
