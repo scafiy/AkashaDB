@@ -70,11 +70,11 @@
 
                         <div class="filter-row">
                             <p>Ascension Stat:</p>
-                            <button class="filter-chip filter-ATK"><i class="material-symbols-outlined">check</i>ATK%</button>
-                            <button class="filter-chip filter-DEF"><i class="material-symbols-outlined">check</i>DEF%</button>
-                            <button class="filter-chip filter-HP"><i class="material-symbols-outlined">check</i>HP%</button>
+                            <button class="filter-chip filter-ATK"><i class="material-symbols-outlined">check</i>ATK</button>
+                            <button class="filter-chip filter-DEF"><i class="material-symbols-outlined">check</i>DEF</button>
+                            <button class="filter-chip filter-HP"><i class="material-symbols-outlined">check</i>HP</button>
                             <button class="filter-chip filter-CR"><i class="material-symbols-outlined">check</i>Crit Rate</button>
-                            <button class="filter-chip filter-CD"><i class="material-symbols-outlined">check</i>Crit Damage</button>
+                            <button class="filter-chip filter-CD"><i class="material-symbols-outlined">check</i>Crit DMG</button>
                             <button class="filter-chip filter-EM"><i class="material-symbols-outlined">check</i>Elemental Mastery</button>
                             <button class="filter-chip filter-ER"><i class="material-symbols-outlined">check</i>Energy Recharge</button>
                             <button class="filter-chip filter-HB"><i class="material-symbols-outlined">check</i>Heaing Bonus</button>

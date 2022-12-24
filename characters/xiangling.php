@@ -89,16 +89,16 @@
                             <td>Base HP</td>
                             <td>Base ATK</td>
                             <td>Base DEF</td>
-                            <td><?php echo $fetch['stat']?></td>
+                            <td>Elemental Mastery</td>
 
                         </tr>
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>10875</td>
+                            <td>225</td>
+                            <td>669</td>
+                            <td>96</td>
 
                         </tr>
                         </table>
@@ -113,63 +113,63 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Normal Attack: </p>
+                                    <p class="talent-card-title">Normal Attack: Dough-Fu</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to five consecutive spear strikes.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">77.3%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">77.4%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">47.9%+47.9%</td>
                                         </tr>
                                         <tr>
                                             <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">25.9%x4</td>
                                         </tr>
                                         <tr>
                                             <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">131%</td>
                                         </tr>
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack DMG</td>
+                                            <td style="text-align:right;">224%</td>
                                         </tr>
                                         <tr>
-                                            <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack Stamina Cost</td>
+                                            <td style="text-align:right;">25</td>
                                         </tr>
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">117.5%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">235%/293%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -183,30 +183,29 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Guoba Attack</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
+                                <p>Summons Guoba, who will continuously breathe fire at opponents, dealing AoE Pyro DMG.</p>
+
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
+                                            <td>Flame DMG</td>
+                                            <td style="text-align:right;">189%</td>
                                         </tr>
                                         <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
+                                            <td>Flame DMG Instances</td>
+                                            <td style="text-align:right;">4</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;">15s</td>
+                                            <td style="text-align:right;">12s</td>
                                         </tr>
                                     </table>
-                                    <p><i></i></p>
+                                    <p><i>Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.</i></p>
                                 </div>
                             </div>
 
@@ -217,33 +216,46 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Pyronado</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+                                <p>Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.</p>
+                                <p>The Pyronado will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path.</p>
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>1-Hit Swing DMG</td>
+                                            <td style="text-align:right;">122%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2-Hit Swing DMG</td>
+                                            <td style="text-align:right;">150%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3-Hit Swing DMG</td>
+                                            <td style="text-align:right;">186%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pyronado DMG</td>
+                                            <td style="text-align:right;">190%</td>
                                         </tr>
                                         <tr>
                                             <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">10s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">20s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">80</td>
                                         </tr>
 
                                     </table>
-                                    <p><i></i></p>
+                                    <p><i>There will never be enough heat. Never.</i></p>
 
                                 
                             </div>
@@ -263,24 +275,25 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Chef de Cuisine</h1>
+                                <p>When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.
+</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Crossfire</h1>
+                                <p>Increases the flame range of Guoba by 20%.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Beware, It's Super Hot!</h1>
+                                <p>When Guoba Attack's effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.</p>
                             </div>
                             </div>
 
@@ -301,8 +314,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Crispy Outside, Tender Inside</h1>
+                                    <p>Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s.</p>
                                 </div>
 
                             </div>
@@ -316,8 +329,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Oil Meets Fire</h1>
+                                    <p>The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG.</p>
                                 </div>
                             </div>
                         </div>
@@ -332,8 +345,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
+                                    <h1>C3: Deepfry</h1>
+                                    <p>Increases the Level of Pyronado by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -346,8 +360,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Slowbake</h1>
+                                    <p>Pyronado's duration is increased by 40%.</p>
                                 </div>
 
                             </div>
@@ -360,8 +374,10 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
+                                    <h1>C5: Guoba Mad</h1>
+                                    <p>Increases the Level of Guoba Attack by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
+
                                 </div>
                             </div>
                         </div>
@@ -373,8 +389,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Condensed Pyronado</h1>
+                                    <p>For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.</p>
                                 </div>
                             </div>
                         </div>

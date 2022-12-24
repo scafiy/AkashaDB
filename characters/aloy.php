@@ -87,16 +87,16 @@
                             <td>Base HP</td>
                             <td>Base ATK</td>
                             <td>Base DEF</td>
-                            <td><?php echo $fetch['stat']?></td>
+                            <td>Cryo DMG Bonus</td>
 
                         </tr>
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>10899</td>
+                            <td>234</td>
+                            <td>676</td>
+                            <td>28.8%</td>
 
                         </tr>
                         </table>
@@ -118,56 +118,54 @@
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to 4 consecutive shots with a bow.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">35.5%+40%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">72.5%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">88.8%</td>
                                         </tr>
                                         <tr>
                                             <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">110.4%</td>
                                         </tr>
-                                        <tr>
-                                            <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
+
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Performs a more precise Aimed Shot with increased DMG.</p>
+                                    <p>While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">80.6%</td>
                                         </tr>
                                         <tr>
                                             <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">211%</td>
                                         </tr>
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">104.4%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">209%/261%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -181,30 +179,70 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Frozen Wilds</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
+                                <p class="talent-card-text"></p> 
+                                    <p>Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.</p>                           
+                                    
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
+                                            <td>Freeze Bomb DMG</td>
+                                            <td style="text-align:right;">302%</td>
                                         </tr>
                                         <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
+                                            <td>Chillwater Bomblet DMG</td>
+                                            <td style="text-align:right;">68%</td>
+                                        </tr>
+                                    </table>
+                                    
+                                    
+                                    <p>When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.</p>
+                                    <p>Aloy can gain up to 1 Coil stack every 0.1s.</p>
+                                    
+                                    <h1>Coil</h1>
+                                    <li>Each stack increases Aloy's Normal Attack DMG.</li>
+                                    <li>When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.</li>
+                                    
+                                    <p>While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.</p>
+                                    <p>Coil effects will be cleared 30s after Aloy leaves combat.</p>
+
+
+                                    <table class="scalingtable">
+
+                                        <tr>
+                                            <td>ATK Decrease</td>
+                                            <td style="text-align:right;">14%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ATK Decrease Duration</td>
+                                            <td style="text-align:right;">6s</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Coil Normal Attack DMG Bonus</td>
+                                            <td style="text-align:right;">9.1%/18.1%/27.2%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rushing Ice Normal Attack DMG Bonus</td>
+                                            <td style="text-align:right;">45.3%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rushing Ice Duration</td>
+                                            <td style="text-align:right;">10s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;">15s</td>
+                                            <td style="text-align:right;">20s</td>
                                         </tr>
+                                        
+
                                     </table>
-                                    <p><i></i></p>
+
+
+                                    <p><i>You think that's cold? Guess you've never been to The Cut.</i></p>
                                 </div>
                             </div>
 
@@ -215,33 +253,30 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Prophecies of Dawn</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+                                <p class="">Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo DMG.</p>
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Skill DMG</td>
+                                            <td style="text-align:right;">611%</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">12s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">40</td>
                                         </tr>
 
+
                                     </table>
-                                    <p><i></i></p>
+                                    <p><i>Whether "Zero Dawn" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.</i></p>
 
                                 
                             </div>
@@ -261,24 +296,24 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Easy Does It</h1>
+                                <p>When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Combat Override</h1>
+                                <p>When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Strong Strike</h1>
+                                <p>When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way.</p>
                             </div>
                             </div>
 
@@ -299,85 +334,13 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>Star of Another World</h1>
+                                    <p>The time has not yet come for this person's corner of the night sky to light up.</p>
                                 </div>
 
                             </div>
                         </div>
 
-
-
-                        <div class="constellation">
-                            <div class="constellation-heading">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
-                                </div>
-                                <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                        <div class="constellation">
-                            <div class="constellation-heading">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/c3.png" alt="">
-                                </div>
-
-                                <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
-                                </div>
-                            </div>
-                    
-                        </div>
-
-
-                        <div class="constellation">
-                            <div class="constellation-heading">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
-                                </div>
-                                <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <div class="constellation">
-                            <div class="constellation-heading">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
-                                </div>
-                                <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="constellation">
-                            <div class="constellation-heading">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
-                                </div>
-                                <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
 
 
                 </div>                   

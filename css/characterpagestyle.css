@@ -334,10 +334,10 @@
 .talent-card{
     background-color: var(--hover-colour);
     border-radius: 5px;
-    overflow: hidden;
+    overflow-y: auto;
     margin-bottom: 10px;
     width: 350px;
-    min-height: 500px;
+    height: 500px;
     margin-right: 10px;
 
 
@@ -354,6 +354,14 @@
     width: 35px;
     height: 35px;
     margin-right: 10px;
+
+}
+
+.talent-card-heading{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: var(--hover-colour);
 
 }
 
@@ -486,6 +494,7 @@
     margin: 0px;
     font-weight: 600;
     margin-left: 15px;
+    margin-right: 15px;
     color: #E7C073;
 
 }
@@ -496,6 +505,7 @@
     margin: 0px;
     margin-bottom: 5px;
     margin-left: 15px;
+    margin-right: 15px;
 
 }
 
@@ -505,6 +515,7 @@
     margin: 0px;
     margin-bottom: 5px;
     margin-left: 15px;
+    margin-right: 15px;
     text-decoration: none;
     
 
@@ -516,6 +527,8 @@
     margin: 0px;
     margin-bottom: 5px;
     width: 100%;
+    margin-right: 15px;
+    color: rgb(151, 151, 151);
 }
 
 
@@ -621,12 +634,14 @@ td{
 }
 
 .passive-card{
-    width: 200px;
-    height: 250px;
+    max-width: 260px;
+    height: 350px;
     background-color: var(--hover-colour);
     border-radius: 10px;
-    overflow: hidden;
-    padding: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-bottom: 10px;
     margin-right: 5px;
     text-align:center ;
@@ -648,11 +663,24 @@ td{
 
 .passive-card h1{
     font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .passive-card p{
     margin: 0;
     font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.passive-card li{
+    margin: 10px;
+    font-size: 15px;
+    text-align: left;
+    width: 95%;
 
 }
 
@@ -661,6 +689,7 @@ td{
 }
 
 .constellations .constellation{
+    font-family: roboto;
     width: 100%;
     background-color: var(--hover-colour);
     position: relative;
@@ -699,6 +728,7 @@ td{
     font-size: 18px;
     padding: 0px;
     margin: 0px;
+
 }
 
 .constellations .constellation p{    
@@ -708,6 +738,16 @@ td{
 
 }
 
+.constellations .constellation li{    
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+
+}
 .logo sup{
     color: var(--highlighted-color);
+}
+
+.dark{
+    color: rgb(32, 32, 32);
 }

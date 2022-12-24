@@ -81,16 +81,16 @@
                             <td>Base HP</td>
                             <td>Base ATK</td>
                             <td>Base DEF</td>
-                            <td><?php echo $fetch['stat']?></td>
+                            <td>Physical DMG Bonus</td>
 
                         </tr>
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>11962</td>
+                            <td>234</td>
+                            <td>751</td>
+                            <td>30.0%</td>
 
                         </tr>
                         </table>
@@ -105,63 +105,71 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Normal Attack: </p>
+                                    <p class="talent-card-title">Normal Attack: Steel Fang</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to 4 consecutive strikes.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">161%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">139%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">174%</td>
                                         </tr>
                                         <tr>
                                             <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">229%</td>
                                         </tr>
-                                        <tr>
-                                            <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
+
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.</p>
+                                    <p>At the end of the sequence, performs a more powerful slash.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack Cyclic DMG</td>
+                                            <td style="text-align:right;">115%</td>
                                         </tr>
                                         <tr>
-                                            <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack Final DMG</td>
+                                            <td style="text-align:right;">208%</td>
                                         </tr>
+                                        <tr>
+                                            <td>Charged Attack Stamina Cost</td>
+                                            <td style="text-align:right;">40/s</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Max Duration</td>
+                                            <td style="text-align:right;">5s</td>
+                                        </tr>
+
+
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">150.7%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">301%/376%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -175,30 +183,69 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Claw and Thunder</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
-                                    <table class="scalingtable">
+                                <p>Hunts his prey using the techniques taught to him by his master and his lupical.</p>
+                                <h1>Press</h1>
+                                <p>Swings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.</p>
+                                <table class="scalingtable">
                                         <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
+                                            <td>Press Skill DMG</td>
+                                            <td style="text-align:right;">339%</td>
                                         </tr>
                                         <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
+                                            <td>Press CD</td>
+                                            <td style="text-align:right;">6s</td>
+                                        </tr>
+
+                                </table>
+                                <p>Upon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.</p>
+                                <p>Razor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.</p>
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Energy Recharge Bonus</td>
+                                            <td style="text-align:right;">20% per Electro Sigil</td>
                                         </tr>
                                         <tr>
-                                            <td>CD</td>
-                                            <td style="text-align:right;">15s</td>
+                                            <td>Electro Sigil duration</td>
+                                            <td style="text-align:right;">18s</td>
                                         </tr>
-                                    </table>
-                                    <p><i></i></p>
+
+                                </table>
+
+                                <h1>Hold</h1>
+                                <p>Gathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.</p>
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Hold Skill DMG</td>
+                                            <td style="text-align:right;">502%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hold CD</td>
+                                            <td style="text-align:right;">10s</td>
+                                        </tr>
+
+
+                                </table>
+                                <p>Each Electro Sigil cleared in this manner will be converted into Energy for Razor.</p>
+
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Energy Regenerated</td>
+                                            <td style="text-align:right;">5 per Electro Sigil Absorbed</td>
+                                        </tr>
+
+
+                                </table>
+
+
+
+                                    
+                                    <p><i>In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.</i></p>
                                 </div>
                             </div>
 
@@ -209,33 +256,66 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Lightning Fang</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+
+                                <p>Summons the Wolf Within, which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.</p>
+                                <p>The Wolf Within will fight alongside Razor for the skill's duration.</p>
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Burst DMG</td>
+                                            <td style="text-align:right;">272%</td>
                                         </tr>
                                         <tr>
                                             <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">15s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">20s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">80</td>
+                                        </tr>
+                                    </table>
+
+
+                                    <h1>The Wolf Within</h1>
+                                    <li>Strikes alongside Razor's normal attacks, dealing Electro DMG.</li>
+                                    <table class="scalingtable">
+                                        <tr>
+                                            <td>Soul Companion DMG</td>
+                                            <td style="text-align:right;">40.8% Normal Attack DMG</td>
                                         </tr>
 
                                     </table>
-                                    <p><i></i></p>
+                                    <li>Raises Razor's ATK SPD and Electro RES.</li>
+
+                                    <table class="scalingtable">
+                                        <tr>
+                                            <td>Normal ATK SPD Bonus</td>
+                                            <td style="text-align:right;">39%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Electro RES Bonus</td>
+                                            <td style="text-align:right;">80%</td>
+                                        </tr>
+                                    </table>
+                                    <li>Causes Razor to be immune to DMG inflicted by the Electro-Charged status.</li>
+                                    <li>Disables Razor's Charged Attacks.</li>
+                                    <li>Increases Razor's resistance to interruption.</li>
+                                    <p>These effects end when Razor leaves the battlefield.</p>
+                                    <p>When Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.</p>
+                                    
+                                    
+                                    
+                                    
+                                    <p><i>The wolf has awoken. The hunt is on.</i></p>
 
                                 
                             </div>
@@ -255,24 +335,26 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Wolvensprint</h1>
+                                <p>Decreases sprinting Stamina consumption for your own party members by 20%.</p>
+                                <p>Not stackable with Passive Talents that provide the exact same effects.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Awakening</h1>
+                                <p>Decreases Claw and Thunder's CD by 18%.</p>
+                                <p>Using Lightning Fang resets the CD of Claw and Thunder.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Hunger</h1>
+                                <p>When Razor's Energy is below 50%, increases Energy Recharge by 30%.</p>
                             </div>
                             </div>
 
@@ -293,8 +375,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Wolf's Instinct</h1>
+                                    <p>Picking up an Elemental Orb or Particle increases Razor's DMG by 10% for 8s.</p>
                                 </div>
 
                             </div>
@@ -308,8 +390,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Suppression</h1>
+                                    <p>Increases CRIT Rate against opponents with less than 30% HP by 10%.</p>
                                 </div>
                             </div>
                         </div>
@@ -324,8 +406,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
+                                    <h1>C3: Soul Companion</h1>
+                                    <p>Increases the Level of Lightning Fang by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -338,8 +421,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Bite</h1>
+                                    <p>When casting Claw and Thunder (Press), opponents hit will have their DEF decreased by 15% for 7s.</p>
                                 </div>
 
                             </div>
@@ -352,8 +435,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
+                                    <h1>C5: Sharpened Claws</h1>
+                                    <p>Increases the Level of Claw and Thunder by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -365,8 +449,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Lupus Fulguris</h1>
+                                    <p>Every 10s, Razor's sword charges up, causing the next Normal Attack to release lightning that deals 100% of Razor's ATK as Electro DMG.</p>
+                                    <p>When Razor is not using Lightning Fang, a lightning strike on an opponent will grant Razor an Electro Sigil for Claw and Thunder.</p>
                                 </div>
                             </div>
                         </div>

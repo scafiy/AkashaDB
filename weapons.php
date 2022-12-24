@@ -76,11 +76,11 @@
 
                         <div class="filter-row">
                             <p>Secondary Stat</p>
-                            <button class="filter-chip filter-ATK"><i class="material-symbols-outlined">check</i>ATK%</button>
-                            <button class="filter-chip filter-DEF"><i class="material-symbols-outlined">check</i>DEF%</button>
-                            <button class="filter-chip filter-HP"><i class="material-symbols-outlined">check</i>HP%</button>
+                            <button class="filter-chip filter-ATK"><i class="material-symbols-outlined">check</i>ATK</button>
+                            <button class="filter-chip filter-DEF"><i class="material-symbols-outlined">check</i>DEF</button>
+                            <button class="filter-chip filter-HP"><i class="material-symbols-outlined">check</i>HP</button>
                             <button class="filter-chip filter-CR"><i class="material-symbols-outlined">check</i>Crit Rate</button>
-                            <button class="filter-chip filter-CD"><i class="material-symbols-outlined">check</i>Crit Damage</button>
+                            <button class="filter-chip filter-CD"><i class="material-symbols-outlined">check</i>Crit DMG</button>
                             <button class="filter-chip filter-EM"><i class="material-symbols-outlined">check</i>Elemental Mastery</button>
                             <button class="filter-chip filter-ER"><i class="material-symbols-outlined">check</i>Energy Recharge</button>
                             <button class="filter-chip filter-physicalDMG"><i class="material-symbols-outlined">check</i>Phyiscal DMG Bonus</button>

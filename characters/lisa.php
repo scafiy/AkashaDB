@@ -82,16 +82,16 @@
                             <td>Base HP</td>
                             <td>Base ATK</td>
                             <td>Base DEF</td>
-                            <td><?php echo $fetch['stat']?></td>
+                            <td>Elemental Mastery</td>
 
                         </tr>
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>9570</td>
+                            <td>232</td>
+                            <td>573</td>
+                            <td>96</td>
 
                         </tr>
                         </table>
@@ -106,63 +106,60 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Normal Attack: </p>
+                                    <p class="talent-card-title">Normal Attack: Lightning Touch</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to 4 lightning attacks that deal Electro DMG.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">67.3%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">61.1%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">72.8%</td>
                                         </tr>
                                         <tr>
                                             <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">93.4%</td>
                                         </tr>
-                                        <tr>
-                                            <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
+
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Consumes a certain amount of Stamina to deal AoE Electro DMG after a short casting time.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack DMG</td>
+                                            <td style="text-align:right;">301%</td>
                                         </tr>
                                         <tr>
-                                            <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack Stamina Cost</td>
+                                            <td style="text-align:right;">50</td>
                                         </tr>
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">104.4%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">209%/261%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -176,30 +173,63 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Violet Arc</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
-                                    <table class="scalingtable">
-                                        <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>CD</td>
-                                            <td style="text-align:right;">15s</td>
-                                        </tr>
-                                    </table>
-                                    <p><i></i></p>
+                                <p>Channels the power of lightning to sweep bothersome matters away.</p>
+                                
+                                <h1>Press</h1>
+                                <p>Releases a homing Lightning Orb.</p>
+                                <p>On hit, it deals Electro DMG and applies a stack of the Conductive status (max 3 stacks) to opponents in a small AoE.</p>
+                                
+                                <table class="scalingtable">
+                                    <tr>
+                                        <td>Press DMG</td>
+                                        <td style="text-align:right;">136%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Press CD</td>
+                                        <td style="text-align:right;">1s</td>
+                                    </tr>
+
+
+
+                                </table>
+                                <h1>Hold</h1>
+                                <p>After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.</p>
+                                <p>Deals great amounts of extra damage to opponents based on the number of Conductive stacks applied to them, and clears their Conductive status.</p>
+
+
+                                <table class="scalingtable">
+                                    <tr>
+                                        <td>Non-Conductive Hold DMG</td>
+                                        <td style="text-align:right;">544%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Stack 1 Conductive Hold DMG</td>
+                                        <td style="text-align:right;">626%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Stack 2 Conductive Hold DMG</td>
+                                        <td style="text-align:right;">721%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Stack 3 Conductive Hold DMG</td>
+                                        <td style="text-align:right;">828%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Holding CD</td>
+                                        <td style="text-align:right;">16s</td>
+                                    </tr>
+
+                                </table>
+
+
+
+                                    <p><i>Electro Purple is the raiment of the Witch of Purple Rose.</i></p>
                                 </div>
                             </div>
 
@@ -210,33 +240,40 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Lightning Rose</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+                                <p>Summons a Lightning Rose that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.</p>
+                                <p>The Lightning Rose will continuously emit lightning to knock back opponents and deal Electro DMG throughout the ability's duration.</p>
+                                
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Discharge DMG</td>
+                                            <td style="text-align:right;">62.2%</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Max Discharges</td>
+                                            <td style="text-align:right;">29</td>
                                         </tr>
                                         <tr>
                                             <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">15s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">20s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">80</td>
                                         </tr>
 
                                     </table>
-                                    <p><i></i></p>
+                                    <p><i>This rose is beautiful, but beware its mortal thorns.</i></p>
 
                                 
                             </div>
@@ -256,24 +293,24 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>General Pharmaceutics</h1>
+                                <p>When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Induced Aftershock</h1>
+                                <p>Hits by Charged Attacks apply Violet Arc's Conductive status to opponents.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Static Electricity Field</h1>
+                                <p>Opponents hit by Lightning Rose have their DEF decreased by 15% for 10s.</p>
                             </div>
                             </div>
 
@@ -294,8 +331,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Infinite Circuit</h1>
+                                    <p>Lisa regenerates 2 Energy for every opponent hit while holding Violet Arc.</p>
+                                    <p>A maximum of 10 Energy can be regenerated in this manner at any one time.</p>
                                 </div>
 
                             </div>
@@ -309,8 +347,10 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Electromagnetic Field</h1>
+                                    <p>Holding Violet Arc has the following effects:</p>
+                                    <li>Increases DEF by 25%.</li>
+                                    <li>Increases Lisa's resistance to interruption.</li>
                                 </div>
                             </div>
                         </div>
@@ -325,8 +365,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
+                                    <h1>C3: Resonant Thunder</h1>
+                                    <p>Increases the Level of Lightning Rose by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -339,8 +380,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Plasma Eruption</h1>
+                                    <p>Lightning Rose now unleashes 1-3 lightning bolts when it attacks.
+</p>
                                 </div>
 
                             </div>
@@ -353,8 +395,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
+                                    <h1>C5: Electrocute</h1>
+                                    <p>Increases the Level of Violet Arc by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -366,8 +409,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Pulsating Witch</h1>
+                                    <p>When Lisa takes the field, she applies 3 stacks of Violet Arc's Conductive status onto nearby opponents.</p>
+                                    <p>This effect can only occur once every 5s.</p>
                                 </div>
                             </div>
                         </div>

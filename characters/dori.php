@@ -92,10 +92,10 @@
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>12397</td>
+                            <td>223</td>
+                            <td>723</td>
+                            <td>24.0%</td>
 
                         </tr>
                         </table>
@@ -110,63 +110,66 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Normal Attack: </p>
+                                    <p class="talent-card-title">Normal Attack: Marvelous Sword-Dance (Modified)</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to 3 consecutive strikes.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">165.7%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">75.5%+79.2%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">75.5%+79.2%</td>
                                         </tr>
-                                        <tr>
-                                            <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
+
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.</p>
+                                    <p>At the end of the sequence, performs a more powerful slash.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td></td>
+                                            <td style="text-align:right;">114.9%</td>
                                         </tr>
                                         <tr>
-                                            <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td></td>
+                                            <td style="text-align:right;">208%</td>
                                         </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="text-align:right;">40/s</td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="text-align:right;">5s</td>
+                                        </tr>
+
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">137%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">274%/342%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -180,30 +183,30 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Spirit-Warding Lamp: Troubleshooter Cannon</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
+                                <p class="talent-card-text"></p>  
+                                    <p>Directs a Spirit-Warding Lamp to fire off a Troubleshooter Shot at opponents, dealing Electro DMG.</p>                          
+                                    <p>After the Troubleshooter Shot hits, it will create 2 After-Sales Service Rounds that will automatically track nearby opponents and deal Electro DMG.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
+                                            <td>Troubleshooter Shot DMG</td>
+                                            <td style="text-align:right;">250.4%</td>
                                         </tr>
                                         <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
+                                            <td>After-Sales Service Round DMG</td>
+                                            <td style="text-align:right;">53.7%</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;">15s</td>
+                                            <td style="text-align:right;">9s</td>
                                         </tr>
                                     </table>
-                                    <p><i></i></p>
+                                    <p><i>It is said that Dori can fix any problem for you... for the right price.</i></p>
                                 </div>
                             </div>
 
@@ -214,33 +217,49 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Alcazarzaray's Exactitude</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+                                <p>Summons forth the Jinni within the lamp to give the client various kinds of aid.</p>
+                                <h1>Jinni</h1>
+                                <p>Connects to a nearby character. The connected character will:</p>
+                                <li>Continuously restore HP based on Dori's Max HP.</li>
+                                <li>Continuously regenerate Energy.</li>
+                                <li>Be affected by Electro.</li>
+                                <p>When the connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4s.</p>
+                                <p class="">Only one Jinni can exist at one time.</p>
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Connector DMG</td>
+                                            <td style="text-align:right;">27%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Continuous Healing</td>
+                                            <td style="text-align:right;">11.3% Max HP+1305</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Energy Regeneration</td>
+                                            <td style="text-align:right;">2.4</td>
                                         </tr>
                                         <tr>
                                             <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">12s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">20s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">80</td>
                                         </tr>
 
+
                                     </table>
-                                    <p><i></i></p>
+                                    <p><i>"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure — comparable, I'd say, to how you will not sell that mascot by your side for any price in the world."</i></p>
 
                                 
                             </div>
@@ -260,24 +279,27 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Unexpected Order</h1>
+                                <p>Has a 25% chance to recover some of the materials used when crafting Character and Weapon Materials.
+</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>An Eye for Gold</h1>
+                                <p>After a character connected to the Jinni triggers an Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl or Crystallize reaction, the CD of Spirit-Warding Lamp: Troubleshooter Cannon is decreased by 1s.</p>
+                                <p>This effect can be triggered once every 3s.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Compound Interest</h1>
+                                <p>When the Troubleshooter Shots or After-Sales Service Rounds from Spirit-Warding Lamp: Troubleshooter Cannon hit opponents, Dori will restore 5 Elemental Energy for every 100% Energy Recharge possessed.</p>
+                                <p>Per Spirit-Warding Lamp: Troubleshooter Cannon, only one instance of Energy restoration can be triggered and a maximum of 15 Energy can be restored this way.</p>
                             </div>
                             </div>
 
@@ -298,8 +320,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Additional Investment</h1>
+                                    <p>The number of After-Sales Service Rounds created by Troubleshooter Shots is increased by 1.</p>
                                 </div>
 
                             </div>
@@ -313,8 +335,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Special Franchise</h1>
+                                    <p>When you are in combat and the Jinni heals the character it is connected to, it will fire a Jinni Toop from that character's position that deals 50% of Dori's ATK DMG.</p>
                                 </div>
                             </div>
                         </div>
@@ -329,8 +351,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
+                                    <h1>C3: Wonders Never Cease</h1>
+                                    <p>Increases the Level of Alcazarzaray's Exactitude by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -343,8 +366,10 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Discretionary Supplement</h1>
+                                    <p>The character connected to the Jinni will obtain the following buffs based on their current HP and Energy:</p>
+                                    <li>When their HP is lower than 50%, they gain 50% Incoming Healing Bonus.</li>
+                                    <li>When their Energy is less than 50%, they gain 30% Energy Recharge.</li>
                                 </div>
 
                             </div>
@@ -357,8 +382,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
+                                    <h1>C5: Value for Mora</h1>
+                                    <p>Increases the Level of Spirit-Warding Lamp: Troubleshooter Cannon by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -370,8 +396,10 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Sprinkling Weight</h1>
+                                    <p>Dori gains the following effects for 3s after using Spirit-Warding Lamp: Troubleshooter Cannon:</p>
+                                    <li>Electro Infusion.</li>
+                                    <li>When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.</li>
                                 </div>
                             </div>
                         </div>
@@ -397,6 +425,7 @@ $(window).on("load", function() {
     $("#dori-button").addClass("active");
     $("#character-dropdown-icon").addClass("active-dropdown-icon");
     $("#character-dropdown-content").addClass("active-dropdown-content");
+    $("#<?php echo $fetch['url']?>-button").addClass("dark");
 
     $('html, body, .sidenav').animate({
         scrollTop: $("#<?php echo $fetch['url']?>-button").offset().top - 50

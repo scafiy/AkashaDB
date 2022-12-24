@@ -91,7 +91,7 @@
                             <td>Base HP</td>
                             <td>Base ATK</td>
                             <td>Base DEF</td>
-                            <td><?php echo $fetch['stat']?></td>
+                            <td>Geo DMG Bonus</td>
 
                         </tr>
 
@@ -416,6 +416,7 @@
 <script type="text/javascript">
 $(window).on("load", function() {
     $("#<?php echo $fetch['url']?>-button").addClass("active");
+    $("#albedo-button").addClass("dark");
     $("#character-dropdown-icon").addClass("active-dropdown-icon");
     $("#character-dropdown-content").addClass("active-dropdown-content");
 

@@ -88,10 +88,10 @@
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>12289</td>
+                            <td>212</td>
+                            <td>751</td>
+                            <td>24.0%</td>
 
                         </tr>
                         </table>
@@ -106,63 +106,60 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Normal Attack: </p>
+                                    <p class="talent-card-title">Normal Attack: Shinobu's Shadowsword</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to 4 rapid strikes.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">89.6%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">81.8%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">109%</td>
                                         </tr>
                                         <tr>
                                             <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">139.8%</td>
                                         </tr>
-                                        <tr>
-                                            <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
+
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack DMG</td>
+                                            <td style="text-align:right;">102.2%+122.7%</td>
                                         </tr>
                                         <tr>
-                                            <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack Stamina Cost</td>
+                                            <td style="text-align:right;">20</td>
                                         </tr>
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">117.5%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">235%/293%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -176,30 +173,50 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Sanctifying Ring</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
-                                    <table class="scalingtable">
+                                <p>Creates a Grass Ring of Sanctification at the cost of part of her HP, dealing Electro DMG to nearby opponents.</p>
+                                <table class="scalingtable">
                                         <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
+                                            <td>Skill DMG</td>
+                                            <td style="text-align:right;">129%</td>
                                         </tr>
                                         <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
+                                            <td>Duration</td>
+                                            <td style="text-align:right;">12s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
                                             <td style="text-align:right;">15s</td>
                                         </tr>
-                                    </table>
-                                    <p><i></i></p>
+                                </table>
+                                <h1>Grass Ring of Sanctification</h1>
+                                <p>Follows your current active character around. Deals Electro DMG to nearby opponents every 1.5s and restores HP for active character(s) within the ring's AoE based on Kuki Shinobu's Max HP.</p>
+
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Grass Ring of Sanctification Healing</td>
+                                            <td style="text-align:right;">5.1% Max HP+587</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Grass Ring of Sanctification DMG</td>
+                                            <td style="text-align:right;">42.9%</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Activation Cost</td>
+                                            <td style="text-align:right;">30% Current HP</td>
+                                        </tr>
+
+                                </table>
+                                <p>The HP consumption from using this skill can only bring her to 20% HP.</p>
+
+
+
+                                    <p><i>"Band the Naku Weed into a loop about your waist, and it shall exorcise evil."</i></p>
                                 </div>
                             </div>
 
@@ -210,33 +227,64 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Gyoei Narukami Kariyama Rite</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+                                <p class="">Stabs an evil-excoriating blade into the ground, creating a field that cleanses the area of all that is foul, dealing continuous Electro DMG to opponents within its AoE based on Shinobu's Max HP.</p>
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Single Instance DMG</td>
+                                            <td style="text-align:right;">6.1% Max HP</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Instances</td>
+                                            <td style="text-align:right;">7</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total DMG</td>
+                                            <td style="text-align:right;">42.9% Max HP</td>
                                         </tr>
                                         <tr>
                                             <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">2s</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">15s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">60</td>
                                         </tr>
 
-                                    </table>
-                                    <p><i></i></p>
+
+                                </table>
+                                
+
+                                <p>If Shinobu's HP is less than or equal to 50% when this skill is used, the field will last longer.</p>
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Instances</td>
+                                            <td style="text-align:right;">11-13</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Total DMG</td>
+                                            <td style="text-align:right;">73.5% Max HP</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duration</td>
+                                            <td style="text-align:right;">3.5s</td>
+                                        </tr>
+
+
+
+                                </table>
+
+                                    <p><i>This was originally a technique used in weeding and in ritual prayers for the yearly harvest, but Shinobu has not forgotten it, though her life as a shrine maiden may have ended.</i></p>
 
                                 
                             </div>
@@ -256,24 +304,26 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Protracted Prayers</h1>
+                                <p>Gains 25% more rewards when dispatched on an Inazuma Expedition for 20 hours.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Breaking Free</h1>
+                                <p>When Shinobu's HP is not higher than 50%, her Healing Bonus is increased by 15%.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Heart's Repose</h1>
+                                <p>Sanctifying Ring's abilities will be boosted based on Shinobu's Elemental Mastery:</p>
+                                <li>Healing amount will be increased by 75% of Elemental Mastery.</li>
+                                <li>DMG dealt is increased by 25% of Elemental Mastery.</li>
                             </div>
                             </div>
 
@@ -294,8 +344,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: To Cloister Compassion</h1>
+                                    <p>Gyoei Narukami Kariyama Rite's AoE is increased by 50%.</p>
                                 </div>
 
                             </div>
@@ -309,8 +359,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: To Forsake Fortune</h1>
+                                    <p>Grass Ring of Sanctification's duration is increased by 3s.</p>
                                 </div>
                             </div>
                         </div>
@@ -325,8 +375,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
+                                    <h1>C3: To Sequester Sorrow</h1>
+                                    <p>Increases the Level of Sanctifying Ring by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -339,8 +390,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: To Sever Sealing</h1>
+                                    <p>When the Normal, Charged, or Plunging Attacks of the character affected by Shinobu's Grass Ring of Sanctification hit opponents, a Thundergrass Mark will land on the opponent's position and deal AoE Electro DMG based on 9.7% of Shinobu's Max HP.</p>
+                                    <p>This effect can occur once every 5s.</p>
                                 </div>
 
                             </div>
@@ -353,8 +405,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
+                                    <h1>C5: To Cease Courtesies</h1>
+                                    <p>Increases the Level of Gyoei Narukami Kariyama Rite by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -366,8 +419,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: To Ward Weakness</h1>
+                                    <p>When Kuki Shinobu takes lethal DMG, this instance of DMG will not take her down. This effect will automatically trigger when her HP reaches 1 and will trigger once every 60s.</p>
+                                    <p>When Shinobu's HP drops below 25%, she will gain 150 Elemental Mastery for 15s. This effect will trigger once every 60s.</p>
                                 </div>
                             </div>
                         </div>

@@ -82,16 +82,16 @@
                             <td>Base HP</td>
                             <td>Base ATK</td>
                             <td>Base DEF</td>
-                            <td><?php echo $fetch['stat']?></td>
+                            <td>Crit DMG</td>
 
                         </tr>
 
                         <tr>
                             <td>90/90</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>13103</td>
+                            <td>323</td>
+                            <td>799</td>
+                            <td>88.4%</td>
 
                         </tr>
                         </table>
@@ -106,63 +106,63 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Normal Attack: </p>
+                                    <p class="talent-card-title">Normal Attack: Yunlai Swordsmanship</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
                                 <h1 class="">Normal Attack</h1>
-                                <p class=""></p>
+                                <p class="">Performs up to 5 rapid strikes.</p>
                                 <table class="scalingtable">
                                         <tr>
                                             <td>1-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">75.4%</td>
                                         </tr>
                                         <tr>
                                             <td>2-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">75.4%</td>
                                         </tr>
                                         <tr>
                                             <td>3-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">100%</td>
                                         </tr>
                                         <tr>
                                             <td>4-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">57.8%+63.2%</td>
                                         </tr>
                                         <tr>
                                             <td>5-Hit DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">123%</td>
                                         </tr>
 
                                     </table>
 
                                     <h1>Charged Attack</h1>
-                                    <p></p>
+                                    <p>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td>Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack DMG</td>
+                                            <td style="text-align:right;">141%+158%</td>
                                         </tr>
                                         <tr>
-                                            <td>Fully-Charged Aimed Shot</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Charged Attack Stamina Cost</td>
+                                            <td style="text-align:right;">25</td>
                                         </tr>
 
 
                                     </table>
 
                                     <h1>Plunging Attack</h1>
-                                    <p></p>
+                                    <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.</p>
                                     <table class="scalingtable">
                                         <tr>
                                             <td>Collision Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">117.5%</td>
                                         </tr>
                                         <tr>
                                             <td>Low/High Plunge DMG</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">235%/293%</td>
                                         </tr>
                                     </table>
                                 </div>
@@ -176,30 +176,54 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Stellar Restoration</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class="talent-card-text"></p>                            
-                                    <h1></h1> 
-                                    <p></p>
-                                    <table class="scalingtable">
+                                <p>Hurls a Lightning Stiletto that annihilates her opponents like the swift thunder.</p>
+                                <p>When the Stiletto hits its target, it deals Electro DMG to opponents in a small AoE, and places a Stiletto Mark on the spot hit.</p>
+                               
+                                <table class="scalingtable">
                                         <tr>
-                                            <td>Inherited HP</td>
-                                            <td style="text-align:right;">70.3%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Explosion DMG</td>
-                                            <td style="text-align:right;">209%</td>
+                                            <td>Lightning Stiletto DMG</td>
+                                            <td style="text-align:right;">85.7%</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;">15s</td>
+                                            <td style="text-align:right;">7.5s</td>
                                         </tr>
-                                    </table>
-                                    <p><i></i></p>
+
+                                </table>
+
+                                <h1>Hold</h1>
+                                <p>Hold to adjust the direction in which the Stiletto shall be thrown.</p>
+                                <p>Stilettos thrown by the Hold attack mode can be suspended in mid-air, allowing Keqing to jump to them when using Stellar Restoration a second time.</p>
+
+                                <h1>Lightning Stiletto</h1>
+                                <p>If Keqing uses Stellar Restoration again or uses a Charged Attack while its duration lasts, it will clear the Stiletto Mark and produce different effects:</p>
+                                <li>If she uses Stellar Restoration again, she will blink to the location of the Mark and unleash one slashing attack that deals AoE Electro DMG. When blinking to a Stiletto that was thrown from a Holding attack, Keqing can leap across obstructing terrain.</li>
+                                
+                                <table class="scalingtable">
+                                    <tr>
+                                            <td>Slashing DMG</td>
+                                            <td style="text-align:right;">286%</td>
+                                        </tr>
+                                </table>
+                                <li>If Keqing uses a Charged Attack, she will ignite a series of thundering cuts at the Mark's location, dealing AoE Electro DMG.</li>
+
+
+                                <table class="scalingtable">
+                                    <tr>
+                                            <td>Thunderclap Slash DMG</td>
+                                            <td style="text-align:right;">143%x2</td>
+                                        </tr>
+                                </table>
+
+
+                                    
+                                    <p><i>"Humans are like moths, endlessly chasing the flame we call gods and adepti. But this light that I have here is my own."</i></p>
                                 </div>
                             </div>
 
@@ -210,33 +234,51 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Starward Sword</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <p class=""></p>
+                                <p>Keqing unleashes the power of lightning, dealing Electro DMG in an AOE.</p>
+
+
                                 <table class="scalingtable">
                                         <tr>
-                                            <td>Fiery Rain DMG Per Wave</td>
-                                            <td style="text-align:right;"></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Duration</td>
-                                            <td style="text-align:right;"></td>
+                                            <td>Skill DMG</td>
+                                            <td style="text-align:right;">150%</td>
                                         </tr>
                                         <tr>
                                             <td>CD</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">12s</td>
                                         </tr>
                                         <tr>
                                             <td>Energy Cost</td>
-                                            <td style="text-align:right;"></td>
+                                            <td style="text-align:right;">40</td>
+                                        </tr>
+                                </table>
+
+                                <p>She then blends into the shadow of her blade, striking a series of thunderclap-blows to nearby opponents simultaneously that deal multiple instances of Electro DMG.</p>
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Consecutive Slash DMG</td>
+                                            <td style="text-align:right;">40.8%x8</td>
                                         </tr>
 
-                                    </table>
-                                    <p><i></i></p>
+                                </table>
+                                <p>The final attack deals massive AoE Electro DMG.</p>
+                                <table class="scalingtable">
+                                        <tr>
+                                            <td>Last Attack DMG</td>
+                                            <td style="text-align:right;">321%</td>
+                                        </tr>
+
+
+                                </table>
+                                
+
+
+                                    <p><i>The swiftest technique in Keqing's personal arsenal is fast enough to bring stars crashing down.</i></p>
 
                                 
                             </div>
@@ -256,24 +298,25 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/passive.png" alt="">
                                 </div>                        
                                 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Land's Overseer</h1>
+                                <p>When dispatched on an expedition in Liyue, time consumed is reduced by 25%.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+
+                                <h1>Thundering Penance</h1>
+                                <p>After recasting Stellar Restoration while a Lightning Stiletto is present, Keqing's weapon gains an Electro Infusion for 5s.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/a4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Aristocratic Dignity</h1>
+                                <p>When casting Starward Sword, Keqing's CRIT Rate is increased by 15%, and her Energy Recharge is increased by 15%. This effect lasts for 8s.</p>
                             </div>
                             </div>
 
@@ -294,8 +337,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Thundering Might</h1>
+                                    <p>Recasting Stellar Restoration while a Lightning Stiletto is present causes Keqing to deal 50% of her ATK as AoE Electro DMG at the start point and terminus of her Blink.</p>
                                 </div>
 
                             </div>
@@ -309,8 +352,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Keen Extraction</h1>
+                                    <p>When Keqing's Normal and Charged Attacks hit opponents affected by Electro, they have a 50% chance of producing an Elemental Particle.</p>
+                                    <p>This effect can only occur once every 5s.</p>
                                 </div>
                             </div>
                         </div>
@@ -325,8 +369,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
+                                    <h1>C3: Foreseen Reformation</h1>
+                                    <p>Increases the Level of Starward Sword by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -339,8 +384,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Attunement</h1>
+                                    <p>For 10s after Keqing triggers an Electro-related Elemental Reaction, her ATK is increased by 25%.</p>
                                 </div>
 
                             </div>
@@ -353,8 +398,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
+                                    <h1>C5: Beckoning Stars</h1>
+                                    <p>Increases the Level of Stellar Restoration by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -366,8 +412,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/c6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Tenacious Star</h1>
+                                    <p>When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental Burst, Keqing gains a 6% Electro DMG Bonus for 8s.</p>
+                                    <p>Effects triggered by Normal Attacks, Charged Attacks, Elemental Skills and Elemental Bursts are considered independent entities.</p>
                                 </div>
                             </div>
                         </div>

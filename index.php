@@ -20,45 +20,9 @@
         <div class="maincontent">
             <div class="content-container">
 
-            <div class="akashabanner">
-                <div class="akashabannercontainer">
-                    <h1>Akasha<b>DB</b></h1>
-                    <p>An open sourse genshin impact sql database.</p>
-                        <div class="links">
-                        <a class="githuba" href="https://github.com/scafiy/AkashaDB/blob/main/akashadb.sql">
-                            <button class="githubbtn"><img src="images/icons/github.png" alt="">Github</button>    
-                        </a>
-                        </div>
+         
 
-                </div>
-            </div>
-
-            <div class="features">
-                <h1>Why use us?</h1>
-
-                <div class="flex">
-                    <div>
-                        <img src="https://lh3.googleusercontent.com/_w9xZ-KglSVNibMtvqpKGEZG06lz2oQR0Auh4KB6EAGa7MYMkxvRmohH0-jyh8ciLXCnS-wxBlv62KUbaHObMik6bSQx_cT6DC2_olwfNHCvddX6eq4" alt="">
-                        <h1>User Interface</h1>
-                        <p>We follow Google's Material Design Philosophy and have implemented UI and UX methodologys.</p>
-                    </div>
-                    <div>
-                        <img src="https://lh3.googleusercontent.com/_w9xZ-KglSVNibMtvqpKGEZG06lz2oQR0Auh4KB6EAGa7MYMkxvRmohH0-jyh8ciLXCnS-wxBlv62KUbaHObMik6bSQx_cT6DC2_olwfNHCvddX6eq4" alt="">
-                        <h1>Search Fuction</h1>
-                        <p>Our simple yet powerful search bar and filter chips offer the best search functionality for a genshin database.</p>
-                    </div>
-
-                    <div>
-                        <img src="https://lh3.googleusercontent.com/_w9xZ-KglSVNibMtvqpKGEZG06lz2oQR0Auh4KB6EAGa7MYMkxvRmohH0-jyh8ciLXCnS-wxBlv62KUbaHObMik6bSQx_cT6DC2_olwfNHCvddX6eq4" alt="">
-                        <h1>Open Sourse</h1>
-                        <p></p>
-                    </div>
-                </div>
-
-
-            </div>
-
-
+          
 
             <div class="canonical">
                 <div class="banner-section">
@@ -67,6 +31,9 @@
 
                     <div class="whatsnew">
                         <h1>Whats New?</h1>
+                        <div class="banner-container">
+                            <img class="focus" src="https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-12-07_From_Ashes_Reborn.jpg" alt="">
+                        </div>
 
                         <p>Latest Characters</p>
                         <div class="item-slider">
