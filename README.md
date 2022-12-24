@@ -1,4 +1,4 @@
-AkashaDB is an open sourse genshin impact sql database. 
-Download, use, edit, contribute and fork our database for your projects.
+AkashaDB is an sourse sql database for the video game genshin impact. 
+Our website is ad free, built with researched UI and UX elements for an intuitive and aesthetically pleasing experience, has advanced searching and filter options and tailor made for finding information fast.
 
-Currently we have all character, weapons and artifacts but we plan to add more. 
+You can use our work for your personal uses for Content creation, TC, helping, ect by using, viewing, downloading, edit, contributing and forking our project.
