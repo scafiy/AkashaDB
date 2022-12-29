@@ -20,8 +20,11 @@
         <div class="maincontent">
             <div class="content-container">
 
-         
-
+            <div class="aboutcontainer">
+                <h1 class="logo">Akasha <sup>DB</sup></h1>
+                <p>is a fan made <a href="https://github.com/scafiy/AkashaDB/blob/main/akashadb.sql">open sourse</a> sql database for the game Gesnhin Impact.</p>
+                <i>© All intellectual property, GENSHIN MATERIALS and rights reserved by miHoYo. We are a fanmade project that abides by genshin's ToS policies.</i>
+            </div>
           
 
             <div class="canonical">
@@ -32,10 +35,10 @@
                     <div class="whatsnew">
                         <h1>Whats New?</h1>
                         <div class="banner-container">
-                            <img class="focus" src="https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-12-07_From_Ashes_Reborn.jpg" alt="">
+                            <img class="focus" src="images/banners/2022-12-27-Reign_of_Serenity.jpg" alt="">
                         </div>
 
-                        <p>Latest Characters</p>
+                        <h1>Latest Characters</h1>
                         <div class="item-slider">
                             <div class="flex">
                                 <?php
@@ -55,7 +58,7 @@
                             </div>
                         </div>
 
-                        <p>Latest Weapons</p>
+                        <h1>Latest Weapons</h1>
 
                         <div class="item-slider">
                             <div class="flex">

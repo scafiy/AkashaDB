@@ -1,0 +1,27 @@
+18/7/22: Created/set up root folder for project
+20/7/22 - 3/8/22: Coded side and top navigation fully responsive with CSS
+(this was while doing work on the design standard)
+8/8/22 - 10/8/22: Made search bar functioning search bar which filters li from the dropdown. Also set up MySQL database for weapons, artifacts and weapons and connected it to the search bar via a $query = mysqli_query.
+10/8/22 - 16/8/22: Coded an explore page “template” for the character explore page. Used the same file for the artifact and weapon page as a placeholder. Note this took a long as had to find a way to make filters function by toggling CSS with jquery via buttons.
+16/8/22: Made a list of all characters from in the game genshin impact using the “character archive”.
+17/8/22- 20/8/22: Created a “characters” folder in the “images” folder for images of the icons for each character that will be uploaded to the SQL database. Copy and paste this for artifacts and weapons as well.
+20/8/22: Uploaded all characters in-game to the SQL database.
+20/8/22 - 25/8/22: Used template from character explore page to make artifact page. Made a list of all artifacts from the artifact archive menu in-game
+26/8/22 - 27/8/22: Uploaded/created data in MySQL for all artifacts
+26/8/22 – 31/8/22: restyled artifact explore page more and added a list to browse toggle that changed how the UI looked.
+29/8/22 - 2/09/22: Used template from artifact and character explore pages to make weapon page. Made a list of all weapons from the in-game archive.
+2/09/22 - 4/09/22: Uploaded all weapons to weapons Mysql database
+7/09/22-11/09/22: Designed the home page and coded the page into the website
+13/09/22 - 17/09/22: Create character/weapon/artifact page when clicking on entry
+15/09/22 - 20/09/22: Finished uploading all character and artifact detail pages for all entries.
+20/09/22-23/09/22: Finished creating detail pages for all weapon entries.
+30/1/22: Created github repo for project and uploaded an Initial commit.
+30/1/22: Backend database page created and updated
+5/12/22: Static snapshot of the project lauched live website
+14/12/22: Min, Max and passive data values for weapons added to website weapon pages
+14/12/22: Artifact 2pc and 4pc set values added to website artifact pages
+15/12/22: Updated sql base by adding 2 color columns to artifact database table and descriptions to weapon database table
+18/12/22: Updated color pallent of the website to a dark theme
+19/12/22: Auto scroll feature on launch of a page to scroll down to the corresponding page button in the side nav
+20/12/22 - 24/12/22: Added stat, talent, passive and constellation descriptions and scaling data to all character pages in the website.
+26/12/22: Pushed all changes into static website

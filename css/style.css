@@ -22,7 +22,7 @@
 
 @font-face{
   font-family: genshin;
-  src:url(../fonts/HanyiWenHei/zh-cn.ttf);
+  src:url(../fonts/inter/Inter[wght].ttf);
 }
 
 /* custem scroll bar */
@@ -96,8 +96,18 @@ body{
   overflow-x:hidden ;
   overflow-y: scroll;
   height: 100%;
+  animation: fadeincontent 0.7s;
+  -webkit-animation: fadeincontent 0.7s;
+  -moz-animation: fadeincontent 0.7s;
+  -o-animation: fadeincontent 0.7s;
+  -ms-animation: fadeincontent 0.7s;
+
+}
 
 
+@keyframes fadeincontent {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .content-container{

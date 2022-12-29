@@ -90,7 +90,6 @@
                         <td>Base ATK</td>
                         <td>Base DEF</td>
                         <td><?php echo $fetch['stat']?></td>
-                        <td>Materials</td>
 
                     </tr>
 
@@ -100,7 +99,6 @@
                         <td>223</td>
                         <td>601</td>
                         <td>24.0%</td>
-                        <td></td>
 
                     </tr>
                     </table>
