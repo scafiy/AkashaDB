@@ -123,6 +123,11 @@
 								<input type="text" class="form-control" name="description" autocomplete="off" required="required"/>
 							</div>
 
+							<div class="form-group">
+								<label>primarycolor</label>
+								<input type="text" class="form-control" name="primarycolor" autocomplete="off" required="required"/>
+							</div>
+
 
 						</div>
 						</div>
@@ -150,9 +155,8 @@
 		$stat = addslashes($_POST['stat']);
 		$description = addslashes($_POST['description']);
 		$primarycolor = addslashes($_POST['primarycolor']);
-		$secondarycolor = addslashes($_POST['secondarycolor']);
 
-		mysqli_query($conn, "INSERT INTO `characters` VALUES('', '$name', '$keywords', '$img', '$url', '$rarity', '$category', '$element', '$weapon', '$region', '$stat', '$description', '$primarycolor', '$secondarycolor')") or die(mysqli_error());
+		mysqli_query($conn, "INSERT INTO `characters` VALUES('', '$name', '$keywords', '$img', '$url', '$rarity', '$category', '$element', '$weapon', '$region', '$stat', '$description', '$primarycolor')") or die(mysqli_error());
 
 	}
 

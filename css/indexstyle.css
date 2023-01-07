@@ -9,7 +9,7 @@
 }
 
 .banner-section p{
-    font-family: genshin;
+    font-family: ingame;
     font-size: 15px;
 }
 
@@ -20,6 +20,7 @@
 
 .banner-container .focus{
     width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -156,7 +157,7 @@
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    font-family: genshin;
+    font-family: ingame;
     
 
 }
@@ -254,3 +255,41 @@
     margin-left: -10px;
     display: flex;
 }
+
+
+.banner-controlls{
+    position: relative;
+    display: flex;
+    top: -200px;
+}
+
+
+
+.banner-controlls .left{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+
+}
+
+.banner-controlls .left button{
+    background-color: #424651;
+    text-align: center;
+
+}
+
+.banner-controlls .right{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+
+
+}
+
+.banner-controlls .right button{
+
+    background-color: #424651;
+    text-align: center;
+}
+
+

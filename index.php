@@ -19,14 +19,6 @@
         <div class="overlay"></div>
         <div class="maincontent">
             <div class="content-container">
-
-            <div class="aboutcontainer">
-                <h1 class="logo">Akasha <sup>DB</sup></h1>
-                <p>is a fan made <a href="https://github.com/scafiy/AkashaDB/blob/main/akashadb.sql">open sourse</a> sql database for the game Gesnhin Impact.</p>
-                <i>© All intellectual property, GENSHIN MATERIALS and rights reserved by miHoYo. We are a fanmade project that abides by genshin's ToS policies.</i>
-            </div>
-          
-
             <div class="canonical">
                 <div class="banner-section">
 
@@ -35,8 +27,26 @@
                     <div class="whatsnew">
                         <h1>Whats New?</h1>
                         <div class="banner-container">
-                            <img class="focus" src="images/banners/2022-12-27-Reign_of_Serenity.jpg" alt="">
+                            <?php
+                                $query = mysqli_query($conn, "SELECT * FROM `banners` WHERE `id` ORDER BY `id` DESC LIMIT 0,3") or die(mysqli_error());
+                                while($fetch = mysqli_fetch_array($query)){
+                                ?>
+                                <img class="focus" src="<?php echo $fetch['img']?>" alt="">
+                            <?php
+                                }
+                            ?>
+
                         </div>
+                        <div class="banner-controlls">
+                            <div class="left">
+                                <button >left</button>
+                            </div>
+                            
+                            <div class="right">
+                                <button >right</button>
+                            </div>
+                        </div>
+
 
                         <h1>Latest Characters</h1>
                         <div class="item-slider">

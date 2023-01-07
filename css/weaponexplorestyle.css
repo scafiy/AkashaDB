@@ -130,7 +130,7 @@
 }
 
 .item-baseatk p{
-    font-family: genshin;
+    font-family: ingame;
     font-size: 14px;
 }
 
@@ -152,7 +152,7 @@
 }
 
 .baseatk-container p{
-    font-family: genshin;
+    font-family: ingame;
     font-size: 14px;
 }
 
@@ -174,12 +174,12 @@
     text-align: center;
     justify-content: center; 
     align-items: center;   
-    font-family: genshin;
+    font-family: ingame;
     font-size: 14px;
 }
 
 .item-stat p{
-    font-family: genshin;
+    font-family: ingame;
     font-size: 14px;
 }
 

@@ -103,7 +103,7 @@
 }
 
 .artifact-row h1{
-    font-family: genshin;
+    font-family: ingame;
     font-size: 15px;
     font-weight: 10;
 }
@@ -142,7 +142,7 @@
     margin-left:auto ;
     margin-right:auto ;
     text-align: center;
-    font-family: genshin;
+    font-family: ingame;
     font-size: 14px;
     color: #495366;
     background-color: transparent;

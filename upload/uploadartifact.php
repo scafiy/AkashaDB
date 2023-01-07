@@ -63,11 +63,6 @@
 							</div>
 
 
-							<div class="form-group">
-								<label>secondarycolor</label>
-								<input type="text" class="form-control" name="secondarycolor" autocomplete="off" required="required"/>
-							</div>
-
 						
 
 					</div>
@@ -87,10 +82,9 @@
 		$twopiece = addslashes($_POST['twopiece']);
 		$fourpiece = addslashes($_POST['fourpiece']);
 		$primarycolor = addslashes($_POST['primarycolor']);
-		$secondarycolor = addslashes($_POST['secondarycolor']);
 
 
-		mysqli_query($conn, "INSERT INTO `artifacts` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$raritymax', '$raritymax', '$flowerdescription', '$twopiece', '$fourpiece', '$primarycolor', '$secondarycolor')") or die(mysqli_error());
+		mysqli_query($conn, "INSERT INTO `artifacts` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$raritymax', '$raritymax', '$flowerdescription', '$twopiece', '$fourpiece', '$primarycolor')") or die(mysqli_error());
 		
 		
 	}

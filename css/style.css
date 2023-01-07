@@ -25,6 +25,12 @@
   src:url(../fonts/inter/Inter[wght].ttf);
 }
 
+@font-face{
+  font-family:ingame;
+  src:url(../fonts/HanyiWenHei/zh-cn.ttf);
+}
+
+
 /* custem scroll bar */
 
 ::-webkit-scrollbar {

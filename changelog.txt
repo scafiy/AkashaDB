@@ -25,3 +25,4 @@
 19/12/22: Auto scroll feature on launch of a page to scroll down to the corresponding page button in the side nav
 20/12/22 - 24/12/22: Added stat, talent, passive and constellation descriptions and scaling data to all character pages in the website.
 26/12/22: Pushed all changes into static website
+6/01/23: Added the banner dataset by creating upload page for bannners and added it to the database page and akashadb.sql

@@ -54,7 +54,6 @@
                             <th>stat</th>
                             <th>description</th>
                             <th>primarycolor</th>
-                            <th>secondarycolor</th>
 
                         </tr>
                         <?php
@@ -79,7 +78,6 @@
                                 <td><?php echo $fetch['stat']?></td>
                                 <td><?php echo $fetch['description']?></td>
                                 <td><?php echo $fetch['primarycolor']?></td>
-                                <td><?php echo $fetch['secondarycolor']?></td>
 
                             </tr>
                         <?php
@@ -115,7 +113,6 @@
                             <th>twopiece</th>
                             <th>fourpiece</th>
                             <th>primarycolor</th>
-                            <th>secondarycolor</th>
 
                         </tr>
                         <?php
@@ -135,7 +132,6 @@
                                 <td><?php echo $fetch['twopiece']?></td>
                                 <td><?php echo $fetch['fourpiece']?></td>
                                 <td><?php echo $fetch['primarycolor']?></td>
-                                <td><?php echo $fetch['secondarycolor']?></td>
 
                             </tr>
                         <?php
@@ -212,7 +208,72 @@
 
 
 
-                
+
+
+
+                <div class="dataset" id="set4">
+                    <div class="dbheader">
+                        <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=banners">Banners</a>
+                        <div class="right">
+                          <a id="showtable4">hide</a>
+                          <a onClick="MyWindow=window.open('upload/uploadbanner.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
+                        </div>
+                        <input type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
+                    </div>
+                    <div class="datatable" id="table4">
+                    <table id="content4">
+                        <tr>
+                            <th>id</th>
+                            <th>name</th>
+                            <th>keywords</th>
+                            <th>img</th>
+                            <th>url</th>
+                            <th>category</th>
+                            <th>type</th>
+                            <th>startdate</th>
+                            <th>finishdate</th>
+                            <th>fivestarone</th>
+                            <th>fivestartwo</th>
+                            <th>fourstarone</th>
+                            <th>fourstartwo</th>
+                            <th>fourstarthree</th>
+                            <th>fourstarfour</th>
+                            <th>fourstarfive</th>
+
+                        </tr>
+                        <?php
+                            $query = mysqli_query($conn, "SELECT * FROM `banners` WHERE `id` ORDER BY `id` DESC LIMIT 0,9999999") or die(mysqli_error());
+                            while($fetch = mysqli_fetch_array($query)){
+                        ?>
+                            <tr>
+                                <td><?php echo $fetch['id']?></td>
+                                <td><?php echo $fetch['name']?></td>
+                                <td><?php echo $fetch['keywords']?></td>
+                                <td>
+                                    <a href="<?php echo $fetch['img']?>"><?php echo $fetch['img']?></a>
+
+                                </td>
+                                <td><?php echo $fetch['url']?></td>
+                                <td><?php echo $fetch['category']?></td>
+                                <td><?php echo $fetch['type']?></td>
+                                <td><?php echo $fetch['startdate']?></td>
+                                <td><?php echo $fetch['finishdate']?></td>
+                                <td><?php echo $fetch['fivestarone']?></td>
+                                <td><?php echo $fetch['fivestartwo']?></td>
+                                <td><?php echo $fetch['fourstarone']?></td>
+                                <td><?php echo $fetch['fourstartwo']?></td>
+                                <td><?php echo $fetch['fourstarthree']?></td>
+                                <td><?php echo $fetch['fourstarfour']?></td>
+                                <td><?php echo $fetch['fourstarfive']?></td>
+
+
+                            </tr>
+                        <?php
+                            }
+                        ?>
+                    </table>
+                    </div>
+                </div>
              
 
 
@@ -240,6 +301,11 @@ $("#showtable2").click(function(){
 
 $("#showtable3").click(function(){
     $("#table3").toggleClass("show");
+
+});
+
+$("#showtable4").click(function(){
+    $("#table4").toggleClass("show");
 
 });
 </script>

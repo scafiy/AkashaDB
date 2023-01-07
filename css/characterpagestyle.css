@@ -598,11 +598,11 @@ td{
 .base-stat-table{
     width: 600px;
     background-color: var(--hover-colour);
-    border-radius: 5px;
     padding-top: 2px;
     padding: 0px;
     margin: 0px;
     margin-bottom: 10px;
+    border-radius: 5px;
 
 
 }
@@ -693,7 +693,6 @@ td{
     width: 100%;
     background-color: var(--hover-colour);
     position: relative;
-    border-radius: 5px;
     padding-top:15px ;
     padding-bottom:15px ;
     padding-left:15px ;
@@ -751,3 +750,4 @@ td{
 .dark{
     color: rgb(32, 32, 32);
 }
+
