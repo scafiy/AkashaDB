@@ -18,6 +18,12 @@
     width: 100%;
 }
 
+.banner-container p{
+    display: none;
+    width: 100%;
+    position: absolute;
+}
+
 .banner-container .focus{
     width: 100%;
     height: auto;

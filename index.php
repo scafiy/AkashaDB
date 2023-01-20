@@ -32,19 +32,13 @@
                                 while($fetch = mysqli_fetch_array($query)){
                                 ?>
                                 <img class="focus" src="<?php echo $fetch['img']?>" alt="">
+                                <p><?php echo $fetch['startdate']?></p>
+                                <p><?php echo $fetch['finishdate']?></p>
+
                             <?php
                                 }
                             ?>
 
-                        </div>
-                        <div class="banner-controlls">
-                            <div class="left">
-                                <button >left</button>
-                            </div>
-                            
-                            <div class="right">
-                                <button >right</button>
-                            </div>
                         </div>
 
 
