@@ -30,7 +30,7 @@
 	
 							<div class="form-group">
 								<label>img</label>
-								<input value="images/banners//banner.png" type="text" class="form-control" name="img" autocomplete="off" required="required"/>
+								<input value="images/banners/.png" type="text" class="form-control" name="img" autocomplete="off" required="required"/>
 							</div>
 							<div class="form-group">
 								<label>url</label>
@@ -44,6 +44,19 @@
 								<label>type</label>
 								<input type="text" class="form-control" name="type" autocomplete="off" required="required"/>
 							</div>
+
+							<div class="form-group">
+								<label>version</label>
+								<input type="text" class="form-control" name="version" autocomplete="off" required="required"/>
+							</div>
+							<div class="form-group">
+								<label>phase</label>
+								<input type="text" class="form-control" name="phase" autocomplete="off" required="required"/>
+							</div>
+							
+
+
+
 							<div class="form-group">
 								<label>startdate</label>
 								<input type="text" class="form-control" name="startdate" autocomplete="off" required="required"/>
@@ -104,6 +117,8 @@
 		$url = addslashes($_POST['url']);
 		$category = addslashes($_POST['category']);
 		$type = addslashes($_POST['type']);
+		$version = addslashes($_POST['version']);
+		$phase = addslashes($_POST['phase']);
 		$startdate = addslashes($_POST['startdate']);
 		$finishdate = addslashes($_POST['finishdate']);
 		$fivestarone = addslashes($_POST['fivestarone']);
@@ -113,7 +128,7 @@
 		$fourstarthree = addslashes($_POST['fourstarthree']);
 		$fourstarfour = addslashes($_POST['fourstarfour']);
 		$fourstarfive = addslashes($_POST['fourstarfive']);
-		mysqli_query($conn, "INSERT INTO `banners` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$type', '$startdate', '$finishdate', '$fivestarone', '$fivestartwo', '$fourstarone', '$fourstartwo', '$fourstarthree', '$fourstarfour', '$fourstarfive')") or die(mysqli_error());
+		mysqli_query($conn, "INSERT INTO `banners` VALUES('', '$name', '$keywords', '$img', '$url', '$category', '$type', '$version', '$phase', '$startdate', '$finishdate', '$fivestarone', '$fivestartwo', '$fourstarone', '$fourstartwo', '$fourstarthree', '$fourstarfour', '$fourstarfive')") or die(mysqli_error());
 
 	}
 

@@ -1,6 +1,5 @@
 18/7/22: Created/set up root folder for project
 20/7/22 - 3/8/22: Coded side and top navigation fully responsive with CSS
-(this was while doing work on the design standard)
 8/8/22 - 10/8/22: Made search bar functioning search bar which filters li from the dropdown. Also set up MySQL database for weapons, artifacts and weapons and connected it to the search bar via a $query = mysqli_query.
 10/8/22 - 16/8/22: Coded an explore page “template” for the character explore page. Used the same file for the artifact and weapon page as a placeholder. Note this took a long as had to find a way to make filters function by toggling CSS with jquery via buttons.
 16/8/22: Made a list of all characters from in the game genshin impact using the “character archive”.
@@ -26,3 +25,5 @@
 20/12/22 - 24/12/22: Added stat, talent, passive and constellation descriptions and scaling data to all character pages in the website.
 26/12/22: Pushed all changes into static website
 6/01/23: Added the banner dataset by creating upload page for bannners and added it to the database page and akashadb.sql
+20/01/23: Updated character, weapon and artifact dataset to reflect 3.4 update. Added alhaitham, yaoyao and light of foliar incision
+23/01/23: Added Traveler to database and created a character page with base stat, talent, passive and contellation information for anemo, geo, electro and dendro elemental forms.

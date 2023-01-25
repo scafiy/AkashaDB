@@ -19,13 +19,20 @@
         <div class="overlay"></div>
         <div class="maincontent">
             <div class="content-container">
-                <li>Disclaimer: If you don't own this copy of akashadb, the database will be in view only mode. You'll not be able to add or edit data.</li>
 
-                <div class="dbheader">
+            <li>Disclaimer: If you don't own this copy of akashadb, the database will be in view only mode. You'll not be able to add or edit data.</li>
+                <div class="dbheader dbheaderbanner">
+                    <div>
                     <p>Akasha Database</p>
+
+                    </div>
+
+                    
                     <div class="right">
-                      <a href="http://localhost/phpmyadmin/index.php?route=/database/export&db=akashadb" target="_blank">export</a>
+                      <a href="https://github.com/scafiy/AkashaDB" target="_blank">github repo</a>
                       <a href="/phpmyadmin/index.php?route=/database/structure&db=akashadb" target="_blank">phpmyadmin</a>
+                      <a href="http://localhost/phpmyadmin/index.php?route=/database/export&db=akashadb" target="_blank">export</a>
+
                     </div>
                 </div>
 
@@ -33,7 +40,7 @@
                     <div class="dbheader">
                         <a target="_blank" href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=characters">Characters</a>
                         <div class="right">
-                          <a id="showtable1">hide</a>
+                          <a id="showtable1">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadcharacter.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
                         <input type="text" id="charasearch" onkeyup="charasearch()" autocomplete="off">
@@ -93,7 +100,7 @@
                     <div class="dbheader">
                         <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=artifacts">Artifacts</a>
                         <div class="right">
-                          <a id="showtable2">hide</a>
+                          <a id="showtable2">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadartifact.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
                         <input type="text" id="artsearch" onkeyup="artsearch()" autocomplete="off">
@@ -148,7 +155,7 @@
                     <div class="dbheader">
                         <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=weapons">Weapons</a>
                         <div class="right">
-                          <a id="showtable3">hide</a>
+                          <a id="showtable3">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadweapon.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
                         <input type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
@@ -215,7 +222,7 @@
                     <div class="dbheader">
                         <a href="/phpmyadmin/index.php?route=/sql&pos=0&db=akashadb&table=banners">Banners</a>
                         <div class="right">
-                          <a id="showtable4">hide</a>
+                          <a id="showtable4">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadbanner.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
                         <input type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">

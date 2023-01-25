@@ -686,11 +686,12 @@ td{
 
 .constellations{
     display: block;
+    
 }
 
 .constellations .constellation{
     font-family: roboto;
-    width: 100%;
+    width: auto;
     background-color: var(--hover-colour);
     position: relative;
     padding-top:15px ;
@@ -751,3 +752,40 @@ td{
     color: rgb(32, 32, 32);
 }
 
+.elementtoggle{
+    width: 100%;
+    margin: 20px;
+    margin-left:0px;
+    display: flex;
+}
+
+.elementtoggle .title{
+    width: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.elementtoggle button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    border-radius: 100px;
+    background-color: transparent;
+    width: auto;
+    cursor: pointer;
+}
+
+.elementtoggle .active{
+    background-color: rgb(78, 78, 78);
+
+}
+
+.flex{
+    display: flex;
+}
+
+.hide{
+    display: none;
+}

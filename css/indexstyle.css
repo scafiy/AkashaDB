@@ -28,6 +28,8 @@
     width: 100%;
     height: auto;
     border-radius: 5px;
+    z-index:1;
+
 }
 
 .banner-items{
@@ -298,4 +300,25 @@
     text-align: center;
 }
 
+.bannerwrapper{
+    position: absolute;
+    text-align: left;
+    z-index: 10;
+    display: flex;
 
+}
+
+.bannerwrapper a{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    
+}
+
+
+.bannerwrapper img{
+    height: 70px;
+    width: auto;
+    background-color: transparent;
+    
+}

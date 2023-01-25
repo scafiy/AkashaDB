@@ -435,6 +435,8 @@
 <script type="text/javascript">
 $(window).on("load", function() {
     $("#<?php echo $fetch['url']?>-button").addClass("active");
+    $("#<?php echo $fetch['url']?>-button").addClass("dark");
+
     $("#character-dropdown-icon").addClass("active-dropdown-icon");
     $("#character-dropdown-content").addClass("active-dropdown-content");
 

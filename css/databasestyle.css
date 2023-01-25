@@ -36,8 +36,13 @@
     background-color: var(--highlighted-color);
     border-radius: 10px;
     margin-right: 10px;
-    color: black;
+    color: rgb(231, 231, 231);
+    cursor: pointer;
 
+}
+
+.dbheaderbanner{
+    background-color: transparent;
 }
 
 

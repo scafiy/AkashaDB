@@ -133,6 +133,8 @@
       <div class="dropdown-icon-container">
          <i class="material-symbols-outlined dropdown-icon" id="character-dropdown-icon">chevron_right</i>
       </div>
+
+
          <div class="dropdown-content" id="character-dropdown-content">
             <?php
                $query = mysqli_query($conn, "SELECT * FROM `characters` WHERE `id` ORDER BY `name`") or die(mysqli_error());
@@ -142,6 +144,7 @@
             <?php
                }
             ?>
+
          </div>
 
 

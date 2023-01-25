@@ -28,18 +28,63 @@
                         <h1>Whats New?</h1>
                         <div class="banner-container">
                             <?php
-                                $query = mysqli_query($conn, "SELECT * FROM `banners` WHERE `id` ORDER BY `id` DESC LIMIT 0,3") or die(mysqli_error());
+                                $query = mysqli_query($conn, "SELECT * FROM `banners` WHERE `id` ORDER BY `id` DESC LIMIT 0,1") or die(mysqli_error());
                                 while($fetch = mysqli_fetch_array($query)){
                                 ?>
                                 <img class="focus" src="<?php echo $fetch['img']?>" alt="">
                                 <p><?php echo $fetch['startdate']?></p>
                                 <p><?php echo $fetch['finishdate']?></p>
 
+                                <div class="bannerwrapper"> 
+
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fivestarone']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fivestarone']?>/profile.png">
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fivestartwo']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fivestartwo']?>/profile.png">
+                                        </div>
+                                    </a>
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarone']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarone']?>/profile.png">
+                                        </div>
+                                    </a>
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstartwo']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstartwo']?>/profile.png">
+                                        </div>
+                                    </a>
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarthree']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarthree']?>/profile.png">
+                                        </div>
+                                    </a>                               
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfour']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfour']?>/profile.png">
+                                        </div>
+                                    </a>                               
+                                    <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfive']?>.php" class="item wepart">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfive']?>/profile.png">
+                                        </div>
+                                    </a>                               
+                                
+                                
+                                
+                                </div>
+
                             <?php
                                 }
                             ?>
 
                         </div>
+
+
 
 
                         <h1>Latest Characters</h1>
