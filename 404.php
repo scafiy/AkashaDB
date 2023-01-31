@@ -4,6 +4,9 @@
         include 'includes/head.php';
     ?>
     <title>404</title>
+    <link rel="stylesheet" href="/Akasha/css/indexstyle.css">
+    <link rel="stylesheet" href="../css/indexstyle.css">
+    <link rel="stylesheet" href="/css/indexstyle.css">
     <link rel="stylesheet" href="css/indexstyle.css">
 
 </head>
@@ -39,10 +42,10 @@
     </div>
 
 
-<script type="text/javascript" src="js/waves.min.js"></script>
-<script type="text/javascript" src="js/swiper.min.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/uniscript.js"></script>
+<script type="text/javascript" src="/Akasha/js/waves.min.js"></script>
+<script type="text/javascript" src="/Akasha/js/swiper.min.js"></script>
+<script type="text/javascript" src="/Akasha/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Akasha/js/uniscript.js"></script>
 </body>
 
 

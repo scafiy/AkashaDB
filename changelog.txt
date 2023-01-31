@@ -28,3 +28,6 @@
 20/01/23: Updated character, weapon and artifact dataset to reflect 3.4 update. Added alhaitham, yaoyao and light of foliar incision
 23/01/23: Added Traveler to database and created a character page with base stat, talent, passive and contellation information for anemo, geo, electro and dendro elemental forms.
 25/01/23: Installed all past limited character and weapon banners, standard and noelle banner images
+27/01/23: Limited character and weapon banners, standard and noelle banner data added such as name which characters/weapons and start/end time to sql database 
+28/01/23: Added swiping feature for banners on home page
+31/01/23: Created and finished banner/wish page ui

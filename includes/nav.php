@@ -96,11 +96,14 @@
          </div>
          <div class="topnav-right">
             <div class="topnav-right-container">
+
                <div class="mobile-search-container">
                   <button class="open-mobile-search-btn">
                      <i class="material-symbols-outlined">search</i>
                   </button>
                </div>
+
+
             </div>
          </div>
 
@@ -189,6 +192,16 @@
                }
             ?>
          </div>
+
+      <a href="/Akasha/banners.php">
+         <button class="sidenav-btn dropdown-button" id="banner-button">
+         <img class="img-icon" src="/Akasha/images/icons/wish.png">
+            <p>Banners</p>
+         </button>
+      </a>
+
+
+         
         
          <p class="sidefooter">© All rights reserved by miHoYo.</p>
    </div>
