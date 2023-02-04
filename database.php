@@ -29,7 +29,7 @@
 
                     
                     <div class="right">
-                      <a href="https://github.com/scafiy/AkashaDB" target="_blank">github repo</a>
+                      <a href="https://github.com/scafiy/AkashaDB" target="_blank">github repository</a>
                       <a href="/phpmyadmin/index.php?route=/database/structure&db=akashadb" target="_blank">phpmyadmin</a>
                       <a href="http://localhost/phpmyadmin/index.php?route=/database/export&db=akashadb" target="_blank">export</a>
 

@@ -21,6 +21,11 @@ $("#character-dropdown-icon").click(function(){
     $("#artifact-dropdown-content").toggleClass("active-dropdown-content");
  });
 
+ $("#akademiya-dropdown-icon").click(function(){
+  $("#akademiya-dropdown-icon").toggleClass("active-dropdown-icon");
+  $("#akademiya-dropdown-content").toggleClass("active-dropdown-content");
+});
+
  $(".hamburger, .overlay").click(function(){
     $(".sidenav").toggleClass("sidenav-collapse");
     $(".maincontent").toggleClass("maincontent-collapse");

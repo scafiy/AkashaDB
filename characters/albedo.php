@@ -92,6 +92,366 @@
                             <td>Base ATK</td>
                             <td>Base DEF</td>
                             <td>Geo DMG Bonus</td>
+                            <td>Materials</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>1/20</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>20/20</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="materialstd" rowspan="2">
+                                <div class="flex">
+
+                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-2-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                        </div>
+                                        <p class="item-text">1</p>
+                                    </a>
+
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                        </div>
+                                        <p class="item-text">3</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-3-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                        </div>
+                                        <p class="item-text">3</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
+                                        </div>
+                                        <p class="item-text">2000</p>
+                                    </a>         
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>20/40</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>40/40</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="materialstd" rowspan="2">
+                                <div class="flex">
+
+                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-3-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                        </div>
+                                        <p class="item-text">3</p>
+                                    </a>
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                        </div>
+                                        <p class="item-text">2</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                        </div>
+                                        <p class="item-text">10</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                        </div>
+                                        <p class="item-text">15</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
+                                        </div>
+                                        <p class="item-text">4000</p>
+                                    </a>         
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>40/50</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>50/50</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="materialstd" rowspan="2">
+                                <div class="flex">
+
+                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                        </div>
+                                        <p class="item-text">6</p>
+                                    </a>
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                        </div>
+                                        <p class="item-text">4</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                        </div>
+                                        <p class="item-text">20</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-2-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                        </div>
+                                        <p class="item-text">12</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
+                                        </div>
+                                        <p class="item-text">6000</p>
+                                    </a>         
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>50/60</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>60/60</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="materialstd" rowspan="2">
+                                <div class="flex">
+
+                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                        </div>
+                                        <p class="item-text">3</p>
+                                    </a>
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                        </div>
+                                        <p class="item-text">8</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                        </div>
+                                        <p class="item-text">30</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-2-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                        </div>
+                                        <p class="item-text">18</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
+                                        </div>
+                                        <p class="item-text">8000</p>
+                                    </a>         
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>60/70</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>70/70</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="materialstd" rowspan="2">
+                                <div class="flex">
+
+                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                        </div>
+                                        <p class="item-text">6</p>
+                                    </a>
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                        </div>
+                                        <p class="item-text">12</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                        </div>
+                                        <p class="item-text">45</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-3-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                        </div>
+                                        <p class="item-text">12</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
+                                        </div>
+                                        <p class="item-text">100,000</p>
+                                    </a>         
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>70/80</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>80/80</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="materialstd" rowspan="2">
+                                <div class="flex">
+
+                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-5-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                        </div>
+                                        <p class="item-text">6</p>
+                                    </a>
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-4-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                        </div>
+                                        <p class="item-text">20</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                        </div>
+                                        <p class="item-text">60</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-3-star">
+                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                        </div>
+                                        <p class="item-text">24</p>
+                                    </a>
+
+
+                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
+                                        </div>
+                                        <p class="item-text">120,000</p>
+                                    </a>         
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>80/90</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
 
                         </tr>
 
@@ -101,6 +461,7 @@
                             <td>251</td>
                             <td>876</td>
                             <td>28.8%</td>
+                            <td></td>
 
                         </tr>
                         </table>

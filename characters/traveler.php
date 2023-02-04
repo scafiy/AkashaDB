@@ -344,23 +344,39 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Starfell Sword</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <h1></h1>
-                                <p></p>
+                                <p>You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG.</p>
+
                                 <table class="scalingtable">
                                     <tr>
-                                        <td></td>
-                                        <td style="text-align:right;"></td>
+                                        <td>Skill DMG</td>
+                                        <td style="text-align:right;">422%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CD</td>
+                                        <td style="text-align:right;">8s</td>
+                                    </tr>
+
+                                </table>
+                                <p>The meteorite is considered a Geo Construct, and can be climbed or used to block attacks.</p>
+
+                                <p>The meteorite is considered a Geo Construct, and can be climbed or used to block attacks.</p>
+                                <table class="scalingtable">
+                                    <tr>
+                                        <td>Meteorite Duration</td>
+                                        <td style="text-align:right;">30s</td>
                                     </tr>
 
                                 </table>
 
-                                    <p><i></i></p>
+                                <h1>Hold</h1>
+                                <p>This skill's positioning may be adjusted.</p>
+                                    <p><i>You spoke with Paimon about the final destination of falling stars.</i></p>
                             </div>
                         </div>
 
@@ -371,88 +387,163 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Wake of Earth</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <h1></h1>
-                                <p></p>
-                            
+                                <p>Energizing the Geo deep underground, you set off expanding shockwaves.</p>
+
+                                <p>Launches surrounding opponents back and deals AoE Geo DMG.</p>
                                 <table class="scalingtable">
                                     <tr>
-                                        <td></td>
-                                        <td style="text-align:right;"></td>
+                                        <td>DMG Per Shockwave</td>
+                                        <td style="text-align:right;">252%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CD</td>
+                                        <td style="text-align:right;">15s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Energy Cost</td>
+                                        <td style="text-align:right;">60</td>
+                                    </tr>
+                                </table>
+                                <p>A stone wall is erected at the edges of the shockwave.</p>
+                                <p>The stone wall is considered a Geo Construct, and may be used to block attacks.</p>
+                                <table class="scalingtable">
+                                    <tr>
+                                        <td>Stonewall Duration</td>
+                                        <td style="text-align:right;">15s</td>
                                     </tr>
 
+
                                 </table>
-                                <p><i></i></p>
+
+                                <p><i>You and Paimon studied the pulse of the mountains.</i></p>
                             </div>
                         </div>
 
 </div>
-
 
 <div class="electrotalents flex hide">
 
-                        <div class="talent-card">
+<div class="talent-card">
                             <div class="talent-card-heading">
                                 <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/electroskill.png" alt="">
+                                    <img src="../images/characters/traveler/electroskill.png" alt="">
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Lightning Blade</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <h1></h1>
-                                <p></p>
-                                <table class="scalingtable">
+
+                            <p>Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an Abundance Amulet behind after hitting an opponent.</p>
+                            <table class="scalingtable">
+                                    <tbody><tr>
+                                        <td>Skill DMG</td>
+                                        <td style="text-align:right;">134% x 3</td>
+                                    </tr>
                                     <tr>
-                                        <td></td>
-                                        <td style="text-align:right;"></td>
+                                        <td>CD</td>
+                                        <td style="text-align:right;">13.5s</td>
                                     </tr>
 
-                                </table>
 
-                                    <p><i></i></p>
+                                </tbody></table>
+                            
+                            <p>2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.</p>
+                            <h1>Abundance Amulets</h1>
+                            <p>When a character is near an Abundance Amulet, they will absorb it and obtain the following effects:</p>
+                            <li>Restores Elemental Energy</li>
+                            <li>Increases Energy Recharge during the Abundance Amulet's duration.</li>
+                                <table class="scalingtable">
+                                    <tbody><tr>
+                                        <td>Energy Regeneration</td>
+                                        <td style="text-align:right;">4 Per Amulet</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Energy Recharge Increase</td>
+                                        <td style="text-align:right;">20%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duration</td>
+                                        <td style="text-align:right;">6s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abundance Amulet Duration</td>
+                                        <td style="text-align:right;">15</td>
+                                    </tr>
+
+                                </tbody></table>
+
+
+                                    <p><i>You and Paimon discuss the paths by which electricity might flow.</i></p>
                             </div>
                         </div>
-
+                        
                         <div class="talent-card">
                             <div class="talent-card-heading">
                                 <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/electroburst.png" alt="">
+                                    <img src="../images/characters/traveler/electroburst.png" alt="">
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Bellowing Thunder</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <h1></h1>
-                                <p></p>
+                                <p>You call upon the protection of lightning, knocking nearby opponents back and dealing Electro DMG to them.</p>
+
                             
                                 <table class="scalingtable">
+                                    <tbody><tr>
+                                        <td>Skill DMG</td>
+                                        <td style="text-align:right;">194.5%</td>
+                                    </tr>
                                     <tr>
-                                        <td></td>
-                                        <td style="text-align:right;"></td>
+                                        <td>CD</td>
+                                        <td style="text-align:right;">20s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Energy Cost</td>
+                                        <td style="text-align:right;">80</td>
+                                    </tr>
+                                </tbody></table>
+                                <h1>Lightning Shroud</h1>
+                                <p>When your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing Electro DMG.</p>
+                                <p>One instance of Falling Thunder can be generated every 0.5s.</p>
+                                <table class="scalingtable">
+                                    <tbody><tr>
+                                        <td>Falling Thunder DMG</td>
+                                        <td style="text-align:right;">55.8%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Energy Regeneration</td>
+                                        <td style="text-align:right;">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duration</td>
+                                        <td style="text-align:right;">12s</td>
                                     </tr>
 
-                                </table>
-                                <p><i></i></p>
+                                </tbody></table>
+                                <p><i>You and Paimon studied the light that flashes through the clouds.</i></p>
                             </div>
-                        </div>
+                        </div></div>
 
-</div>
 
-<div class="dendroalents flex hide">
+
+
+
+<div class="dendrotalents flex hide">
 
                         <div class="talent-card">
                             <div class="talent-card-heading">
@@ -461,23 +552,25 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Skill: </p>
+                                    <p class="talent-card-title">Elemental Skill: Razorgrass Blade</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <h1></h1>
-                                <p></p>
+                                <p>With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG.</p>
                                 <table class="scalingtable">
                                     <tr>
-                                        <td></td>
-                                        <td style="text-align:right;"></td>
+                                        <td>Skill DMG</td>
+                                        <td style="text-align:right;">392%</td>
                                     </tr>
-
+                                    <tr>
+                                        <td>CD</td>
+                                        <td style="text-align:right;">8s</td>
+                                    </tr>
                                 </table>
 
-                                    <p><i></i></p>
+                                    <p><i>You and Paimon observed the flowing edges of grass and leaf.</i></p>
                             </div>
                         </div>
 
@@ -488,23 +581,49 @@
                                 </div>
 
                                 <div class="talent-card-heading-text">
-                                    <p class="talent-card-title">Elemental Burst: </p>
+                                    <p class="talent-card-title">Elemental Burst: Surgent Manifestation</p>
                                     <p class="level">Lv.9</p>
                                 </div>
                             </div>
 
                             <div class="talent-card-description">
-                                <h1></h1>
-                                <p></p>
-                            
+                                <p>Calling upon the might of the flora all around you, you create a Lea Lotus Lamp.</p>
+                                <p>This Lamp will deal continuous Dendro DMG to opponents within its AoE.</p>
+                                
+                                <h1>Lotuslight Transfiguration</h1>
+                                <p>The Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:</p>
+                                <li>Hydro: the Lamp's AoE and the AoE of its attacks are increased.</li>
+                                <li>Electro: the Lamp's ATK SPD is increased.</li>
+                                <li>Pyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.</li>
+                                <p>The Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.</p>
+                                <p>Only one Lamp created by the Traveler can exist at any one time.</p>
                                 <table class="scalingtable">
                                     <tr>
-                                        <td></td>
-                                        <td style="text-align:right;"></td>
+                                        <td>Lea Lotus Lamp Attack DMG</td>
+                                        <td style="text-align:right;">136.3%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lea Lotus Lamp Duration</td>
+                                        <td style="text-align:right;">12s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Explosion DMG</td>
+                                        <td style="text-align:right;">681.4%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>CD</td>
+                                        <td style="text-align:right;">20s</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Energy Cost</td>
+                                        <td style="text-align:right;">80</td>
                                     </tr>
 
                                 </table>
-                                <p><i></i></p>
+
+
+
+                                <p><i>You and Paimon studied the sounds of plants that sprout after the rain.</i></p>
                             </div>
                         </div>
 
@@ -548,27 +667,18 @@
                 
                             <div class="passive-card">
                                 <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/geopassive.png" alt="">
-                                </div>                        
-                            
-                                <h1></h1>
-                                <p></p>
-                            </div>
-
-                            <div class="passive-card">
-                                <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/geoa1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Shattered Darkrock</h1>
+                                <p>Reduces Starfell Sword's CD by 2s.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/geoa4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Frenzied Rockslide</h1>
+                                <p>The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG.</p>
                             </div>
                             </div>
 
@@ -578,29 +688,22 @@
                         <div class="passive-deck-wrapper">
 
                 
-                            <div class="passive-card">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/electropassive.png" alt="">
-                                </div>                        
-                            
-                                <h1></h1>
-                                <p></p>
-                            </div>
+
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/electroa1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Thunderflash</h1>
+                                <p>When another nearby character in the party obtains an Abundance Amulet created by Lightning Blade, Lightning Blade's CD is decreased by 1.5s.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/electroa4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Resounding Roar</h1>
+                                <p>Increases the Energy Recharge effect granted by Lightning Blade's Abundance Amulet by 10% of the Traveler's Energy Recharge.</p>
                             </div>
                             </div>
 
@@ -610,30 +713,21 @@
                     <div class="passive-deck dendropassive hide">
                         <div class="passive-deck-wrapper">
 
-                
-                            <div class="passive-card">
-                                <div class="talent-icon">
-                                    <img src="../images/characters/<?php echo $fetch['url']?>/dendropassive.png" alt="">
-                                </div>                        
-                            
-                                <h1></h1>
-                                <p></p>
-                            </div>
-
+            
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/dendroa1.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Verdant Overgrowth</h1>
+                                <p>Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks.</p>
                             </div>
 
                             <div class="passive-card">
                                 <div class="talent-icon">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/dendroa4.png" alt="">
                                 </div> 
-                                <h1></h1>
-                                <p></p>
+                                <h1>Verdant Luxury</h1>
+                                <p>Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by Surgent Manifestation by 0.1%.</p>
                             </div>
                             </div>
 
@@ -750,8 +844,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Invincible Stonewall</h1>
+                                    <p>Party members within the radius of Wake of Earth have their CRIT Rate increased by 10% and have increased resistance against interruption.</p>
 
                                 </div>
 
@@ -766,8 +860,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/geoc2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Rockcore Meltdown</h1>
+                                    <p>When the meteorite created by Starfell Sword is destroyed, it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by Starfell Sword.</p>
 
                                 </div>
                             </div>
@@ -783,9 +877,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
-                                    <p></p>
+                                    <h1>C3: Will of the Rock</h1>
+                                    <p>Increases the Level of Wake of Earth by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -798,8 +892,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/geoc4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Reaction Force</h1>
+                                    <p>The shockwave triggered by Wake of Earth regenerates 5 Energy for every opponent hit.</p>
+                                    <p>A maximum of 25 Energy can be regenerated in this manner at any one time.</p>
                                 </div>
 
                             </div>
@@ -812,9 +907,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/geoc5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
-                                    <p></p>
+                                    <h1>C5: Meteorite Impact</h1>
+                                    <p>Increases the Level of Starfell Sword by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -826,8 +921,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/geoc6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Everlasting Boulder</h1>
+                                    <p>The barrier created by Wake of Earth lasts 5s longer.</p>
+                                    <p>The meteorite created by Starfell Sword lasts 10s longer.</p>
                                 </div>
                             </div>
                         </div>
@@ -843,8 +939,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Spring Thunder of Fertility</h1>
+                                    <p>The number of Abundance Amulets that can be generated using Lightning Blade is increased to 3.</p>
 
                                 </div>
 
@@ -859,8 +955,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/electroc2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Violet Vehemence</h1>
+                                    <p>When Falling Thunder created by Bellowing Thunder hits an opponent, it will decrease their Electro RES by 15% for 8s.</p>
 
                                 </div>
                             </div>
@@ -876,9 +972,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
-                                    <p></p>
+                                    <h1>C3: Distant Crackling</h1>
+                                    <p>Increases the Level of Bellowing Thunder by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -891,8 +987,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/electroc4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Fickle Cloudstrike</h1>
+                                    <p>When a character obtains Abundance Amulets generated by Lightning Blade, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%.</p>
                                 </div>
 
                             </div>
@@ -905,9 +1001,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/electroc5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
-                                    <p></p>
+                                    <h1>C5: Clamor in the Wilds</h1>
+                                    <p>Increases the Level of Lightning Blade by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -919,8 +1015,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/electroc6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: World-Shaker</h1>
+                                    <p>Every 2 Falling Thunder attacks triggered by Bellowing Thunder will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character.</p>
                                 </div>
                             </div>
                         </div>
@@ -936,8 +1032,8 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C1: </h1>
-                                    <p></p>
+                                    <h1>C1: Symbiotic Creeper</h1>
+                                    <p>After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler.</p>
 
                                 </div>
 
@@ -952,8 +1048,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/dendroc2.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C2: </h1>
-                                    <p></p>
+                                    <h1>C2: Green Resilience</h1>
+                                    <p>Lea Lotus Lamp's duration is increased by 3s.</p>
 
                                 </div>
                             </div>
@@ -969,9 +1065,9 @@
                                 </div>
 
                                 <div class="constellation-text">
-                                    <h1>C3: </h1>
-                                    <p></p>
-                                    <p></p>
+                                    <h1>C3: Whirling Weeds</h1>
+                                    <p>Increases the Level of Razorgrass Blade by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                     
@@ -984,8 +1080,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/dendroc4.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C4: </h1>
-                                    <p></p>
+                                    <h1>C4: Treacle Grass</h1>
+                                    <p>After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent "Verdant Overgrowth."</p>
+                                    <p>You must have unlocked this Passive Talent first.</p>
                                 </div>
 
                             </div>
@@ -998,9 +1095,9 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/dendroc5.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C5: </h1>
-                                    <p></p>
-                                    <p></p>
+                                    <h1>C5: Viridian Transience</h1>
+                                    <p>Increases the Level of Surgent Manifestation by 3.</p>
+                                    <p>Maximum upgrade level is 15.</p>
                                 </div>
                             </div>
                         </div>
@@ -1012,8 +1109,8 @@
                                     <img src="../images/characters/<?php echo $fetch['url']?>/dendroc6.png" alt="">
                                 </div>
                                 <div class="constellation-text">
-                                    <h1>C6: </h1>
-                                    <p></p>
+                                    <h1>C6: Withering Aggregation</h1>
+                                    <p>The Dendro DMG Bonus of the character under the effect of Overflowing Lotuslight as created by the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.</p>
                                 </div>
                             </div>
                         </div>
@@ -1121,7 +1218,7 @@ $("#dendro").click(function(){
 
     $(".anemotalents").addClass("hide");
     $(".geotalents").addClass("hide");
-    $(".electrotalents").removeClass("hide");
+    $(".electrotalents").addClass("hide");
     $(".dendrotalents").removeClass("hide");
 
     $(".anemocons").addClass("hide");
