@@ -31,5 +31,6 @@
 27/01/23: Limited character and weapon banners, standard and noelle banner data added such as name which characters/weapons and start/end time to sql database 
 28/01/23: Added swiping feature for banners on home page
 31/01/23: Created and finished banner/wish page ui
-3/01/23: added "akademiya" page for guides
-4/01/23: Started creating ui for materials needed for characters ascension in character pages.
+1/02/23: Finished traveler character page for all elements
+3/02/23: added "akademiya" page for guides
+4/02/23: Started creating ui for materials needed for characters ascension in character pages.
