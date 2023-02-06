@@ -2,7 +2,6 @@ $(".filter-btn").click(function(){
     $(".filter-container").toggleClass("filter-container-show");
     $(".filter-btn").toggleClass("active-filter-btn");
 
-
  });
 
 $(".filter-anemo").click(function(){

@@ -35,12 +35,30 @@
 
                 <p class="title">Recent Articles</p>
                 <div class="article-container">
-                    <a href="">Team DPS</a>
-                    <a href="">FAQ</a>
+
+
+                    <a href="akademiya/teamdps.php">
+                        <div class="article-item" style="background-image: linear-gradient(to bottom, red, #202020 70%), url('');">
+                            <div class="article-details">
+                                <h1>Team DPS</h1>
+                                <p>Calculated team damage collection.</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="akademiya/faq.php">
+                        <div class="article-item" style="background-image: linear-gradient(to bottom, #F3D24675, #202020  70%), url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091811065384864.jpg');">
+                            <div class="article-details">
+                                <h1>FAQ</h1>
+                                <p>Recent frequently asked questions answered.</p>
+                            </div>
+                        </div>
+                    </a>
+
 
                 </div>
 
-                
+
 
 
 
@@ -59,6 +77,11 @@ $(window).on("load", function() {
     $("#akademiya-dropdown-icon").addClass("active");
     $("#akademiya-dropdown-content").addClass("active-dropdown-content");
  });
+</script>
+<script>
+    Waves.attach('.article-item', ['waves-effect', 'waves-light']);
+    Waves.init();
+
 </script>
 <script type="text/javascript" src="js/waves.min.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>

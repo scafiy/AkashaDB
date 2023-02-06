@@ -102,7 +102,6 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td></td>
 
                         </tr>
 
@@ -115,32 +114,32 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a class="item">
                                         <div class="item-icon bg-2-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png">
                                         </div>
                                         <p class="item-text">1</p>
                                     </a>
 
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
                                         <p class="item-text">3</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
-                                        <div class="item-icon bg-3-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                    <a  class="item">
+                                        <div class="item-icon bg-1-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png">
                                         </div>
                                         <p class="item-text">3</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -168,38 +167,38 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                <a  class="item">
                                         <div class="item-icon bg-3-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png">
                                         </div>
                                         <p class="item-text">3</p>
                                     </a>
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
                                         <p class="item-text">2</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
                                         <p class="item-text">10</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png">
                                         </div>
                                         <p class="item-text">15</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -227,38 +226,38 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
-                                        <div class="item-icon bg-5-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                <a  class="item">
+                                        <div class="item-icon bg-3-star">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png">
                                         </div>
                                         <p class="item-text">6</p>
                                     </a>
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
                                         <p class="item-text">4</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
                                         <p class="item-text">20</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-2-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png">
                                         </div>
                                         <p class="item-text">12</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -286,38 +285,38 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png">
                                         </div>
                                         <p class="item-text">3</p>
                                     </a>
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
                                         <p class="item-text">8</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
                                         <p class="item-text">30</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-2-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png">
                                         </div>
                                         <p class="item-text">18</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -345,38 +344,38 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png">
                                         </div>
                                         <p class="item-text">6</p>
                                     </a>
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
                                         <p class="item-text">12</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
                                         <p class="item-text">45</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-3-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png">
                                         </div>
                                         <p class="item-text">12</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -404,38 +403,38 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                <a  class="item">
                                         <div class="item-icon bg-5-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_104174.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png">
                                         </div>
                                         <p class="item-text">6</p>
                                     </a>
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-4-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_113009.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
                                         <p class="item-text">20</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_100023.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
                                         <p class="item-text">60</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-3-star">
-                                            <img class="item-img" src="https://api.ambr.top/assets/UI/UI_ItemIcon_112010.png">
+                                            <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png">
                                         </div>
                                         <p class="item-text">24</p>
                                     </a>
 
 
-                                    <a href="characters/<?php echo $fetch['url']?>.php" class="item">
+                                    <a  class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -461,13 +460,31 @@
                             <td>251</td>
                             <td>876</td>
                             <td>28.8%</td>
-                            <td></td>
 
                         </tr>
                         </table>
                     </div>
 
-                    <p class="title">Talents</p>
+                    <div class="talentheader">
+                        <p class="title">Talents</p>
+                        <div class="priority">
+                                <div>
+                                    <p>Skill</p>
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/skill.png">
+                                </div>                                
+                                <p>
+                                    
+                                <span class="material-symbols-outlined">chevron_right</span>
+
+                                </p>
+                                <div>
+                                    <p>Burst</p>
+                                    <img src="../images/characters/<?php echo $fetch['url']?>/burst.png">
+                                </div>
+                        </div>
+                    </div>
+
+
                     <div class="talent-deck">
                         <div class="talent-card">
                             <div class="talent-card-heading">
@@ -535,8 +552,19 @@
                                             <td style="text-align:right;">235%/293%</td>
                                         </tr>
                                     </table>
+
+
+
                                 </div>
+                                <div class="talentbtn-container">
+                                    <a id="myBtn"><button class="talentbtn waves-effect waves-effect waves">Level Up</button></a>
+
+                                </div>
+
                             </div>
+
+                        
+
 
 
                         <div class="talent-card">
@@ -581,7 +609,15 @@
                                     </table>
                                     <p><i>This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.</i></p>
                                 </div>
+                                <div class="talentbtn-container">
+                                    <a id="myBtn2"><button class="talentbtn waves-effect waves-effect waves">Level Up</button></a>
+
+                                </div>
                             </div>
+
+
+
+
 
                         <div class="talent-card">
                             <div class="talent-card-heading">
@@ -627,6 +663,9 @@
                     </div>
 
 
+
+
+
                     
 
                     <p class="title">Passives</p>
@@ -666,7 +705,23 @@
                     </div>
 
 
+<div id="myModal" class="modal">
 
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <table><thead><tr><th style="min-width: 140px;">Name</th><th>Lv. 1</th><th>Lv. 2</th><th>Lv. 3</th><th>Lv. 4</th><th>Lv. 5</th><th>Lv. 6</th><th>Lv. 7</th><th>Lv. 8</th><th>Lv. 9</th><th>Lv. 10</th><th>Lv. 11</th></tr></thead><tbody><tr><td style="min-width: 140px;">1-Hit DMG</td><td colspan="1" align="center"><span>36.7%<wbr></span></td><td colspan="1" align="center"><span>39.7%<wbr></span></td><td colspan="1" align="center"><span>42.7%<wbr></span></td><td colspan="1" align="center"><span>47.0%<wbr></span></td><td colspan="1" align="center"><span>50.0%<wbr></span></td><td colspan="1" align="center"><span>53.4%<wbr></span></td><td colspan="1" align="center"><span>58.1%<wbr></span></td><td colspan="1" align="center"><span>62.8%<wbr></span></td><td colspan="1" align="center"><span>67.5%<wbr></span></td><td colspan="1" align="center"><span>72.6%<wbr></span></td><td colspan="1" align="center"><span>78.5%<wbr></span></td></tr><tr><td style="min-width: 140px;">2-Hit DMG</td><td colspan="1" align="center"><span>36.7%<wbr></span></td><td colspan="1" align="center"><span>39.7%<wbr></span></td><td colspan="1" align="center"><span>42.7%<wbr></span></td><td colspan="1" align="center"><span>47.0%<wbr></span></td><td colspan="1" align="center"><span>50.0%<wbr></span></td><td colspan="1" align="center"><span>53.4%<wbr></span></td><td colspan="1" align="center"><span>58.1%<wbr></span></td><td colspan="1" align="center"><span>62.8%<wbr></span></td><td colspan="1" align="center"><span>67.5%<wbr></span></td><td colspan="1" align="center"><span>72.6%<wbr></span></td><td colspan="1" align="center"><span>78.5%<wbr></span></td></tr><tr><td style="min-width: 140px;">3-Hit DMG</td><td colspan="1" align="center"><span>47.5%<wbr></span></td><td colspan="1" align="center"><span>51.3%<wbr></span></td><td colspan="1" align="center"><span>55.2%<wbr></span></td><td colspan="1" align="center"><span>60.7%<wbr></span></td><td colspan="1" align="center"><span>64.6%<wbr></span></td><td colspan="1" align="center"><span>69.0%<wbr></span></td><td colspan="1" align="center"><span>75.0%<wbr></span></td><td colspan="1" align="center"><span>81.1%<wbr></span></td><td colspan="1" align="center"><span>87.2%<wbr></span></td><td colspan="1" align="center"><span>93.8%<wbr></span></td><td colspan="1" align="center"><span>101.4%<wbr></span></td></tr><tr><td style="min-width: 140px;">4-Hit DMG</td><td colspan="1" align="center"><span>49.8%<wbr></span></td><td colspan="1" align="center"><span>53.8%<wbr></span></td><td colspan="1" align="center"><span>57.8%<wbr></span></td><td colspan="1" align="center"><span>63.6%<wbr></span></td><td colspan="1" align="center"><span>67.7%<wbr></span></td><td colspan="1" align="center"><span>72.3%<wbr></span></td><td colspan="1" align="center"><span>78.7%<wbr></span></td><td colspan="1" align="center"><span>85.0%<wbr></span></td><td colspan="1" align="center"><span>91.4%<wbr></span></td><td colspan="1" align="center"><span>98.3%<wbr></span></td><td colspan="1" align="center"><span>106.3%<wbr></span></td></tr><tr><td style="min-width: 140px;">5-Hit DMG</td><td colspan="1" align="center"><span>62.1%<wbr></span></td><td colspan="1" align="center"><span>67.1%<wbr></span></td><td colspan="1" align="center"><span>72.2%<wbr></span></td><td colspan="1" align="center"><span>79.4%<wbr></span></td><td colspan="1" align="center"><span>84.4%<wbr></span></td><td colspan="1" align="center"><span>90.2%<wbr></span></td><td colspan="1" align="center"><span>98.2%<wbr></span></td><td colspan="1" align="center"><span>106.1%<wbr></span></td><td colspan="1" align="center"><span>114.0%<wbr></span></td><td colspan="1" align="center"><span>122.7%<wbr></span></td><td colspan="1" align="center"><span>132.6%<wbr></span></td></tr><tr><td style="min-width: 140px;">Charged Attack DMG</td><td colspan="1" align="center"><span>47.3%<wbr></span><span>+<wbr></span><span>60.2%<wbr></span></td><td colspan="1" align="center"><span>51.2%<wbr></span><span>+<wbr></span><span>65.1%<wbr></span></td><td colspan="1" align="center"><span>55.0%<wbr></span><span>+<wbr></span><span>70.0%<wbr></span></td><td colspan="1" align="center"><span>60.5%<wbr></span><span>+<wbr></span><span>77.0%<wbr></span></td><td colspan="1" align="center"><span>64.3%<wbr></span><span>+<wbr></span><span>81.9%<wbr></span></td><td colspan="1" align="center"><span>68.8%<wbr></span><span>+<wbr></span><span>87.5%<wbr></span></td><td colspan="1" align="center"><span>74.8%<wbr></span><span>+<wbr></span><span>95.2%<wbr></span></td><td colspan="1" align="center"><span>80.8%<wbr></span><span>+<wbr></span><span>102.9%<wbr></span></td><td colspan="1" align="center"><span>86.9%<wbr></span><span>+<wbr></span><span>110.6%<wbr></span></td><td colspan="1" align="center"><span>93.5%<wbr></span><span>+<wbr></span><span>119.0%<wbr></span></td><td colspan="1" align="center"><span>101.1%<wbr></span><span>+<wbr></span><span>128.6%<wbr></span></td></tr><tr><td style="min-width: 140px;">Plunge DMG</td><td colspan="1" align="center"><span>63.9%<wbr></span></td><td colspan="1" align="center"><span>69.1%<wbr></span></td><td colspan="1" align="center"><span>74.3%<wbr></span></td><td colspan="1" align="center"><span>81.8%<wbr></span></td><td colspan="1" align="center"><span>87.0%<wbr></span></td><td colspan="1" align="center"><span>92.9%<wbr></span></td><td colspan="1" align="center"><span>101.1%<wbr></span></td><td colspan="1" align="center"><span>109.3%<wbr></span></td><td colspan="1" align="center"><span>117.5%<wbr></span></td><td colspan="1" align="center"><span>126.4%<wbr></span></td><td colspan="1" align="center"><span>135.3%<wbr></span></td></tr><tr><td style="min-width: 140px;">Low/High Plunge DMG</td><td colspan="1" align="center"><span>128%<wbr></span><span>/<wbr></span><span>160%<wbr></span></td><td colspan="1" align="center"><span>138%<wbr></span><span>/<wbr></span><span>173%<wbr></span></td><td colspan="1" align="center"><span>149%<wbr></span><span>/<wbr></span><span>186%<wbr></span></td><td colspan="1" align="center"><span>164%<wbr></span><span>/<wbr></span><span>204%<wbr></span></td><td colspan="1" align="center"><span>174%<wbr></span><span>/<wbr></span><span>217%<wbr></span></td><td colspan="1" align="center"><span>186%<wbr></span><span>/<wbr></span><span>232%<wbr></span></td><td colspan="1" align="center"><span>202%<wbr></span><span>/<wbr></span><span>253%<wbr></span></td><td colspan="1" align="center"><span>219%<wbr></span><span>/<wbr></span><span>273%<wbr></span></td><td colspan="1" align="center"><span>235%<wbr></span><span>/<wbr></span><span>293%<wbr></span></td><td colspan="1" align="center"><span>253%<wbr></span><span>/<wbr></span><span>316%<wbr></span></td><td colspan="1" align="center"><span>271%<wbr></span><span>/<wbr></span><span>338%<wbr></span></td></tr></tbody></table>
+  </div>
+
+</div>
+
+
+<div id="myModal2" class="modal2">
+
+<div class="modal-content2">
+  <span class="close2">&times;</span>
+<table><thead><tr><th style="min-width: 140px;">Name</th><th>Lv. 1</th><th>Lv. 2</th><th>Lv. 3</th><th>Lv. 4</th><th>Lv. 5</th><th>Lv. 6</th><th>Lv. 7</th><th>Lv. 8</th><th>Lv. 9</th><th>Lv. 10</th><th>Lv. 11</th><th>Lv. 12</th><th>Lv. 13</th></tr></thead><tbody><tr><td style="min-width: 140px;">Skill DMG</td><td colspan="1" align="center"><span>130%<wbr></span></td><td colspan="1" align="center"><span>140%<wbr></span></td><td colspan="1" align="center"><span>150%<wbr></span></td><td colspan="1" align="center"><span>163%<wbr></span></td><td colspan="1" align="center"><span>173%<wbr></span></td><td colspan="1" align="center"><span>183%<wbr></span></td><td colspan="1" align="center"><span>196%<wbr></span></td><td colspan="1" align="center"><span>209%<wbr></span></td><td colspan="1" align="center"><span>222%<wbr></span></td><td colspan="1" align="center"><span>235%<wbr></span></td><td colspan="1" align="center"><span>248%<wbr></span></td><td colspan="1" align="center"><span>261%<wbr></span></td><td colspan="1" align="center"><span>277%<wbr></span></td></tr><tr><td style="min-width: 140px;">Transient Blossom DMG</td><td colspan="1" align="center"><span>134%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>144%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>154%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>167%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>177%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>187%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>200%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>214%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>227%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>240%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>254%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>267%<wbr></span><span> DEF<wbr></span></td><td colspan="1" align="center"><span>284%<wbr></span><span> DEF<wbr></span></td></tr></tbody></table></div>
+
+</div>
 
 
                     <p class="title">Constellations</p>

@@ -237,6 +237,8 @@
                             <th>url</th>
                             <th>category</th>
                             <th>type</th>
+                            <th>version</th>
+                            <th>phase</th>
                             <th>startdate</th>
                             <th>finishdate</th>
                             <th>fivestarone</th>
@@ -263,6 +265,8 @@
                                 <td><?php echo $fetch['url']?></td>
                                 <td><?php echo $fetch['category']?></td>
                                 <td><?php echo $fetch['type']?></td>
+                                <td><?php echo $fetch['version']?></td>
+                                <td><?php echo $fetch['phase']?></td>
                                 <td><?php echo $fetch['startdate']?></td>
                                 <td><?php echo $fetch['finishdate']?></td>
                                 <td><?php echo $fetch['fivestarone']?></td>

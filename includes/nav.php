@@ -218,6 +218,8 @@
 
 
          <div class="dropdown-content" id="akademiya-dropdown-content">
+            <a href="/Akasha/akademiya/teamdps.php"><button id="teamdps-button">TeamDPS</button></a>
+            <a href="/Akasha/akademiya/faq.php"><button id="faq-button">FAQ</button></a>
             <a href="/Akasha/akademiya/.php"><button id="-button"></button></a>
 
 

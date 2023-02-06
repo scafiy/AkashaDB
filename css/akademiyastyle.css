@@ -4,7 +4,7 @@
 
 .heading-container{
     background-image: linear-gradient(to left, transparent 20%, rgb(44, 44, 44) 70%), url('../images/bg/tree.png');
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
 }
 
@@ -42,16 +42,117 @@
     font-weight: 100;
 
 }
+a{
+    text-decoration: none;
+
+}
 
 .article-container{
     display: flex;
+    margin-bottom: 15px;
+    width: 100%;
+    overflow-x: auto;
 }
 
-.article-container a{
-    display: flex;
+.article-item{
     padding: 15px;
-    width: 100px;
-    background-color: rgb(44, 44, 44);
+    width: 150px;
+    height: 220px;
     margin-right: 10px;
     border-radius: 2px;
+    text-align: bottom;
+    background-color: #202020;
+    
 }
+
+.article-details{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 140px;
+    background-color: transparent;
+    text-align: bottom;
+    text-decoration: none;
+    width: 100%;
+}
+
+.article-details h1{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 0px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.article-details p{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 0px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(177, 176, 175);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* article page style*/
+
+.questions{
+    width: 700px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media all and (max-width: 754px) {  
+    .questions{
+        width: 100%;
+
+
+    }
+
+
+  }
+
+
+.accordion {
+    background-color: #363636;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+
+  }
+  
+  .active1, .accordion:hover {
+    background-color: #2b2a2a; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    padding-top: 10px;
+    display: none;
+    background-color: rgb(31, 31, 31);
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+
+  }

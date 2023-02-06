@@ -34,3 +34,5 @@
 1/02/23: Finished traveler character page for all elements
 3/02/23: added "akademiya" page for guides
 4/02/23: Started creating ui for materials needed for characters ascension in character pages.
+5/02/23: Finished akademiya page ui
+6/02/23: Faq and Teamdps Page added
