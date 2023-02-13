@@ -114,7 +114,7 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                    <a class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-2-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Prithiva_Topaz_Sliver.png">
                                         </div>
@@ -123,7 +123,7 @@
 
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
@@ -131,7 +131,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png">
                                         </div>
@@ -139,7 +139,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -167,14 +167,14 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a  class="item">
+                                <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-3-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png">
                                         </div>
                                         <p class="item-text">3</p>
                                     </a>
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
@@ -182,7 +182,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
@@ -190,7 +190,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/7/74/Item_Divining_Scroll.png">
                                         </div>
@@ -198,7 +198,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -226,14 +226,14 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a  class="item">
+                                <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-3-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/3/3e/Item_Prithiva_Topaz_Fragment.png">
                                         </div>
                                         <p class="item-text">6</p>
                                     </a>
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
@@ -241,7 +241,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
@@ -249,7 +249,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-2-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png">
                                         </div>
@@ -257,7 +257,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -285,14 +285,14 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a  class="item">
+                                <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png">
                                         </div>
                                         <p class="item-text">3</p>
                                     </a>
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
@@ -300,7 +300,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
@@ -308,7 +308,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-2-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/91/Item_Sealed_Scroll.png">
                                         </div>
@@ -316,7 +316,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -344,14 +344,14 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a  class="item">
+                                <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Prithiva_Topaz_Chunk.png">
                                         </div>
                                         <p class="item-text">6</p>
                                     </a>
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
@@ -359,7 +359,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
@@ -367,7 +367,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-3-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png">
                                         </div>
@@ -375,7 +375,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin " class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -403,14 +403,14 @@
                             <td class="materialstd" rowspan="2">
                                 <div class="flex">
 
-                                <a  class="item">
+                                <a href="https://www.google.com/search?q=Genshin Prithiva Topaz Gemstone" class="item">
                                         <div class="item-icon bg-5-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Prithiva_Topaz_Gemstone.png">
                                         </div>
                                         <p class="item-text">6</p>
                                     </a>
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin Basalt Pillar" class="item">
                                         <div class="item-icon bg-4-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Basalt_Pillar.png">
                                         </div>
@@ -418,7 +418,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin Cecilia" class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Cecilia.png">
                                         </div>
@@ -426,7 +426,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin Forbidden Curse Scroll" class="item">
                                         <div class="item-icon bg-3-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Item_Forbidden_Curse_Scroll.png">
                                         </div>
@@ -434,7 +434,7 @@
                                     </a>
 
 
-                                    <a  class="item">
+                                    <a href="https://www.google.com/search?q=Genshin Mora" class="item">
                                         <div class="item-icon bg-1-star">
                                             <img class="item-img" src="https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png">
                                         </div>
@@ -468,8 +468,7 @@
                     <div class="talentheader">
                         <p class="title">Talents</p>
                         <div class="priority">
-                                <div>
-                                    <p>Skill</p>
+                                <div tooltip="Skill" flow="up">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/skill.png">
                                 </div>                                
                                 <p>
@@ -477,8 +476,7 @@
                                 <span class="material-symbols-outlined">chevron_right</span>
 
                                 </p>
-                                <div>
-                                    <p>Burst</p>
+                                <div  tooltip="Burst" flow="up">
                                     <img src="../images/characters/<?php echo $fetch['url']?>/burst.png">
                                 </div>
                         </div>

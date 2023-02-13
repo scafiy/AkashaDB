@@ -36,6 +36,15 @@
                 <p class="title">Recent Articles</p>
                 <div class="article-container">
 
+                <a href="akademiya/meta-analysis.php">
+                        <div class="article-item" style="background-image: linear-gradient(to bottom, red, #202020 70%), url('');">
+                            <div class="article-details">
+                                <h1>Meta Analysis</h1>
+                                <p></p>
+                            </div>
+                        </div>
+                    </a>
+
 
                     <a href="akademiya/teamdps.php">
                         <div class="article-item" style="background-image: linear-gradient(to bottom, red, #202020 70%), url('');">

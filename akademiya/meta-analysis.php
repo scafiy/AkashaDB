@@ -4,7 +4,7 @@
     session_start();
         include '../includes/head.php';
 ?>
-<title>FAQ - Akasha</title>
+<title>Meta Analysis - Akasha</title>
     
 
 </head>
@@ -18,6 +18,13 @@
 <link rel="stylesheet" href="../css/akademiyastyle.css">
 <link rel="stylesheet" href="../css/characterpagestyle.css">
 
+<style>
+
+:root {
+    --highlighted-color: red; 
+}
+
+</style>
 
 <body>
     <div class="container">
@@ -25,15 +32,16 @@
         <div class="maincontent">
             <div class="content-container">
 
-                <div class="heading-container" style="background-image: linear-gradient(to left, red 20%, rgb(44, 44, 44) 70%), url('')">
+                <div class="heading-container" style="background-image: linear-gradient(to left, var(--highlighted-color) 20%, transparent 80%), url('')">
                     <div class="flex">
-                        <h1 class="heading-title">TeamDPS</h1> 
+                        <h1 class="heading-title">Meta Analysis</h1> 
                     </div>
-                    <p>Calculated team damage collection.</p>
+                    <p>Meta Analysis</p>
 
                 </div>
 
-                <p>WIP</p>
+                <p>Hu Tao</p>
+
 
                 
 
@@ -47,7 +55,7 @@
 
 <script type="text/javascript">
  $(window).on("load", function() {
-    $("#faq-button").addClass("active");
+    $("#meta-analysis-button").addClass("active");
 
     $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
     $("#akademiya-dropdown-content").addClass("active-dropdown-content");

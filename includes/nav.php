@@ -204,6 +204,17 @@
          </button>
       </a>
 
+      
+      <a href="/Akasha/teamdps.php">
+         <button class="sidenav-btn dropdown-button" id="teamdps-button">
+         <img class="img-icon" src="/Akasha/images/icons/party.png">
+            <p>TeamDPS</p>
+         </button>
+      </a>
+
+
+
+
 
       <a href="/Akasha/akademiya.php">
          <button class="sidenav-btn dropdown-button" id="akademiya-button">
@@ -218,9 +229,8 @@
 
 
          <div class="dropdown-content" id="akademiya-dropdown-content">
-            <a href="/Akasha/akademiya/teamdps.php"><button id="teamdps-button">TeamDPS</button></a>
+         <a href="/Akasha/akademiya/meta-analysis.php"><button id="meta-analysis-button">Meta Analysis</button></a>
             <a href="/Akasha/akademiya/faq.php"><button id="faq-button">FAQ</button></a>
-            <a href="/Akasha/akademiya/.php"><button id="-button"></button></a>
 
 
          </div>

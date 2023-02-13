@@ -1,6 +1,4 @@
-:root {
-    --highlighted-color:#68ad4a ; 
-}
+
 
 .heading-container{
     background-image: linear-gradient(to left, transparent 20%, rgb(44, 44, 44) 70%), url('../images/bg/tree.png');
@@ -36,7 +34,7 @@
 
 .heading-title{
     font-size: 30px;
-    font-family:ingame;
+    font-family:interbold;
     padding: 5px;
     margin: 0px;
     font-weight: 100;
@@ -156,3 +154,8 @@ a{
     box-sizing: border-box;
 
   }
+
+
+
+
+

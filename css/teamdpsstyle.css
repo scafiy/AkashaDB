@@ -1,0 +1,181 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+  /*Team DPS*/
+
+.Disclaimer{
+    padding: 10px;
+    background-color: #303030;
+    border: 1px solid rgb(73, 73, 73);
+    border-radius: 2px;
+    
+}
+
+.Disclaimer p{
+    padding: 0px;
+    margin: 5px;
+}
+
+.Disclaimer a{
+    text-decoration: underline;
+    color: var(--highlighted-color);
+}
+
+.teams-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+
+@media all and (max-width: 875px) {  
+    .item-container{
+        text-align: left;
+        justify-content: left; 
+        align-items: left;    
+    }
+}
+
+
+
+
+
+.team{
+    width: auto;
+    min-width: 390px;
+    background-color: rgb(49, 49, 49);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 0px;
+
+
+    
+}
+
+@media all and (max-width: 875px) {  
+    .team{
+        width: 100%;
+   
+    }
+}
+
+
+.teamname{
+    font-family: interbold;
+}
+
+.characterflex{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px;
+    margin-left: -10px;
+
+}
+
+
+
+.item{
+    position: relative;
+    width: 90px;
+    height: 115px;
+    display: block;
+    border-radius: 4px;
+    background-color: #e9e5dc;
+    flex-shrink: 0;
+    margin-right:0px ;
+    margin-bottom :0px ;
+    transition: all 0.05s ease-in-out;
+    padding-top: 0px;
+    padding-left: 0px;
+    text-decoration: none;
+    overflow: hidden;
+
+}
+
+.damage{
+    width: auto;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.item-icon{
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-position: cover;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.item-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+    z-index: 9;
+
+}
+
+.item-text{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left:auto ;
+    margin-right:auto ;
+    text-align: center;
+    font-family: ingame;
+    font-size: 14px;
+    color: #495366;
+    background-color: transparent;
+    margin-top: 3px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+
+}
+
+.item-category{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 25px;
+    height: 25px;
+    z-index: 10;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+.item-rarity{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10x;
+    background-color: #424651;
+}
+
+.flex{
+    display: flex;
+}
+
+.hidden1, .hidden2, .hidden3, .hidden4, .hidden5, .hidden6, .hidden7, .hidden8, .hidden9, .hidden10, .hidden11, .hidden12, .hidden13, .hidden14, .hidden15, .hidden16, .hidden17, .hidden18, .hidden19, .hidden20, .hidden21, .hidden22, .hidden23, .hidden24, .hidden25, .hidden26, .hidden27, .hidden28, .hidden29, .hidden30, .hidden31, .hidden32, .hidden33, .hidden34, .hidden35, .hidden36, .hidden37, .hidden38, .hidden39, .hidden40, .hidden41, .hidden42, .hidden43, .hidden44, .hidden45, .hidden46, .hidden47, .hidden48, .hidden49, .hidden50{
+    display: none;
+}

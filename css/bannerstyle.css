@@ -2,6 +2,8 @@
     width: 100%;
 
 }
+
+
 .swiper-slide{
     width: 100%;
     margin-left:auto ;
@@ -24,6 +26,8 @@
     color: white;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+
+
 
 }
 
@@ -90,15 +94,29 @@
 }
 
 .item-text{
+
     font-size: 12px;
+    
 }
+
+
 
 .weaponitemhight{
     height: 120px;
 }
 
-.wepaonitemtext{
-    font-size: 8px;
+
+.Weaponitemtext{
+    position: relative;
+    background-color: transparent;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;    
+    display: flex;
+    font-size: 10px;
 
 }
 

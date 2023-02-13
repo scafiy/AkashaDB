@@ -78,7 +78,7 @@
 
                             <div class="flex">
                                 <div>
-                                    Date: <?php echo $fetch['startdate']?> - <?php echo $fetch['finishdate']?>
+                                    <?php echo $fetch['startdate']?> - <?php echo $fetch['finishdate']?>
                                 </div>
                                 <div class="tags">
                                     Type:<a><?php echo $fetch['type']?></a>

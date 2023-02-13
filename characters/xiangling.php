@@ -242,6 +242,10 @@
                                             <td style="text-align:right;">190%</td>
                                         </tr>
                                         <tr>
+                                            <td>Revolutions </td>
+                                            <td style="text-align:right;">8-12</td>
+                                        </tr>
+                                        <tr>
                                             <td>Duration</td>
                                             <td style="text-align:right;">10s</td>
                                         </tr>
