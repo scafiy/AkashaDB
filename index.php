@@ -132,22 +132,7 @@
                         
                         <div class="item-slider">
                             <div class="flex">
-                            <a href="characters/alhaitham.php" class="item waves-effect waves-effect waves">
-                                            <img class="item-category" src="images/icons/Dendro.png">
-                                            <div class="item-icon bg-5-star">
-                                                <img class="item-img" src="images/characters/alhaitham/profile.png">
-                                            </div>
-                                            <p class="item-text">11th feb</p>
 
-                                        </a>
-
-                            <a href="characters/beidou.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Electro.png">
-                                <div class="item-icon bg-4-star">
-                                    <img class="item-img" src="images/characters/beidou/profile.png">
-                                </div>
-                                <p class="item-text">14th feb</p>
-                            </a>
 
                             <a href="characters/kokomi.php" class="item waves-effect waves-effect waves">
                                 <img class="item-category" src="images/icons/Hydro.png">
@@ -171,6 +156,15 @@
                                 <div class="item-icon bg-4-star">
                                     <img class="item-img" src="images/characters/yaoyao/profile.png">
                                 </div>
+                                <p class="item-text">6th march</p>
+                            </a>
+
+                            
+                            <a href="characters/shenhe.php" class="item waves-effect waves-effect waves">
+                                <img class="item-category" src="images/icons/Cryo.png">
+                                <div class="item-icon bg-5-star">
+                                    <img class="item-img" src="images/characters/shenhe/profile.png">
+                                </div>
                                 <p class="item-text">10th march</p>
                             </a>
 
@@ -181,6 +175,15 @@
                                 </div>
                                 <p class="item-text">14th march</p>
                             </a>
+
+                            <a href="characters/noelle.php" class="item waves-effect waves-effect waves">
+                                <img class="item-category" src="images/icons/Geo.png">
+                                <div class="item-icon bg-5-star">
+                                    <img class="item-img" src="images/characters/noelle/profile.png">
+                                </div>
+                                <p class="item-text">21st march</p>
+                            </a>
+
 
 
 
@@ -203,19 +206,16 @@
 
                     <div id="curated-content" class="">
 
-
-                        <a href="https://www.hoyolab.com/article/15074939">
+                    <a href="https://www.hoyolab.com/article/15074939">
                             <div class="curated-content-item">
-                                <img src="https://upload-os-bbs.hoyolab.com/upload/2023/01/17/c76f9644a3876fc15c36b4aa5f049626_1007626116543411009.jpg" alt="">
+                                <img src="https://upload-os-bbs.hoyolab.com/upload/2023/01/17/3335405ce66b27452067586ed3f001d1_314426184941108966.jpg" alt="">
                                 <div class="curated-content-item-details">
-                                    <p>Second Blooming</p>
+                                    <p>Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl</p>
                                     <p class="tags" href="">#event</p>
-
                                 </div>
                                 <div class="curated-content-item-description">
                                     <p>"Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl" Event: Complete the Beetle Battle Challenge and Win Primogems</p>
                                 </div>
-
                             </div>
                         </a>
 
@@ -232,18 +232,25 @@
                             </div>
                         </a>
 
+
                         <a href="https://www.hoyolab.com/article/15074939">
                             <div class="curated-content-item">
-                                <img src="https://upload-os-bbs.hoyolab.com/upload/2023/01/17/3335405ce66b27452067586ed3f001d1_314426184941108966.jpg" alt="">
+                                <img src="https://upload-os-bbs.hoyolab.com/upload/2023/01/17/c76f9644a3876fc15c36b4aa5f049626_1007626116543411009.jpg" alt="">
                                 <div class="curated-content-item-details">
-                                    <p>Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl</p>
+                                    <p>Second Blooming</p>
                                     <p class="tags" href="">#event</p>
+
                                 </div>
                                 <div class="curated-content-item-description">
                                     <p>"Almighty Arataki Extraordinary and Exhilarating Extreme Beetle Brawl" Event: Complete the Beetle Battle Challenge and Win Primogems</p>
                                 </div>
+
                             </div>
                         </a>
+
+
+
+
 
                         <a href="https://www.hoyolab.com/article/15099055">
                             <div class="curated-content-item">

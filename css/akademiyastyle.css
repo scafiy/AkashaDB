@@ -1,7 +1,7 @@
 
 
 .heading-container{
-    background-image: linear-gradient(to left, transparent 20%, rgb(44, 44, 44) 70%), url('../images/bg/tree.png');
+    background-image: linear-gradient(to left, transparent 20%, #181818 70%), url('../images/bg/tree.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
     display: block;
     padding-top: 70px;
     padding-bottom: 70px;
-    padding-left: 40px;
+    padding-left: 0px;
     padding-right: 40px;
     border-radius: 5px;
     margin-bottom: 20px;

@@ -4,7 +4,7 @@
     session_start();
         include 'includes/head.php';
 ?>
-<title>Akademiya - Akasha</title>
+<title>Meta Guides - Akasha</title>
     
 
 </head>
@@ -27,35 +27,28 @@
 
                 <div class="heading-container" style="">
                     <div class="flex">
-                        <h1 class="heading-title">Akademiya</h1> 
+                        <h1 class="heading-title">Meta Guides</h1> 
                     </div>
-                    <p>Academic reports published here are dedicated to Genshin Meta, Theorycrafting and Guides.</p>
+                    <p>Guides dedicated to information about genshin impact meta and theorycrafting.</p>
 
                 </div>
 
-                <p class="title">Recent Articles</p>
+                <p class="title">Recent Guides</p>
                 <div class="article-container">
 
-                <a href="akademiya/meta-analysis.php">
-                        <div class="article-item" style="background-image: linear-gradient(to bottom, red, #202020 70%), url('');">
-                            <div class="article-details">
-                                <h1>Meta Analysis</h1>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
 
 
-                    <a href="akademiya/teamdps.php">
-                        <div class="article-item" style="background-image: linear-gradient(to bottom, red, #202020 70%), url('');">
+                    <a href="teamdps.php">
+                        <div class="article-item" style="background-image: linear-gradient(to bottom, #037341, #202020  70%), url('');">
                             <div class="article-details">
                                 <h1>Team DPS</h1>
-                                <p>Calculated team damage collection.</p>
+                                <p>Calculated team damage</p>
                             </div>
                         </div>
                     </a>
 
-                    <a href="akademiya/faq.php">
+
+                    <a href="meta/faq.php">
                         <div class="article-item" style="background-image: linear-gradient(to bottom, #F3D24675, #202020  70%), url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091811065384864.jpg');">
                             <div class="article-details">
                                 <h1>FAQ</h1>
@@ -81,10 +74,10 @@
 
 <script type="text/javascript">
 $(window).on("load", function() {
-    $("#akademiya-button").addClass("active");
-    $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
-    $("#akademiya-dropdown-icon").addClass("active");
-    $("#akademiya-dropdown-content").addClass("active-dropdown-content");
+    $("#meta-guides-button").addClass("active");
+    $("#meta-guides-dropdown-icon").addClass("active-dropdown-icon");
+    $("#meta-guides-dropdown-icon").addClass("active");
+    $("#meta-guides-dropdown-content").addClass("active-dropdown-content");
  });
 </script>
 <script>

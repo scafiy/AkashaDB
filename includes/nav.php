@@ -216,22 +216,20 @@
 
 
 
-      <a href="/Akasha/akademiya.php">
-         <button class="sidenav-btn dropdown-button" id="akademiya-button">
-         <img class="img-icon" src="/Akasha/images/icons/akademiya.png">
-               <p>Akademiya</p>
+      <a href="/Akasha/meta-guides.php">
+         <button class="sidenav-btn dropdown-button" id="meta-guides-button">
+         <img class="img-icon" src="/Akasha/images/icons/seelie.png">
+               <p>Meta Guides</p>
          </button>
       </a>
       
       <div class="dropdown-icon-container">
-         <i class="material-symbols-outlined dropdown-icon" id="akademiya-dropdown-icon">chevron_right</i>
+         <i class="material-symbols-outlined dropdown-icon" id="meta-guides-dropdown-icon">chevron_right</i>
       </div>
 
 
-         <div class="dropdown-content" id="akademiya-dropdown-content">
-         <a href="/Akasha/akademiya/meta-analysis.php"><button id="meta-analysis-button">Meta Analysis</button></a>
-            <a href="/Akasha/akademiya/faq.php"><button id="faq-button">FAQ</button></a>
-
+         <div class="dropdown-content" id="meta-guides-dropdown-content">
+            <a href="/Akasha/meta/faq.php"><button id="faq-button">FAQ</button></a>
 
          </div>
         

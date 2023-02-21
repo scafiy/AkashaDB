@@ -20,7 +20,7 @@
 <style>
 
 :root {
-    --highlighted-color: red; 
+    --highlighted-color: #97854E; 
 }
 
 </style>
@@ -32,17 +32,25 @@
         <div class="maincontent">
             <div class="content-container">
 
-                <div class="heading-container" style="background-image: linear-gradient(to left, var(--highlighted-color) 20%, transparent 80%), url('')">
+                <div class="heading-container" style="background-image: linear-gradient(to left, #97854ead 20%, #181818 80%), url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091811065384864.jpg')">
                     <div class="flex">
                         <h1 class="heading-title">FAQ</h1> 
                     </div>
                     <p>Answers to frequently asked questions about genshin impact.</p>
-
                 </div>
+
 
                 
 
                 <div class="questions">
+                        <button class="accordion">Is Welkin Worth it?</button>
+                        <div class="panel">
+                            <b>**Is Welkin Worth it?**</b>
+                            <p>Welkin is the best purchase you can make in genshin impact if you're looking to maximize the amount of primos you can get for your money. (3k total primos for $4.99 USD) This is assuming you'll be playing everyday for the next 30 days after purchase (because not logging in for a day means you'll lose the primos you would have gotten for that day) and you're looking to get your primos over time rather than in a lump sum. </p>
+                            <p>However keep in mind that "worth" is subjective to the person, and that you're looking to spend money on a gacha game.** Make sure you can actually afford it with disposable income you have, don't spend money you don't have and spend responsibly.**</p>
+                            <i>for more information you could check out <a href="https://genshin-impact.fandom.com/wiki/Blessing_of_the_Welkin_Moon">https://genshin-impact.fandom.com/wiki/Blessing_of_the_Welkin_Moon</a></i>
+                        </div>
+
                         <button class="accordion">C1 Hutao or Homa or c0 Yelan?</button>
                         <div class="panel">
                             <img style="width:100%; height:auto;" src="https://media.discordapp.net/attachments/1051753516244414474/1072715038730747924/image.png" alt="">
@@ -76,8 +84,8 @@
  $(window).on("load", function() {
     $("#faq-button").addClass("active");
 
-    $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
-    $("#akademiya-dropdown-content").addClass("active-dropdown-content");
+    $("#meta-guides-dropdown-icon").addClass("active-dropdown-icon");
+    $("#meta-guides-dropdown-content").addClass("active-dropdown-content");
     $('html, body, .sidenav').animate({
         scrollTop: $("#faq-button").offset().top - 50
     }, 600);

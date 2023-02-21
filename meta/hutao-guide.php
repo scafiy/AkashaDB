@@ -4,7 +4,7 @@
     session_start();
         include '../includes/head.php';
 ?>
-<title>Meta Analysis - Akasha</title>
+<title>FAQ - Akasha</title>
     
 
 </head>
@@ -17,14 +17,14 @@
 <link rel="stylesheet" href="../css/navstyle.css">
 <link rel="stylesheet" href="../css/akademiyastyle.css">
 <link rel="stylesheet" href="../css/characterpagestyle.css">
-
 <style>
 
 :root {
-    --highlighted-color: red; 
+    --highlighted-color: #97854E; 
 }
 
 </style>
+
 
 <body>
     <div class="container">
@@ -32,18 +32,17 @@
         <div class="maincontent">
             <div class="content-container">
 
-                <div class="heading-container" style="background-image: linear-gradient(to left, var(--highlighted-color) 20%, transparent 80%), url('')">
+                <div class="heading-container" style="background-image: linear-gradient(to left, #97854ead 20%, #181818 80%), url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091811065384864.jpg')">
                     <div class="flex">
-                        <h1 class="heading-title">Meta Analysis</h1> 
+                        <h1 class="heading-title">Hu Tao Guide</h1> 
                     </div>
-                    <p>Meta Analysis</p>
-
+                    <p></p>
                 </div>
-
-                <p>Hu Tao</p>
 
 
                 
+
+
 
             
                
@@ -55,10 +54,10 @@
 
 <script type="text/javascript">
  $(window).on("load", function() {
-    $("#meta-analysis-button").addClass("active");
+    $("#faq-button").addClass("active");
 
-    $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
-    $("#akademiya-dropdown-content").addClass("active-dropdown-content");
+    $("#meta-guides-dropdown-icon").addClass("active-dropdown-icon");
+    $("#meta-guides-dropdown-content").addClass("active-dropdown-content");
     $('html, body, .sidenav').animate({
         scrollTop: $("#faq-button").offset().top - 50
     }, 600);

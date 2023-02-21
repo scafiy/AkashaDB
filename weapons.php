@@ -103,7 +103,7 @@
                                 <div class="item-icon bg-<?php echo $fetch['rarity']?>-star">
                                     <img class="item-img" src="<?php echo $fetch['img']?>">
                                 </div>
-                                <i class="keywords"><?php echo $fetch['keyword']?></i>
+                                <i class="keywords"><?php echo $fetch['keywords']?></i>
                                 <div class="rarity-stars">
                                     <img class="" src="images/icons/<?php echo $fetch['rarity']?>-stars.png" alt="">
                                 </div>
