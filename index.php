@@ -128,73 +128,14 @@
 
                         </div>
 
-                        <h1>Upcoming Character Birthdays</h1>
                         
-                        <div class="item-slider">
-                            <div class="flex">
-
-
-                            <a href="characters/kokomi.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Hydro.png">
-                                <div class="item-icon bg-5-star">
-                                    <img class="item-img" src="images/characters/kokomi/profile.png">
-                                </div>
-                                <p class="item-text">22th feb</p>
-                            </a>
-            
-                            <a href="characters/qiqi.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Cryo.png">
-                                <div class="item-icon bg-5-star">
-                                    <img class="item-img" src="images/characters/qiqi/profile.png">
-                                </div>
-                                <p class="item-text">3rd march</p>
-                            </a>
-
-
-                            <a href="characters/yaoyao.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Dendro.png">
-                                <div class="item-icon bg-4-star">
-                                    <img class="item-img" src="images/characters/yaoyao/profile.png">
-                                </div>
-                                <p class="item-text">6th march</p>
-                            </a>
-
-                            
-                            <a href="characters/shenhe.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Cryo.png">
-                                <div class="item-icon bg-5-star">
-                                    <img class="item-img" src="images/characters/shenhe/profile.png">
-                                </div>
-                                <p class="item-text">10th march</p>
-                            </a>
-
-                            <a href="characters/jean.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Anemo.png">
-                                <div class="item-icon bg-5-star">
-                                    <img class="item-img" src="images/characters/jean/profile.png">
-                                </div>
-                                <p class="item-text">14th march</p>
-                            </a>
-
-                            <a href="characters/noelle.php" class="item waves-effect waves-effect waves">
-                                <img class="item-category" src="images/icons/Geo.png">
-                                <div class="item-icon bg-5-star">
-                                    <img class="item-img" src="images/characters/noelle/profile.png">
-                                </div>
-                                <p class="item-text">21st march</p>
-                            </a>
 
 
 
-
-
-                            </div>
 
 
                         </div>
-
-                        </div>
-                        </div>
+                    </div>
 
 
                 <div class="newsfeed">

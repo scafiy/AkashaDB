@@ -34,7 +34,7 @@
 
                 <div class="heading-container" style="background-image: linear-gradient(to left, #97854ead 20%, #181818 80%), url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091811065384864.jpg')">
                     <div class="flex">
-                        <h1 class="heading-title">Hu Tao Guide</h1> 
+                        <h1 class="heading-title"></h1> 
                     </div>
                     <p></p>
                 </div>
@@ -53,14 +53,13 @@
     
 
 <script type="text/javascript">
- $(window).on("load", function() {
-    $("#faq-button").addClass("active");
 
-    $("#meta-guides-dropdown-icon").addClass("active-dropdown-icon");
-    $("#meta-guides-dropdown-content").addClass("active-dropdown-content");
-    $('html, body, .sidenav').animate({
-        scrollTop: $("#faq-button").offset().top - 50
-    }, 600);
+
+
+ $(window).on("load", function() {
+    $("#semantics-button").addClass("active");
+    $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
+    $("#akademiya-dropdown-content").addClass("active-dropdown-content");
  });
 </script>
 <script>

@@ -27,15 +27,37 @@
 
                 <div class="heading-container" style="">
                     <div class="flex">
-                        <h1 class="heading-title">Meta Guides</h1> 
+                        <h1 class="heading-title">Akademiya</h1> 
                     </div>
-                    <p>Guides dedicated to information about genshin impact meta and theorycrafting.</p>
+                    <p>Articles published here are dedicated to information about genshin impact meta, guides and theorycrafting.</p>
 
                 </div>
 
-                <p class="title">Recent Guides</p>
+                <p class="title">Recent Articles</p>
                 <div class="article-container">
 
+
+
+                    <a href="akademiya/semantics.php">
+                        <div class="article-item" style="background-image: linear-gradient(to bottom, #037341, #202020  70%), url('');">
+                            <div class="article-details">
+                                <h1>Semantics</h1>
+                                <p>Explaining the meaning of words people use</p>
+                            </div>
+                        </div>
+                    </a>
+
+
+
+                    
+                    <a href="akademiya/meta-analysis.php">
+                        <div class="article-item" style="background-image: linear-gradient(to bottom, #037341, #202020  70%), url('');">
+                            <div class="article-details">
+                                <h1>Meta Analysis</h1>
+                                <p>Characters analysis interms of meta</p>
+                            </div>
+                        </div>
+                    </a>
 
 
                     <a href="teamdps.php">
@@ -48,7 +70,7 @@
                     </a>
 
 
-                    <a href="meta/faq.php">
+                    <a href="akademiya/faq.php">
                         <div class="article-item" style="background-image: linear-gradient(to bottom, #F3D24675, #202020  70%), url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200918/2020091811065384864.jpg');">
                             <div class="article-details">
                                 <h1>FAQ</h1>
@@ -74,10 +96,10 @@
 
 <script type="text/javascript">
 $(window).on("load", function() {
-    $("#meta-guides-button").addClass("active");
-    $("#meta-guides-dropdown-icon").addClass("active-dropdown-icon");
-    $("#meta-guides-dropdown-icon").addClass("active");
-    $("#meta-guides-dropdown-content").addClass("active-dropdown-content");
+    $("#akademiya-button").addClass("active");
+    $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
+    $("#akademiya-dropdown-icon").addClass("active");
+    $("#akademiya-dropdown-content").addClass("active-dropdown-content");
  });
 </script>
 <script>

@@ -41,3 +41,5 @@
 16/02/23: Added hutao double hydro zhongli team team meta breakdown to teamdps page
 18/02/23: Added hutao double hydro kazuha team team meta breakdown to teamdps page
 21/02/23: Added international team meta breakdown to teamdps page
+24/02/23: Changed "meta guides" page back to Akademiya page and added 3 work in progress articles.
+4/03/23: Added Dehya, Beacon of the Reed Sea, Mailed Flower. Twilight Arbiter, Auric Blaze and Epitome Invocation items to database.

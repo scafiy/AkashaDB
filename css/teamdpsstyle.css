@@ -55,7 +55,7 @@
 
 .team{
     width: 377px;
-    background-color: rgb(49, 49, 49);
+    background-color: #272727;
     margin: 5px;
     padding: 10px;
     border-radius: 3px;
@@ -68,6 +68,7 @@
 @media all and (max-width: 875px) {  
     .team{
         width: 100%;
+        box-sizing: border-box;
    
     }
 }
@@ -83,6 +84,7 @@
     flex-wrap: wrap;
     padding: 0px;
     max-width: 350px;
+    overflow: visible;
 
 }
 
@@ -93,8 +95,8 @@
     border: none;
     margin-right: 5px;
     border-radius: 500px;
-    color: white;
-    background-color: rgb(75, 75, 75);
+    color: rgb(231, 231, 231);
+    background-color: rgb(58, 58, 58);
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
@@ -105,16 +107,18 @@
     text-align: center;
     margin-top: 5px;
 
-    overflow: hidden;
+    overflow: visible;
+    cursor: pointer;
+    user-select: none;
     
 }
 
 .tags .good{
-    background-color: rgba(24, 190, 24, 0.658);
+    background-color: rgba(24, 190, 24, 0.493);
 }
 
 .tags .bad{
-    background-color: rgba(190, 24, 24, 0.658);
+    background-color: rgba(190, 24, 24, 0.548);
 }
 
 
@@ -150,10 +154,7 @@
 
 }
 
-tr{
 
-
-}
 
 .damage{
     width: auto;
@@ -161,7 +162,6 @@ tr{
     text-align: left;
     border-radius: 2px;
     color: rgb(211, 211, 211);
-    background-color: #333333;
     font-size: 14px;
     font-family: inter;
 
@@ -169,14 +169,13 @@ tr{
 
 .label{
     font-family: interbold;
-    color:#E3E3E3;
   
 
 }
 
 .damage b{
     font-family: interbold;
-    color:#eeeeee;
+    color:#acabab;
     left: 0px;
     font-size: 13px;
     position: relative;
@@ -192,7 +191,6 @@ tr{
     padding-right: 0px;
 
     height: 25px;
-    background-color: #414141;
     box-sizing: border-box;
 }
 
@@ -215,10 +213,11 @@ tr{
 }
 
 .total .label{
-    padding-right: 10px;
-    top: -23px;
     position: relative;
     font-family: interbold;
+    top: -23px;
+    left: -5px;
+    color:#E3E3E3;
 
 }
 
@@ -400,15 +399,24 @@ tr{
     box-sizing: border-box;
     max-height:500px ;
     overflow-y: auto;
-    padding-top: 0px;
+    margin-top: -15px;
+    border-radius: 10px;
 
   }
 
   .panel p{
     color: rgb(204, 204, 204);
     margin: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+  }
+
+  .panel b{
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 
   }
@@ -418,6 +426,7 @@ tr{
     color: gray;
     margin: 0px;
     padding: 0px;
+    margin-top: -15px;
 
   }
 
@@ -432,6 +441,8 @@ tr{
 .indent{
     margin-left: 5px;
     padding-left: 5px;
+    margin-top: -15px;
+
     border-left: solid gray 1px;
 }
 

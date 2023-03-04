@@ -81,14 +81,13 @@
     
 
 <script type="text/javascript">
+
+
+
  $(window).on("load", function() {
     $("#faq-button").addClass("active");
-
-    $("#meta-guides-dropdown-icon").addClass("active-dropdown-icon");
-    $("#meta-guides-dropdown-content").addClass("active-dropdown-content");
-    $('html, body, .sidenav').animate({
-        scrollTop: $("#faq-button").offset().top - 50
-    }, 600);
+    $("#akademiya-dropdown-icon").addClass("active-dropdown-icon");
+    $("#akademiya-dropdown-content").addClass("active-dropdown-content");
  });
 </script>
 <script>

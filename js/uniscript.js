@@ -22,21 +22,24 @@ $("#character-dropdown-icon").click(function(){
     $("#artifact-dropdown-content").toggleClass("active-dropdown-content");
  });
 
- $("#meta-guides-dropdown-icon").click(function(){
-  $("#meta-guides-dropdown-icon").toggleClass("active-dropdown-icon");
-  $("#meta-guides-dropdown-content").toggleClass("active-dropdown-content");
+ $("#akademiya-dropdown-icon").click(function(){
+  $("#akademiya-dropdown-icon").toggleClass("active-dropdown-icon");
+  $("#akademiya-dropdown-content").toggleClass("active-dropdown-content");
 });
 
  $(".hamburger, .overlay").click(function(){
     $(".sidenav").toggleClass("sidenav-collapse");
     $(".maincontent").toggleClass("maincontent-collapse");
     $('.overlay').toggleClass('unfocus');
+
+    
 });
 
 $(window).on("load resize", function() {
     $('.sidenav').toggleClass('sidenav-collapse', $(window).width() < 1241);
     $('.maincontent').toggleClass('maincontent-collapse', $(window).width() < 1241);
     $('.overlay').removeClass('unfocus', $(window).width() < 1241);
+
 
 });
 

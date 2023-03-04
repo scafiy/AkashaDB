@@ -3,7 +3,7 @@
         session_start();
         include 'includes/head.php';
     ?>
-    <title>Home - Akasha</title>
+    <title>Database - Akasha</title>
     <link rel="stylesheet" href="css/indexstyle.css">
     <link rel="stylesheet" href="css/databasestyle.css">
 
@@ -20,10 +20,10 @@
         <div class="maincontent">
             <div class="content-container">
 
-            <li>Disclaimer: If you don't own this copy of akashadb, the database will be in view only mode. You'll not be able to add or edit data.</li>
                 <div class="dbheader dbheaderbanner">
                     <div>
-                    <p>Akasha Database</p>
+                        <h1>Database</h1>
+                        <i>If you don't own this copy of akashadb then you're in view only mode. Look at the <a href="https://github.com/scafiy/AkashaDB">github repository</a>.</i>
 
                     </div>
 
@@ -43,7 +43,7 @@
                           <a id="showtable1">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadcharacter.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
-                        <input type="text" id="charasearch" onkeyup="charasearch()" autocomplete="off">
+                        <input placeholder="Search" type="text" id="charasearch" onkeyup="charasearch()" autocomplete="off">
                     </div>
                     <div class="datatable" id="table1">
                     <table id="content1">
@@ -103,7 +103,7 @@
                           <a id="showtable2">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadartifact.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
-                        <input type="text" id="artsearch" onkeyup="artsearch()" autocomplete="off">
+                        <input placeholder="Search" type="text" id="artsearch" onkeyup="artsearch()" autocomplete="off">
                     </div>
                     <div class="datatable" id="table2">
                     <table id="content2">
@@ -158,7 +158,7 @@
                           <a id="showtable3">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadweapon.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
-                        <input type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
+                        <input placeholder="Search" type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
                     </div>
                     <div class="datatable" id="table3">
                     <table id="content3">
@@ -225,7 +225,7 @@
                           <a id="showtable4">toggle view</a>
                           <a onClick="MyWindow=window.open('upload/uploadbanner.php','MyWindow','width=400,height=600'); return false;" href="">upload</a>
                         </div>
-                        <input type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
+                        <input placeholder="Search" type="text" id="wepsearch" onkeyup="wepsearch()" autocomplete="off">
                     </div>
                     <div class="datatable" id="table4">
                     <table id="content4">
@@ -297,6 +297,11 @@ $(window).on("load resize", function() {
  });
 </script>
 
+<script>
+    Waves.attach('.right a', ['waves-effect', 'waves-light']);
+    Waves.init();
+</script>
+
 <script type="text/javascript">
 $("#showtable1").click(function(){
     $("#table1").toggleClass("show");
@@ -361,6 +366,7 @@ function artsearch() {
   }
 }
 </script>
+
 
 <script>
 function wepsearch() {

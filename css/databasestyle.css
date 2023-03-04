@@ -10,10 +10,21 @@
     width: 100%;
     background-color: rgb(49, 49, 49);
     z-index: 10;
-    border-radius: 10px;
+    border-radius: 2px;
     margin: 10px;
     margin-left: 0px;
     margin-right: 0px;
+    z-index: 10;
+
+}
+
+.dbheader input{
+    background-color: rgb(58, 58, 58);
+    border: none;
+    padding: 5px;
+    outline: none;
+    box-sizing: border-box;
+    color: white;
 }
 
 .dbheader a, p{
@@ -24,7 +35,14 @@
 .dbheader .right{
     position: absolute;
     right: 0px;
-    top: 12px;
+    top: 10px;
+
+}
+
+.dbheaderbanner .right{
+    position: absolute;
+    right: -20px;
+    top: 20px;
 
 }
 
@@ -34,7 +52,7 @@
     padding-right: 10px;
 
     background-color: var(--highlighted-color);
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 10px;
     color: rgb(231, 231, 231);
     cursor: pointer;
@@ -43,12 +61,34 @@
 
 .dbheaderbanner{
     background-color: transparent;
+    display: block;
+    position: static;
+    z-index: 10;
+}
+
+
+
+.dbheaderbanner i{
+    color: gray;
 }
 
 
 .datatable{
     display: none;
     font-size: 1px;
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+    width: 100%;
+    margin-top: -15px;
+    border-radius: 2px;
+    z-index: 1;
+    overflow-x: auto;
+
+
+}
+
+td a{
+    z-index: 1;
 
 }
 

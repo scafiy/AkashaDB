@@ -17,6 +17,9 @@
 	}
 ?>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1739492299738628" crossorigin="anonymous"></script>
+
+
 <script type="text/javascript" src="/Akasha/js/waves.min.js"></script>
 <script type="text/javascript" src="/Akasha/js/swiper.min.js"></script>
 <script type="text/javascript" src="/Akasha/js/jquery.min.js"></script>
