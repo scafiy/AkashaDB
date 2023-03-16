@@ -229,7 +229,6 @@
 
 
          <div class="dropdown-content" id="akademiya-dropdown-content">
-            <a href="/Akasha/akademiya/semantics.php"><button id="semantics-button">Semantics</button></a>
             <a href="/Akasha/akademiya/meta-analysis.php"><button id="meta-analysis-button">Meta Analysis</button></a>
             <a href="/Akasha/akademiya/faq.php"><button id="faq-button">FAQ</button></a>
 

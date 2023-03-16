@@ -43,3 +43,9 @@
 21/02/23: Added international team meta breakdown to teamdps page
 24/02/23: Changed "meta guides" page back to Akademiya page and added 3 work in progress articles.
 4/03/23: Added Dehya, Beacon of the Reed Sea, Mailed Flower. Twilight Arbiter, Auric Blaze and Epitome Invocation items to database.
+7/03/23: Added international team in teamdps page
+10/03/23: Addded shenhe waxien team in teamdps page
+10/03/23: Updated teamdps page so that all teams show constellations, weapon, refinements and artifact sets used for each character in the team as a ui element=
+11/03/23: Updated teamdps numbers for all teams due to mistakes and rewrote some descriptions and notes to be shorter
+12/03/23: Added sucrose national team to teamdps page
+

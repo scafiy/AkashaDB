@@ -38,16 +38,6 @@
 
 
 
-                    <a href="akademiya/semantics.php">
-                        <div class="article-item" style="background-image: linear-gradient(to bottom, #037341, #202020  70%), url('');">
-                            <div class="article-details">
-                                <h1>Semantics</h1>
-                                <p>Explaining the meaning of words people use</p>
-                            </div>
-                        </div>
-                    </a>
-
-
 
                     
                     <a href="akademiya/meta-analysis.php">

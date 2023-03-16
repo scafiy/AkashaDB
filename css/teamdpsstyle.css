@@ -9,6 +9,8 @@
     background-color: #303030;
     border: 1px solid rgb(73, 73, 73);
     border-radius: 2px;
+    padding-right:40px;
+
     
 }
 
@@ -20,6 +22,7 @@
 .Disclaimer a{
     text-decoration: underline;
     color: var(--highlighted-color);
+
 }
 
 
@@ -31,6 +34,17 @@
     border-radius: 100px;
     padding: 5px;
     margin-top: -5px;
+    transition: 0.2s ease-in-out;
+ 
+
+    
+}
+
+.closeDisclaimerbtn:hover{
+    background-color: rgb(82, 79, 79);
+    transition: 0.2s ease-in-out;
+
+
     
 }
 
@@ -159,9 +173,8 @@
 .damage{
     width: auto;
     background-color: transparent;
-    text-align: left;
+    text-align: right;
     border-radius: 2px;
-    color: rgb(211, 211, 211);
     font-size: 14px;
     font-family: inter;
 
@@ -169,16 +182,16 @@
 
 .label{
     font-family: interbold;
+    font-size: 17px;
+    position: relative;
   
 
 }
 
 .damage b{
     font-family: interbold;
-    color:#acabab;
-    left: 0px;
     font-size: 13px;
-    position: relative;
+    float: left;
 
 
 }
@@ -313,8 +326,9 @@
     display: flex;
     height: 15px;
     margin: 0px;
+    margin-left: 2px;
     padding: 0px;
-    background-color: #252525af;
+    background-color: rgba(44, 44, 44, 0.377);
     border-radius: 100px;
     padding-left: 2px;
     padding-right: 2px;
@@ -323,6 +337,7 @@
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    backdrop-filter: blur(3px);
 }
 
 
@@ -330,28 +345,40 @@
     margin: 0px;
     margin-left: 2px;
     font-size: 12px;
-
+    color: #E3E3E3;
     padding: 0px;
 }
 
 
 
 
+.gear img{
+    background-color: rgba(10, 10, 10, 0.164);
+    border-radius: 100px;
+}
 
-.item-category-constellation{
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 25px;
-    height: 25px;
-    z-index: 10;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+.geartoggle{
+    display: flex;
+}
+
+.geartoggle p{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 
 }
+
+.geartoggle button{
+    margin: 2px;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    background-color: #353535;
+    border-radius: 2px;
+
+}
+
 
 
 .item-rarity{
@@ -373,7 +400,6 @@
 .accordion {
     background-color: #363636;
     cursor: pointer;
-    padding: 5px;
     width: 100%;
     border: none;
     text-align: left;
@@ -383,21 +409,41 @@
     box-sizing: border-box;
     margin-bottom: 1px;
     display: block;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border-radius: 10px;
 
   }
+.accordion .material-symbols-outlined{
+    transform: rotate(-90deg);
+    transition: 0.2s ease-in-out;
+    position: absolute;
+    right: 5px;
+    top: 1px;
+
+}
   
-  .active1, .accordion:hover {
+.active1 .material-symbols-outlined{
+    transform: rotate(90deg);
+    transition: 0.2s ease-in-out;
+
+}
+  .accordion:hover {
     background-color: #2b2a2a; 
   }
+
+
   
   .panel {
-    padding: 5px;
+    padding: 10px;
     display: none;
-    background-color: rgb(31, 31, 31);
+    background-color: #353535;
     overflow: hidden;
     width: 100%;
     box-sizing: border-box;
-    max-height:500px ;
+    max-height:400px ;
     overflow-y: auto;
     margin-top: -15px;
     border-radius: 10px;
@@ -432,6 +478,16 @@
 
 .panel img{
     width: 100%;
+    border-radius: 2px;
+}
+
+.panel iframe{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 }
 
 .hidden{
@@ -442,7 +498,6 @@
     margin-left: 5px;
     padding-left: 5px;
     margin-top: -15px;
-
     border-left: solid gray 1px;
 }
 
