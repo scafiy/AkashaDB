@@ -38,209 +38,473 @@
                     </div>
 
 
-
             <div class="disclaimer">
                 <button class="closeDisclaimerbtn"><i class="material-symbols-outlined">close</i></button>
                 <p>Disclaimer: Do not conclude team X is better than team Y because team X does more dps, there are more important factors to consider other than sheetdps when evaluating team/character strength.</p>
                 <p>Calculated using <a href="https://compendium.keqingmains.com/kqm-standards">kqmc standard</a>.</p>
             </div>
 
-<div class="item-container teams-container" id="item-results">
+            <div class="item-container teams-container" id="item-results">
 
 
+<!--Kazuha Double Hydro Hu tao-->
+<li>
+    <div class="team">
+        <a class="teamname">Kazuha Double Hydro Hu Tao</a>
+        <div class="tags">
+            <a tooltip="" flow="up">Reverse Vape</a>
+            <a tooltip="" flow="up">Double Hydro</a>
+            <a tooltip="" flow="up">Single Target Oriented</a>
+            <a tooltip="" flow="up" class="good">Crowd Control</a>
+            <a tooltip="" flow="up" class="bad">No Shielding</a>
+            <a tooltip="" flow="up" class="bad">WayTooDank</a>
 
-
-
-
-                <li>
-                    <div class="team">
-                        <a class="teamname">Kazuha Double Hydro Hu Tao</a>
-                        <div class="tags">
-                            <a tooltip="" flow="up">Reverse Vape</a>
-                            <a tooltip="" flow="up">Double Hydro</a>
-                            <a tooltip="" flow="up">Single Target Oriented</a>
-                            <a tooltip="" flow="up" class="good">Crowd Control</a>
-                            <a tooltip="" flow="up" class="bad">No Shielding</a>
-                            <a tooltip="" flow="up" class="bad">WayTooDank</a>
-
-                        </div>
-                        <table class="damagetable">
-                            <tr>
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/hutao/profile.png"></div><p class="item-text">Hu Tao</p>
-                                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/dragons-bane/profile.png"><img src="images/artifacts/crimson-witch-of-flames/flower.png"></div>
-                                </div></td>
+        </div>
 
                                 
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
-                                    <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
-                                </div></td>
-
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/yelan/profile.png"></div><p class="item-text">Yelan</p>
-                                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/slingshot/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
-                                </div></td>
-
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/kazuha/profile.png"></div><p class="item-text">Kazuha</p>
-                                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/viridescent-venerer/flower.png"></div>
-                                </div></td>
-                            </tr>
-                                
-                                <tr>
-                                    <td class="damage"><b>D2R: </b>1474590</td>
-                                    <td class="damage">436860</td>
-                                    <td class="damage">681363</td>
-                                    <td class="damage">283201</td>
-
-                                </tr>
-                                <tr>
-                                    <td class="damage"><b>DPS: </b>33513</td>
-                                    <td class="damage">9929</td>
-                                    <td class="damage">15486</td>
-                                    <td class="damage">6436</td>
-
-                                </tr>
-                                <tr>
-                                    <td class="damage"><b>Ratio: </b>51%</td>
-                                    <td class="damage">15%</td>
-                                    <td class="damage">24%</td>
-                                    <td class="damage">10%</td>
-
-                                </tr>
-
-                                
-                        </table>
-
-                        <button class="accordion">
-                            Details:
-                            <i class="material-symbols-outlined">chevron_right</i>
-                        </button>
-                        <div class="panel">
-                            <p><b class="label">Description:</b> Hu tao double hydro comp with kazuha in the flex slot lets you get crowd control to deal with aoe content and deal more damage. Although getting a pyro swirl to buff hu tao is hard, it is still possible on the second rotation with a harder set up. (Not reliable for most players). Even if you can't get a pyro swirl, buffing your xingqiu and yelan is still worth it because they do a significant portion of the teams damage.</p>
-
-                            <p><b class="label">First Rotation(22s):</b> Yelan E > Xingqiu QE > Yelan Q n1 > Kazuha n1 hold E > Yelan n3 n2 E n1 > Hu tao E 8n2cj Q</p>
-                            <i> If you're not planning to get the pyro swirl on second rotation, then this is the only rotation you have to do. You can use kauzha's burst before yelan's second skill instead of saving it for the next rotation.</i>
-                            <i>Although yelan has fav here, 2 skills per rotation on yelan is here to make sure both xingqiu and yelan's burst run out around the same time before your last charge attack on hu tao to make sure bb or your burst applies a pyro aura for kauzha's burst to infuse in the second rotation.</i>
-                            <p><b class="label">Second Rotation (22s):</b> Kazuha QE > Yelan QE > Xingqiu QE  > Kazuha wait holdE > Hutao E 8n2cj</p>
-                            <i> The second rotation here skips the second skill on yelan to maximize kauzha a4 and vv for Hu Tao, it is possible to still do a second skill in the second rotation at the cost of 2-3 unbuffed hutao charge attacks if you really don't want to use fav yelan in this team.</i>
-                            <br>
-
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/bDxEEpOeq8M" title="Double Hydro Kazuha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wreLMzEXJXo" title="Hu Tao Double Hydro Kazuha, but it&#39;s try hard mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
-                            <p><b class="label">Energy Recharge Calculations:</b> 
-                            <img src="https://media.discordapp.net/attachments/801235177804005449/1076658137886642217/image.png" alt="">
+        <div class="geartoggle">
+            <button class="active" id="kazuha-double-hydro-hutao-dragonsbane-btn"><img src="images/weapons/dragons-bane/profile.png">r5 Dragons Bane</button>
+            <button id="kazuha-double-hydro-hutao-homa-btn"><img src="images/weapons/staff-of-homa/profile.png">c1 + r1 Homa</button>
+        </div>
 
 
-                            </p>
-                         
-                        </div>
+        <table class="damagetable" id="kazuha-double-hydro-hutao-dragonsbane">
+            <tr>
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/hutao/profile.png"></div><p class="item-text">Hu Tao</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/dragons-bane/profile.png"><img src="images/artifacts/crimson-witch-of-flames/flower.png"></div>
+                </div></td>
 
-                            
-                            <div class="total">
-                                <p class="label">Total</p>
-                                <div class="totalvalues">
-                                    <p><b>DPR:</b> 2876014</p>
-                                    <p><b>DPS(44s):</b> 65364</p>
-                                </div>
-                            </div>
-                            
+                
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
+                    <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
 
-                    </div>
-                </li>
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/yelan/profile.png"></div><p class="item-text">Yelan</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/slingshot/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
 
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/kazuha/profile.png"></div><p class="item-text">Kazuha</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/viridescent-venerer/flower.png"></div>
+                </div></td>
+            </tr>
+                
+                <tr>
+                    <td class="damage"><b>D2R: </b>1474590</td>
+                    <td class="damage">436860</td>
+                    <td class="damage">681363</td>
+                    <td class="damage">283201</td>
 
+                </tr>
+                <tr>
+                    <td class="damage"><b>DPS: </b>33513</td>
+                    <td class="damage">9929</td>
+                    <td class="damage">15486</td>
+                    <td class="damage">6436</td>
 
+                </tr>
+                <tr>
+                    <td class="damage"><b>Ratio: </b>51%</td>
+                    <td class="damage">15%</td>
+                    <td class="damage">24%</td>
+                    <td class="damage">10%</td>
 
+                </tr>
 
-                <li>
-                    <div class="team">
-                        <a class="teamname">Zhongli Double Hydro Hu Tao</a>
-                        <div class="tags">
-                            <a tooltip="" flow="up">Reverse Vape</a>
-                            <a tooltip="" flow="up">Double Hydro</a>
-                            <a tooltip="" flow="up">Single Target Oriented</a>
-                            <a tooltip="" flow="up" class="good">Shielding</a>
-                        </div>
-                        <table class="damagetable">
-                            <tr>
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/hutao/profile.png"></div><p class="item-text">Hu Tao</p>
-                                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/dragons-bane/profile.png"><img src="images/artifacts/crimson-witch-of-flames/flower.png"></div>
-                                </div></td>
-
-                                
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
-                                    <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
-                                </div></td>
-
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/yelan/profile.png"></div><p class="item-text">Yelan</p>
-                                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/slingshot/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
-                                </div></td>
-
-                                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/zhongli/profile.png"></div><p class="item-text">Zhongli</p>
-                                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-lance/profile.png"><img src="images/artifacts/archaic-petra/flower.png"></div>
-
-                                </div></td>
-                            </tr>
-
-                                <tr>
-                                    <td class="damage"><b>DPR: </b>708721</td>
-                                    <td class="damage">193716</td>
-                                    <td class="damage">308719</td>
-                                    <td class="damage">3497</td>
-
-                                </tr>
-                                <tr>
-                                    <td class="damage"><b>DPS: </b>32215</td>
-                                    <td class="damage">8805</td>
-                                    <td class="damage">14033</td>
-                                    <td class="damage">159</td>
-
-                                </tr>
-                                <tr>
-                                    <td class="damage"><b>Ratio: </b>58%</td>
-                                    <td class="damage">16%</td>
-                                    <td class="damage">25%</td>
-                                    <td class="damage">0%</td>
-
-                                </tr>
-                        </table>
+                
+        </table>
 
 
-                        <button class="accordion">
-                            Details:
-                            <i class="material-symbols-outlined">chevron_right</i>
-                        </button>
-                        <div class="panel">
-                            <p><b class="label">Description: </b>Hu Tao double hydro with zhongli in the flex slot is one of hu tao's best comfort teams to play. Slotting zhongli here isn't much of a loss interms of damage because with 4pc archaic petra and his 20% resistance shred for both pyro and hydro is not too far behind slotting in kazuha if you're only able to get a hydro swirl.</p>
+        <table class="damagetable hidden" id="kazuha-double-hydro-hutao-homa">
+            <tr>
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/hutao/profile.png"></div><p class="item-text">Hu Tao</p>
+                    <div class="gear"><p>c1</p><p>r1</p><img src="images/weapons/staff-of-homa/profile.png"><img src="images/artifacts/crimson-witch-of-flames/flower.png"></div>
+                </div></td>
+
+                
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
+                    <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
+
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/yelan/profile.png"></div><p class="item-text">Yelan</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/slingshot/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
+
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/kazuha/profile.png"></div><p class="item-text">Kazuha</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/viridescent-venerer/flower.png"></div>
+                </div></td>
+            </tr>
+                
+                <tr>
+                    <td class="damage"><b>D2R: </b>2221526</td>
+                    <td class="damage">436860</td>
+                    <td class="damage">681363</td>
+                    <td class="damage">283201</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>DPS: </b>50489</td>
+                    <td class="damage">9929</td>
+                    <td class="damage">15486</td>
+                    <td class="damage">6436</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>Ratio: </b>61%</td>
+                    <td class="damage">12%</td>
+                    <td class="damage">19%</td>
+                    <td class="damage">8%</td>
+
+                </tr>
+
+                
+        </table>
+
+        <button class="accordion">
+            Details:
+            <i class="material-symbols-outlined">chevron_right</i>
+        </button>
+        <div class="panel">
+            <p><b class="label">Description:</b> Hu tao double hydro comp with kazuha in the flex slot lets you get crowd control to deal with aoe content and deal more damage. Although getting a pyro swirl to buff hu tao is hard, it is still possible on the second rotation with a harder set up. (Not reliable for most players). Even if you can't get a pyro swirl, buffing your xingqiu and yelan is still worth it because they do a significant portion of the teams damage.</p>
+
+            <p><b class="label">First Rotation(22s):</b> Yelan E > Xingqiu QE > Yelan Q n1 > Kazuha n1 hold E > Yelan n3 n2 E n1 > Hu tao E 8n2cj Q</p>
+            <i> If you're not planning to get the pyro swirl on second rotation, then this is the only rotation you have to do. You can use kauzha's burst before yelan's second skill instead of saving it for the next rotation.</i>
+            <i>Although yelan has fav here, 2 skills per rotation on yelan is here to make sure both xingqiu and yelan's burst run out around the same time before your last charge attack on hu tao to make sure bb or your burst applies a pyro aura for kauzha's burst to infuse in the second rotation.</i>
+            <p><b class="label">Second Rotation (22s):</b> Kazuha QE > Yelan QE > Xingqiu QE  > Kazuha wait holdE > Hutao E 8n2cj</p>
+            <i> The second rotation here skips the second skill on yelan to maximize kauzha a4 and vv for Hu Tao, it is possible to still do a second skill in the second rotation at the cost of 2-3 unbuffed hutao charge attacks if you really don't want to use fav yelan in this team.</i>
+            <br>
+
+            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/bDxEEpOeq8M" title="Double Hydro Kazuha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wreLMzEXJXo" title="Hu Tao Double Hydro Kazuha, but it&#39;s try hard mode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+            <p><b class="label">Energy Recharge Calculations:</b> 
+            <img src="https://media.discordapp.net/attachments/801235177804005449/1076658137886642217/image.png" alt="">
 
 
-                            <p><b class="label">2 Skills per Rotation(22s):</b> Yelan E > Xingqiu QE > Yelan Q > Zhongli hold E > Yelan n3 n2 E > Hu Tao E 8n2cj Q</p>
-                            <p><b class="label">1 Skill per Rotation(20s):</b> Yelan E > Xingqiu QE > Yelan Q > Zhongli hold E > Hu Tao E 8n2cj Q</p>
+            </p>
+            
+        </div>
 
-                            
-                        
-                            <p><b class="label">Energy Recharge Calculations:</b> 
-                            <img src="https://i.imgur.com/qdPT7Di.png" alt="">
-                            </p>
-                        
+            
+            <div class="total" id="kazuha-double-hydro-hutao-dragonsbane-total">
+                <p class="label">Total</p>
+                <div class="totalvalues">
+                    <p><b>DPR:</b> 2876014</p>
+                    <p><b>DPS(44s):</b> 65364</p>
+                </div>
+            </div>
 
-                        </div>
+            <div class="total hidden" id="kazuha-double-hydro-hutao-homa-total">
+                <p class="label">Total</p>
+                <div class="totalvalues">
+                    <p><b>DPR:</b> 3622949</p>
+                    <p><b>DPS(44s):</b> 82340</p>
+                </div>
+            </div>
+            
+            <script>
+                $("#kazuha-double-hydro-hutao-dragonsbane-btn").click(function(){
+                    $("#kazuha-double-hydro-hutao-dragonsbane").removeClass("hidden");
+                    $("#kazuha-double-hydro-hutao-homa").addClass("hidden");
 
-                            <div class="total">
-                                <p class="label">Total</p>
-                                <div class="totalvalues">
-                                    <p><b>DPR:</b> 1214653</p>
-                                    <p><b>DPS(22s):</b> 55212</p>
-                                </div>
-                            </div>
-
-                    </div>
-                </li>
+                    $("#kazuha-double-hydro-hutao-dragonsbane-total").removeClass("hidden");
+                    $("#kazuha-double-hydro-hutao-homa-total").addClass("hidden");
 
 
+                    $("#kazuha-double-hydro-hutao-dragonsbane-btn").addClass("active");
+                    $("#kazuha-double-hydro-hutao-homa-btn").removeClass("active");
+                });
+
+                $("#kazuha-double-hydro-hutao-homa-btn").click(function(){
+                    $("#kazuha-double-hydro-hutao-dragonsbane").addClass("hidden");
+                    $("#kazuha-double-hydro-hutao-homa").removeClass("hidden");
+
+                    $("#kazuha-double-hydro-hutao-dragonsbane-total").addClass("hidden");
+                    $("#kazuha-double-hydro-hutao-homa-total").removeClass("hidden");
+
+                    $("#kazuha-double-hydro-hutao-dragonsbane-btn").removeClass("active");
+                    $("#kazuha-double-hydro-hutao-homa-btn").addClass("active");
+                });
+            </script>
+
+    </div>
+</li>
+
+
+<!--Raiden National-->
+
+<li>
+    <div class="team">
+        <a class="teamname">Raiden National</a>
+        <div class="tags">
+            <a tooltip="" flow="up">Overvape</a>
+            <a tooltip="" flow="up">National</a>
+            <a tooltip="" flow="up">Single Target Oriented</a>
+            <a class="good" tooltip="" flow="up">Easy to play</a>
+            <a class="good" tooltip="" flow="up">Infinit Resistance to Interaction</a>
+            <a class="bad" tooltip="" flow="up">Knock Back</a>
+
+        </div>
+            <table class="damagetable">
+                <tr>
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-4-star"><img class="item-img" src="images/characters/xiangling/profile.png"></div><p class="item-text">Xiangling</p>
+                        <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/dragons-bane/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                    </div></td>
+
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-4-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
+                        <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/lions-roar/profile.png"><img src="images/artifacts/noblesse-oblige/flower.png"></div>
+                    </div></td>
+
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-4-star"><img class="item-img" src="images/characters/bennett/profile.png"></div><p class="item-text">Bennett</p>
+                        <div class="gear"><p>c6</p><p>r1</p><img src="images/weapons/sapwood-blade/profile.png"><img src="images/artifacts/instructor/flower.png"></div>
+                    </div></td>
+
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/raiden/profile.png"></div><p class="item-text">Raiden</p>
+                        <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/the-catch/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                    </div></td>
+                
+                </tr>
+
+                <tr>
+                    <td class="damage"><b>DPR: </b>578433</td>
+                    <td class="damage">242558</td>
+                    <td class="damage">82298</td>
+                    <td class="damage">374201</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>DPS: </b>26292</td>
+                    <td class="damage">11025</td>
+                    <td class="damage">3741</td>
+                    <td class="damage">17009</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>Ratio: </b>45%</td>
+                    <td class="damage">19%</td>
+                    <td class="damage">6%</td>
+                    <td class="damage">29%</td>
+
+                </tr>
+        </table>
+
+
+
+        <button class="accordion">
+            Details:
+            <i class="material-symbols-outlined">chevron_right</i>
+        </button>
+        
+        <div class="panel">
+
+            <p><b class="label">Description:</b> Raiden National is a variant of the national team which uses raiden with bennett xiangling xingqiu.</p>
+
+                
+                <p class="label">Rotations:</p>
+                <div class="indent">
+                    <p><b class="label">Standard(22s):</b> Raiden E (first rotation only) > Xingqiu EQ > Bennett QE > Xiangling QE > Raiden Q 3n2c n1c E > Bennett E > Xiangling</p>
+                    <i>The standard rotation for raiden national starts by funneling xingqiu's skill into his burst. As a consequence for that, you miss out on your skill being buffed by xingqiu's c4 and bennett's buff. However this is done to maximize bennett's buff uptime on raiden while letting xingqiu run less energy recharge without extending your rotation to catch your particles. </i>
+                    <p><b class="label">Buffing xingqiu skill (22s):</b> Raiden E (first rotation only) > Xingqiu Q > Bennett QE > Xiangling QE > Xingqiu E > Raiden Q n3c 2n4d E > Bennett E > Xiangling</p>
+                    <i>This alternative rotation allows you to buff your xingqiu's skill with his c4 and bennett buff. Keep in mind that this is done at the cost of bennett buff uptime on raiden and if you don't extend your rotation by about 1s to catch your hydro particles on xingqiu then your energy recharge requirements will be higher.</i>
+                </div>
+                <br>
+                <i>Note that on your first rotation you start with raiden's skill, this will not be the case from second rotation onwards.</i>
 
 
 
 
+
+            <p><b class="label">Energy Recharge Calculations:</b> 
+            <img src="https://i.imgur.com/Gue0CVr.png" alt="">
+        
+            </p>
+
+        </div>
+
+            <div class="total">
+                <p class="label">Total</p>
+                <div class="totalvalues">
+                    <p><b>DPR:</b> 1277490</p>
+                    <p><b>DPS(22s):</b> 58068</p>
+                </div>
+            </div>
+
+    </div>
+</li>
+
+<!--Zhongli Double Hydro Hu tao-->
+<li>
+    <div class="team">
+        <a class="teamname">Zhongli Double Hydro Hu Tao</a>
+        <div class="tags">
+            <a tooltip="" flow="up">Reverse Vape</a>
+            <a tooltip="" flow="up">Double Hydro</a>
+            <a tooltip="" flow="up">Single Target Oriented</a>
+            <a tooltip="" flow="up" class="good">Shielding</a>
+        </div>
+        
+        <div class="geartoggle">
+            <button class="active" id="zhongli-double-hydro-hutao-dragonsbane-btn"><img src="images/weapons/dragons-bane/profile.png">r5 Dragons Bane</button>
+            <button id="zhongli-double-hydro-hutao-homa-btn"><img src="images/weapons/staff-of-homa/profile.png">c1 + r1 Homa</button>
+        </div>
+
+        <table class="damagetable" id="zhongli-double-hydro-hutao-dragonsbane">
+
+
+            <tr>
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/hutao/profile.png"></div><p class="item-text">Hu Tao</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/dragons-bane/profile.png"><img src="images/artifacts/crimson-witch-of-flames/flower.png"></div>
+                </div></td>
+
+                
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
+                    <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
+
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/yelan/profile.png"></div><p class="item-text">Yelan</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/slingshot/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
+
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/zhongli/profile.png"></div><p class="item-text">Zhongli</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-lance/profile.png"><img src="images/artifacts/archaic-petra/flower.png"></div>
+
+                </div></td>
+            </tr>
+
+                <tr>
+                    <td class="damage"><b>DPR: </b>708721</td>
+                    <td class="damage">193716</td>
+                    <td class="damage">308719</td>
+                    <td class="damage">3497</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>DPS: </b>32215</td>
+                    <td class="damage">8805</td>
+                    <td class="damage">14033</td>
+                    <td class="damage">159</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>Ratio: </b>58%</td>
+                    <td class="damage">16%</td>
+                    <td class="damage">25%</td>
+                    <td class="damage">0%</td>
+
+                </tr>
+            </div>
+
+    </table>
+
+    <table class="hidden" id="zhongli-double-hydro-hutao-homa">
+
+            <tr>
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/hutao/profile.png"></div><p class="item-text">Hu Tao</p>
+                    <div class="gear"><p>c1</p><p>r1</p><img src="images/weapons/staff-of-homa/profile.png"><img src="images/artifacts/crimson-witch-of-flames/flower.png"></div>
+                </div></td>
+
+                
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/xingqiu/profile.png"></div><p class="item-text">Xingqiu</p>
+                    <div class="gear"><p>c6</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
+
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/yelan/profile.png"></div><p class="item-text">Yelan</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/slingshot/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
+                </div></td>
+
+                <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/zhongli/profile.png"></div><p class="item-text">Zhongli</p>
+                    <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-lance/profile.png"><img src="images/artifacts/archaic-petra/flower.png"></div>
+
+                </div></td>
+            </tr>
+
+                <tr>
+                    <td class="damage"><b>DPR: </b>979687</td>
+                    <td class="damage">193716</td>
+                    <td class="damage">308719</td>
+                    <td class="damage">3497</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>DPS: </b>44531</td>
+                    <td class="damage">8805</td>
+                    <td class="damage">14033</td>
+                    <td class="damage">159</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>Ratio: </b>66%</td>
+                    <td class="damage">13%</td>
+                    <td class="damage">21%</td>
+                    <td class="damage">0%</td>
+
+                </tr>
+            </div>
+
+        </table>
+
+        <button class="accordion">
+            Details:
+            <i class="material-symbols-outlined">chevron_right</i>
+        </button>
+        <div class="panel">
+            <p><b class="label">Description: </b>Hu Tao double hydro with zhongli in the flex slot is one of hu tao's best comfort teams to play. Slotting zhongli here isn't much of a loss interms of damage because with 4pc archaic petra and his 20% resistance shred for both pyro and hydro is not too far behind slotting in kazuha if you're only able to get a hydro swirl.</p>
+
+
+            <p><b class="label">2 Skills per Rotation(22s):</b> Yelan E > Xingqiu QE > Yelan Q > Zhongli hold E > Yelan n3 n2 E > Hu Tao E 8n2cj Q</p>
+            <p><b class="label">1 Skill per Rotation(20s):</b> Yelan E > Xingqiu QE > Yelan Q > Zhongli hold E > Hu Tao E 8n2cj Q</p>
+
+            
+        
+            <p><b class="label">Energy Recharge Calculations:</b> 
+            <img src="https://i.imgur.com/qdPT7Di.png" alt="">
+            </p>
+        
+
+        </div>
+
+            <div class="total" id="zhongli-double-hydro-hutao-dragonsbane-total">
+                <p class="label">Total</p>
+                <div class="totalvalues">
+                    <p><b>DPR:</b> 1214653</p>
+                    <p><b>DPS(22s):</b> 55212</p>
+                </div>
+            </div>
+
+            <div class="total hidden" id="zhongli-double-hydro-hutao-homa-total">
+                <p class="label">Total</p>
+                <div class="totalvalues">
+                    <p><b>DPR:</b> 1485619</p>
+                    <p><b>DPS(22s):</b> 67528</p>
+                </div>
+            </div>
+            <script>
+                $("#zhongli-double-hydro-hutao-dragonsbane-btn").click(function(){
+                    $("#zhongli-double-hydro-hutao-dragonsbane").removeClass("hidden");
+                    $("#zhongli-double-hydro-hutao-homa").addClass("hidden");
+
+                    $("#zhongli-double-hydro-hutao-dragonsbane-total").removeClass("hidden");
+                    $("#zhongli-double-hydro-hutao-homa-total").addClass("hidden");
+
+
+                    $("#zhongli-double-hydro-hutao-dragonsbane-btn").addClass("active");
+                    $("#zhongli-double-hydro-hutao-homa-btn").removeClass("active");
+                });
+
+                $("#zhongli-double-hydro-hutao-homa-btn").click(function(){
+                    $("#zhongli-double-hydro-hutao-dragonsbane").addClass("hidden");
+                    $("#zhongli-double-hydro-hutao-homa").removeClass("hidden");
+
+                    $("#zhongli-double-hydro-hutao-dragonsbane-total").addClass("hidden");
+                    $("#zhongli-double-hydro-hutao-homa-total").removeClass("hidden");
+
+                    $("#zhongli-double-hydro-hutao-dragonsbane-btn").removeClass("active");
+                    $("#zhongli-double-hydro-hutao-homa-btn").addClass("active");
+                });
+            </script>
+    </div>
+</li>
+ 
+<!--Shenhe Waxien-->
 <li>
     <div class="team">
         <a class="teamname">Shenhe Waxien</a>
@@ -253,12 +517,11 @@
         </div>
 
             <div class="geartoggle">
-                <p>Build</p>
-                <button>F2p</button>
-                <button>r1 Mistsplitter</button>
+                <button class="active" id="shenhe-waxien-amenoma-btn"><img src="images/weapons/amenoma-kageuchi/profile.png">r5 Amenoma</button>
+                <button id="shenhe-waxien-mistsplitter-btn"><img src="images/weapons/mistsplitter-reforged/profile.png">r1 Mistsplitter</button>
             </div>
 
-            <table class="damagetable">
+            <table class="damagetable" id="shenhe-waxien-amenoma">
                 <tr>
                     <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/ayaka/profile.png"></div><p class="item-text">Ayaka</p>
                         <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/amenoma-kageuchi/profile.png"><img src="images/artifacts/blizzard-strayer/flower.png"></div>
@@ -302,6 +565,50 @@
         </table>
 
 
+        <table class="damagetable hidden" id="shenhe-waxien-mistsplitter">
+                <tr>
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/ayaka/profile.png"></div><p class="item-text">Ayaka</p>
+                        <div class="gear"><p>c0</p><p>r1</p><img src="images/weapons/mistsplitter-reforged/profile.png"><img src="images/artifacts/blizzard-strayer/flower.png"></div>
+                    </div></td>
+
+                    
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/kokomi/profile.png"></div><p class="item-text">Kokomi</p>
+                        <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/thrilling-tales-of-dragon-slayers/profile.png"><img src="images/artifacts/tenacity-of-the-millelith/flower.png"></div>
+                    </div></td>
+
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/shenhe/profile.png"></div><p class="item-text">Shenhe</p>
+                        <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-lance/profile.png"><img src="images/artifacts/noblesse-oblige/flower.png"></div>
+                    </div></td>
+
+                    <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/kazuha/profile.png"></div><p class="item-text">Kazuha</p>
+                        <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/favonius-sword/profile.png"><img src="images/artifacts/viridescent-venerer/flower.png"></div>
+                    </div></td>    
+                </tr>
+
+                <tr>
+                    <td class="damage"><b>DPR: </b>960510</td>
+                    <td class="damage">7352</td>
+                    <td class="damage">178362</td>
+                    <td class="damage">136618</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>DPS: </b>45739</td>
+                    <td class="damage">350</td>
+                    <td class="damage">8493</td>
+                    <td class="damage">6506</td>
+
+                </tr>
+                <tr>
+                    <td class="damage"><b>Ratio: </b>75%</td>
+                    <td class="damage">1%</td>
+                    <td class="damage">14%</td>
+                    <td class="damage">11%</td>
+
+                </tr>
+        </table>
+
+
 
         <button class="accordion">
             Details:
@@ -314,10 +621,11 @@
 
             <p class="label">Rotations:</p>
             <div class="indent">
-                <p><b class="label">With Mistsplitter(21s):</b> Ayaka E n2c > Shenhe QE > Kazuha QE > Kokomi E >  Ayaka E Q n2c  > Kauzha E > Shenhe E ></p>
-                <p><b class="label">With Amenoma(21s):</b> Shenhe QE > Kazuha QE > Kokomi E >  Ayaka n1 E Q n2c  > Kauzha E > Shenhe E  > Ayaka n1 E n2c</p>
+                <p><b class="label">With Amenoma(21s):</b> Ayaka E n2c > Shenhe QE > Kazuha QE > Kokomi E >  Ayaka E Q n2c  > Kauzha E > Shenhe E ></p>
+                <p><b class="label">With Mistsplitter(21s):</b> Shenhe QE > Kazuha QE > Kokomi E >  Ayaka n1 E Q n2c  > Kauzha E > Shenhe E  > Ayaka n1 E n2c</p>
 
             </div>
+            
 
             <i>These are not strict rotations, and if you know what you're doing they can be adpated to fit certain situations better.</i>
 
@@ -330,7 +638,7 @@
 
         </div>
 
-            <div class="total">
+            <div class="total" id="shenhe-waxien-amenoma-total">
                 <p class="label">Total</p>
                 <div class="totalvalues">
                     <p><b>DPR:</b> 1086791</p>
@@ -338,15 +646,49 @@
                 </div>
             </div>
 
+            <div class="total hidden" id="shenhe-waxien-mistsplitter-total">
+                <p class="label">Total</p>
+                <div class="totalvalues">
+                    <p><b>DPR:</b> 1282842</p>
+                    <p><b>DPS(21s):</b> 61088</p>
+                </div>
+            </div>
+
+            <script>
+                $("#shenhe-waxien-amenoma-btn").click(function(){
+                    $("#shenhe-waxien-amenoma").removeClass("hidden");
+                    $("#shenhe-waxien-mistsplitter").addClass("hidden");
+
+                    $("#shenhe-waxien-amenoma-total").removeClass("hidden");
+                    $("#shenhe-waxien-mistsplitter-total").addClass("hidden");
+
+
+                    $("#shenhe-waxien-amenoma-btn").addClass("active");
+                    $("#shenhe-waxien-mistsplitter-btn").removeClass("active");
+                });
+
+                $("#shenhe-waxien-mistsplitter-btn").click(function(){
+                    $("#shenhe-waxien-amenoma").addClass("hidden");
+                    $("#shenhe-waxien-mistsplitter").removeClass("hidden");
+
+                    $("#shenhe-waxien-amenoma-total").addClass("hidden");
+                    $("#shenhe-waxien-mistsplitter-total").removeClass("hidden");
+
+                    $("#shenhe-waxien-amenoma-btn").removeClass("active");
+                    $("#shenhe-waxien-mistsplitter-btn").addClass("active");
+                });
+            </script>
+
     </div>
 </li>
 
-
+<!--Sucrose National-->
 <li>
     <div class="team">
         <a class="teamname">Sucrose National</a>
         <div class="tags">
             <a tooltip="" flow="up">Reverse Vape</a>
+            <a tooltip="" flow="up">National</a>
             <a tooltip="" flow="up">Single Target Oriented</a>
             <a class="good" tooltip="" flow="up">AoE</a>
             <a class="good" tooltip="" flow="up">Crowd Control</a>
@@ -433,8 +775,7 @@
 </li>
 
 
-
-
+<!--International-->
 <li>
     <div class="team">
         <a class="teamname">International</a>
@@ -551,19 +892,11 @@
 
 
 
-                
-
-
-
-
 
             </div>
-        
         </div>
     </div>
 </div>
-
-    
 
 <script type="text/javascript">
  $(window).on("load", function() {

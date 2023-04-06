@@ -40,24 +40,6 @@
 
 
                     
-                    <a href="akademiya/meta-analysis.php">
-                        <div class="article-item" style="background-image: linear-gradient(to bottom, #037341, #202020  70%), url('');">
-                            <div class="article-details">
-                                <h1>Meta Analysis</h1>
-                                <p>Characters analysis interms of meta</p>
-                            </div>
-                        </div>
-                    </a>
-
-
-                    <a href="teamdps.php">
-                        <div class="article-item" style="background-image: linear-gradient(to bottom, #037341, #202020  70%), url('');">
-                            <div class="article-details">
-                                <h1>Team DPS</h1>
-                                <p>Calculated team damage</p>
-                            </div>
-                        </div>
-                    </a>
 
 
                     <a href="akademiya/faq.php">
