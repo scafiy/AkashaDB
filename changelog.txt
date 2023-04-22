@@ -48,4 +48,5 @@
 10/03/23: Updated teamdps page so that all teams show constellations, weapon, refinements and artifact sets used for each character in the team as a ui element=
 11/03/23: Updated teamdps numbers for all teams due to mistakes and rewrote some descriptions and notes to be shorter
 12/03/23: Added sucrose national team to teamdps page
+22/04/23: Finished mika page, new 3.6 artifacts added to the database and 3.6 first phase banner added to the database
 

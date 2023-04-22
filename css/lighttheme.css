@@ -2,9 +2,15 @@
 :root {
     --primary-background-color: #f8f8f8; /* primary-background-color */
     --topnav-color: #ebebeb;
-      --search-bar-precolour:#ededee;
+      --search-bar-precolour2:#ededee;
     --primary-text-color: #1f1f1f; /* primary-text-color */
     --highlighted-color: rgb(206, 223, 238); 
     --highlighted-color: #C8EEAF; 
     --hover-colour: #e7e9ec; 
+  }
+
+
+  p, a, button{
+    color: var(--primary-text-color);
+
   }

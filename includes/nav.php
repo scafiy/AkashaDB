@@ -216,23 +216,5 @@
 
 
 
-      <a href="/Akasha/akademiya.php">
-         <button class="sidenav-btn dropdown-button" id="akademiya-button">
-         <img class="img-icon" src="/Akasha/images/icons/akademiya.png">
-               <p>Akademiya</p>
-         </button>
-      </a>
-      
-      <div class="dropdown-icon-container">
-         <i class="material-symbols-outlined dropdown-icon" id="akademiya-dropdown-icon">chevron_right</i>
-      </div>
-
-
-         <div class="dropdown-content" id="akademiya-dropdown-content">
-         <a href="/Akasha/akademiya/ayaka-guide.php"><button id="ayaka-guide-button">Ayaka Guide</button></a>
-            <a href="/Akasha/akademiya/faq.php"><button id="faq-button">FAQ</button></a>
-
-         </div>
-        
    </div>
 
