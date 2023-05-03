@@ -67,6 +67,18 @@
                     </div>
                 </div>
 
+                <div class="sources">
+                    <p>Sources:</p>
+                    <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
+                        <img src="../images/icons/fandom.svg" alt="">
+                        Fandom Wiki</a>
+                    <a href="https://library.keqingmains.com/equipment/weapons/<?php echo strtolower($fetch['weapon'])?>s#<?php echo $fetch['url']?>" target="_blank">
+                        <img src="../images/icons/kqm.png" alt="">
+                        KQM TCL</a>
+
+
+                </div>
+
                 <div class="information">
                     <div class="forefront">
                         <div class="base-stat-table">

@@ -246,22 +246,17 @@
 
 .sources{
     position: relative;
-    top: -30px;
-    margin-bottom: 10px;
+    top: 10px;
     display: flex;
     flex-wrap: wrap;
-    background-color: transparent;
+    margin-bottom: -20px;
 }
 
-@media all and (max-width: 1600px) {
-    .sources{
-        top:-35px;
-    }
-}
+
 
 @media all and (max-width: 1200px) {
     .sources{
-        top:5px;
+        top:-30px;
     }
 }
 

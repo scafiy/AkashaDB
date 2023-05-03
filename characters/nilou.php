@@ -70,16 +70,27 @@
                                     <img class="icons" src="../images/icons/b_<?php echo $fetch['region']?>.png" alt="">
                                 </div>
                             </div>
-                            <p class="banner-description">A dancer under the Zubayr Theater, Nilou's dancing is but elegant and graceful — however, outside the stage's spotlight, she's just like any girl her age; warm, smiling, and friendly.
-
-
-
-
-
-</p>
+                            <p class="banner-description">A dancer under the Zubayr Theater, Nilou's dancing is but elegant and graceful — however, outside the stage's spotlight, she's just like any girl her age; warm, smiling, and friendly.</p>
                         </div>
                     </div>
                 </div>
+ 
+                <div class="sources">
+                    <p>Sources:</p>
+                    <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
+                        <img src="../images/icons/fandom.svg" alt="">
+                        Fandom Wiki</a>
+                    <a href="https://keqingmains.com/<?php echo $fetch['url']?>" target="_blank">
+                        <img src="../images/icons/kqm.png" alt="">
+                        KQM Guide</a>
+                    <a href="https://library.keqingmains.com/characters/<?php echo strtolower($fetch['element'])?>/<?php echo $fetch['url']?>" target="_blank">
+                        <img src="../images/icons/kqm.png" alt="">
+                        KQM TCL</a>
+
+
+                </div>
+
+
                 <div class="information">
                 
 

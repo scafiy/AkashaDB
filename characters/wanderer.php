@@ -76,7 +76,24 @@
                         </div>
                     </div>
                 </div>
-                                <div class="information">
+                 
+                <div class="sources">
+                    <p>Sources:</p>
+                    <a href="https://genshin-impact.fandom.com/wiki/<?php echo $fetch['name']?>" target="_blank">
+                        <img src="../images/icons/fandom.svg" alt="">
+                        Fandom Wiki</a>
+                    <a href="https://keqingmains.com/<?php echo $fetch['url']?>" target="_blank">
+                        <img src="../images/icons/kqm.png" alt="">
+                        KQM Guide</a>
+                    <a href="https://library.keqingmains.com/characters/<?php echo strtolower($fetch['element'])?>/<?php echo $fetch['url']?>" target="_blank">
+                        <img src="../images/icons/kqm.png" alt="">
+                        KQM TCL</a>
+
+
+                </div>
+
+
+                <div class="information">
                 
 
                     <div class="base-stat-table">
