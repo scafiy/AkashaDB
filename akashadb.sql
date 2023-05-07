@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 04, 2023 at 01:53 AM
+-- Generation Time: May 07, 2023 at 04:41 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -90,7 +90,9 @@ INSERT INTO `artifacts` (`id`, `name`, `keywords`, `img`, `url`, `category`, `ra
 (41, 'Deepwood Memories', 'Deepwood Memories DM', 'images/artifacts/deepwood-memories/flower.png', 'deepwood-memories', 'Artifact', '5', '4', 'This lovely gold-plated flower was plucked from the crown of the ruler of the forest.', 'Dendro DMG Bonus +15%', 'After Elemental Skills or Bursts hit opponents, the targets\' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.', '#79A149'),
 (42, 'Gilded Dreams', 'Gilded Dreams GD', 'images/artifacts/gilded-dreams/flower.png', 'gilded-dreams', 'Artifact', '5', '4', 'A flower bud made of hammered dark gold. Its crimson core is wrapped by petals that shall never open.', 'Elemental Mastery +80. ', 'Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members, ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.', '#EFE0BF'),
 (43, 'Desert Pavilion Chronicle', 'Desert Pavilion Chronicle DPC', 'images/artifacts/desert-pavilion-chronicle/flower.png', 'desert-pavilion-chronicle', 'Artifact', '5', '4', 'An artificial flower that shimmers with a strange light. If you incline your ear to it, you can vaguely hear charming laughter issuing from within.', 'Anemo DMG Bonus +15%.', 'When Charged Attacks hit opponents, the equipping character\'s Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s.', '#9fa6f0'),
-(51, 'Flower of Paradise Lost', 'Flower of Paradise Lost FOPL FPL', 'images/artifacts/flower-of-paradise-lost/flower.png', 'flower-of-paradise-lost', 'Artifact', '5', '4', 'An amethyst bloom that has been beautifully sculpted in the image of an ancient, extinct flower.', 'Increases Elemental Mastery by 80.', 'The equipping character\'s Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.', '#6745af');
+(51, 'Flower of Paradise Lost', 'Flower of Paradise Lost FOPL FPL', 'images/artifacts/flower-of-paradise-lost/flower.png', 'flower-of-paradise-lost', 'Artifact', '5', '4', 'An amethyst bloom that has been beautifully sculpted in the image of an ancient, extinct flower.', 'Increases Elemental Mastery by 80.', 'The equipping character\'s Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.', '#6745af'),
+(52, 'Nymph\'s Dream', 'Nymph\'s Dream, Nymphs Dream, Nymph Dream, ND, ', 'images/artifacts/nymphs-dream/flower.png', 'nymphs-dream', 'Artifact', '5', '4', 'The story must end, and even fresh flowers will wither. But the flower within one\'s dreams will always remain in full and fragrant bloom.', 'Hydro DMG Bonus +15%', 'After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents, 1 stack of Mirrored Nymph will be triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG Bonus will be increased by 4%/9%/15%. Mirrored Nymph stacks created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently.', '#18403D'),
+(53, 'Vourukasha\'s Glow', 'Vourukasha\'s Glow, Vourukashas Glow, Vourukasha Glow, VSG, VG, ', 'images/artifacts/vourukashas-glow/flower.png', 'vourukashas-glow', 'Artifact', '5', '4', 'An insignia in the shape of a lovely little flower that was once worn by pilgrims in times long bygone.', 'HP +20%', 'Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.', '#E27C78');
 
 -- --------------------------------------------------------
 
@@ -230,7 +232,16 @@ INSERT INTO `banners` (`id`, `name`, `keywords`, `img`, `url`, `category`, `type
 (113, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.4.2weapon.png', '3.4.2weapon', 'Banner', 'Weapon', '3.4', '2', 'February 07, 2023', 'February 28, 2023', 'staff-of-homa', 'aqua-simulacra', 'lithic-blade', 'favonius-sword', 'dragons-bane', 'favonius-codex', 'rust'),
 (114, 'Twilight Arbiter', 'Twilight Arbiter', 'images/banners/3.5.1character1.png', '3.5.1character1', 'Banner', 'Character', '3.5', '1', 'March 01, 2023', 'March 21, 2023', 'cyno', '', 'barbara', 'collei', 'bennett', '', ''),
 (115, 'Auric Blaze', 'Auric Blaze', 'images/banners/3.5.1character2.png', '3.5.1character2', 'Banner', 'Character', '3.5', '1', 'March 01, 2023', 'March 21, 2023', 'dehya', '', 'barbara', 'collei', 'bennett', '', ''),
-(116, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.5.1weapon.png', '3.5.1weapon', 'Banner', 'Weapon', '3.5', '1', 'March 01, 2023', 'March 21, 2023', 'beacon-of-the-reed-sea', 'staff-of-the-scarlet-sands', 'the-alley-flash', 'alley-hunter', 'sacrifcial-greatsword', 'dragons-bane', 'eye-of-perception');
+(116, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.5.1weapon.png', '3.5.1weapon', 'Banner', 'Weapon', '3.5', '1', 'March 01, 2023', 'March 21, 2023', 'beacon-of-the-reed-sea', 'staff-of-the-scarlet-sands', 'the-alley-flash', 'alley-hunter', 'sacrifcial-greatsword', 'dragons-bane', 'eye-of-perception'),
+(117, 'The Heron\'s Court', 'The Heron\'s Court', 'images/banners/3.5.2character1.png', '3.5.2character1', 'Banner', 'Character', '3.5', '2', 'March 21, 2023', 'April 11, 2023', 'Ayaka', '', 'mika', 'sucrose', 'diona', '', ''),
+(118, 'The Transcendent One Returns', 'The Transcendent One Returns', 'images/banners/3.5.2character2.png', '3.5.2character2', 'Banner', 'Character', '3.5', '2', 'March 21, 2023', 'April 11, 2023', 'shenhe', '', 'mika', 'sucrose', 'diona', '', ''),
+(119, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.5.2weapon.png', '3.5.2weapon', 'Banner', 'Weapon', '3.5', '2', 'March 21, 2023', 'April 11, 2023', 'mistsplitter-reforged', 'calamity-queller', 'favonius-warbow', 'sacrificial-sword', 'favonius-lance', 'wine-and-song', 'the-bell'),
+(120, 'The Moongrass\' Enlightenment', 'The Moongrass\' Enlightenment', 'images/banners/3.6.1character1.png', '3.6.1character1', 'Banner', 'Character', '3.6', '1', 'April 12, 2023', 'May 02, 2023', 'nahida', '', 'kuki', 'dori', 'layla', '', ''),
+(121, 'Twirling Lotus', 'Twirling Lotus', 'images/banners/3.6.1character2.png', '3.6.1character2', 'Banner', 'Character', '3.6', '1', 'April 12, 2023', 'May 02, 2023', 'nilou', '', 'kuki', 'dori', 'layla', '', ''),
+(122, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.6.1weapon.png', '3.6.1weapon', 'Banner', 'Weapon', '3.6', '1', 'April 12, 2023', 'May 02, 2023', 'a-thousand-floating-dreams', 'key-of-khaj-nisut', 'xiphos-moonlight', 'favonius-greatsword', 'dragons-bane', 'sacrificial-fragments', 'the-stringless'),
+(123, 'Adrift in the Harbor', 'Adrift in the Harbor', 'images/banners/3.6.2character1.png', '3.6.2character1', 'Banner', 'Character', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'ganyu', '', 'kaveh', 'candace', 'fischl', '', ''),
+(124, 'Immaculate Pulse', 'Immaculate Pulse', 'images/banners/3.6.2character2.png', '3.6.2character2', 'Banner', 'Character', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'baizhu', '', 'Kaveh', 'candace', 'fischl', '', ''),
+(125, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.6.2weapon.png', '3.6.2weapon', 'Banner', 'Weapon', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'jadefalls-splendor', 'amos-bow', 'makhaira-aquamarine', 'wandering-evenstar', 'lions-roar', 'favonius-lance', 'sacrificial-bow');
 
 -- --------------------------------------------------------
 
@@ -322,7 +333,10 @@ INSERT INTO `characters` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `cat
 (68, 'Wanderer', 'Wanderer Scaramouche', 'images/characters/wanderer/profile.png', 'wanderer', '5', 'Characters', 'Anemo', 'Catalyst', 'Sumeru', 'CR', 'A wayfaring figure whose identity is a mystery. He dresses like a shugenja, but he certainly does not act the part.', '#444367'),
 (69, 'Yaoyao', 'Yaoyao YoYo Yao Yao', 'images/characters/yaoyao/profile.png', 'yaoyao', '4', 'Characters', 'Dendro', 'Polearm', 'Sumeru', 'HP', 'Streetward Rambler\'s youngest disciple. A gentle and caring \"little adult.\"', '#DFEF8D'),
 (70, 'Alhaitham', 'Alhaitham Al haitham Al-haitham alhethum', 'images/characters/alhaitham/profile.png', 'alhaitham', '5', 'Characters', 'Dendro', 'Sword', 'Sumeru', 'dendroDMG', 'The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway.', '#206650'),
-(604, 'Dehya', 'Dehya', 'images/characters/dehya/profile.png', 'dehya', '5', 'Characters', 'Pyro', 'Claymore', 'Sumeru', 'HP', 'A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.', '#A60000');
+(604, 'Dehya', 'Dehya', 'images/characters/dehya/profile.png', 'dehya', '5', 'Characters', 'Pyro', 'Claymore', 'Sumeru', 'HP', 'A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.', '#A60000'),
+(605, 'Mika', 'Mika', 'images/characters/mika/profile.png', 'mika', '4', 'Characters', 'Cryo', 'Polearm', 'Mondstadt', 'HP', 'A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.', '#DED18D'),
+(606, 'Kaveh', 'Kaveh', 'images/characters/kaveh/profile.png', 'kaveh', '4', 'Characters', 'Dendro', 'Claymore', 'Sumeru', 'EM', 'A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.', '#5BD64D'),
+(607, 'Baizhu', 'Baizhu', 'images/characters/baizhu/profile.png', 'baizhu', '5', 'Characters', 'Dendro', 'Catalyst', 'Sumeru', 'HP', 'The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.', '#AFDEB3');
 
 -- --------------------------------------------------------
 
@@ -507,7 +521,8 @@ INSERT INTO `weapons` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `catego
 (153, 'Toukabou Shigure', 'Toukabou Shigure TS Umbrella', 'images/weapons/toukabou-shigure/profile.png', 'toukabou-shigure', '4', 'Weapon', 'Sword', 'EM', '42', '510', '36', '165', 'A rather special oil-paper umbrella. While long wanderings may make one used to the wind and the rain, there might be some fun in admiring a rainy scene beneath this parasol.', 'Kaidan: Rainfall Earthbinder', 'After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is taken out during Cursed Parasol\'s duration, Cursed Parasol\'s CD will be refreshed immediately. The character wielding this weapon will deal 16%/20%/24%/28%/32% more DMG to the opponent affected by Cursed Parasol.'),
 (154, 'Light of Foliar Incision', 'Light of Foliar Incision LOFI LOFL LFL LFI', 'images/weapons/light-of-foliar-incision/profile.png', 'light-of-foliar-incision', '5', 'Weapon', 'Sword', 'CD', '44', '542', '19.2%', '88.2%', 'This gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest.', 'Whitemoon Bristle', 'CRIT Rate is increased by 4%/5%/6%/7%/8%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 120%/150%/180%/210%/240% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.'),
 (155, 'Mailed Flower', 'Mailed Flower MF', 'images/weapons/mailed-flower/profile.png', 'mailed-flower', '4', 'Weapon', 'Claymore', 'EM', '44', '565', '24', '110', 'A graceful and elegant greatsword that is decorated with flowers and ribbons.', 'Whispers of Wind and Flower', 'Within 8s after the character\'s Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by 12%/15%/18%/21%/24% and 48/60/72/84/96 respectively.'),
-(156, 'Beacon of the Reed Sea', 'Beacon of the Reed Sea BOTRS BORS BTRS BRS', 'images/weapons/beacon-of-the-reed-sea/profile.png', 'beacon-of-the-reed-sea', '5', 'Weapon', 'Claymore', 'CR', '46', '608', '7.2%', '33.1%', 'A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.', 'Desert Watch', 'After the character\'s Elemental Skill hits an opponent, their ATK will be increased by 20%/25%/30%/35%/40% for 8s. After the character takes DMG, their ATK will be increased by 20%/25%/30%/35%/40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character\'s Max HP will be increased by 32%/40%/48%/56%/64%..');
+(156, 'Beacon of the Reed Sea', 'Beacon of the Reed Sea BOTRS BORS BTRS BRS', 'images/weapons/beacon-of-the-reed-sea/profile.png', 'beacon-of-the-reed-sea', '5', 'Weapon', 'Claymore', 'CR', '46', '608', '7.2%', '33.1%', 'A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.', 'Desert Watch', 'After the character\'s Elemental Skill hits an opponent, their ATK will be increased by 20%/25%/30%/35%/40% for 8s. After the character takes DMG, their ATK will be increased by 20%/25%/30%/35%/40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character\'s Max HP will be increased by 32%/40%/48%/56%/64%..'),
+(157, 'Jadefall\'s Splendor', 'Jadefall\'s Splendor Jadefalls Splendor Jadefall Splendor JS JFS', 'images/weapons/jadefalls-splendor/profile.png', 'jadefalls-splendor', '5', 'Weapon', 'Catalyst', 'HP', '46', '608', '10.8%', '49.6%', 'A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.', 'Primordial Jade Regalia', 'For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5/5/5.5/6 /6.5  Energy every 2.5s, and gain 0.3%/0.5%/0.7%/0.9%/1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12%/20%/28%/36%/44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.');
 
 -- --------------------------------------------------------
 
@@ -578,25 +593,25 @@ ALTER TABLE `weapons`
 -- AUTO_INCREMENT for table `artifacts`
 --
 ALTER TABLE `artifacts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 
 --
 -- AUTO_INCREMENT for table `banners`
 --
 ALTER TABLE `banners`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=117;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
 
 --
 -- AUTO_INCREMENT for table `characters`
 --
 ALTER TABLE `characters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=605;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=608;
 
 --
 -- AUTO_INCREMENT for table `weapons`
 --
 ALTER TABLE `weapons`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=157;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=158;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
