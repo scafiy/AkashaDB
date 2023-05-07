@@ -69,7 +69,7 @@
 
 .team{
     width: 377px;
-    background-color: #272727;
+    background-color: #ebebeb;
     margin: 5px;
     padding: 10px;
     border-radius: 3px;
@@ -109,8 +109,8 @@
     border: none;
     margin-right: 5px;
     border-radius: 500px;
-    color: rgb(231, 231, 231);
-    background-color: rgb(58, 58, 58);
+    color: rgb(32, 32, 32);
+    background-color: rgb(207, 207, 207);
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
@@ -149,10 +149,10 @@
 .item{
     position: relative;
     width: 90px;
-    height: 115px;
+    height: 90px;
     display: block;
     border-radius: 4px;
-    background-color: #e9e5dc;
+    background-color: transparent;
     flex-shrink: 0;
     margin-left:0px ;
     margin-right:0px ;
@@ -202,7 +202,6 @@
     background-color: transparent;
     padding: 10px;
     padding-right: 0px;
-
     height: 25px;
     box-sizing: border-box;
 }
@@ -222,6 +221,8 @@
     top: -23px;
     position: relative;
     font-family: inter; 
+    color:#575555;
+
 
 }
 
@@ -230,7 +231,7 @@
     font-family: interbold;
     top: -23px;
     left: -5px;
-    color:#E3E3E3;
+    color:#575555;
 
 }
 
@@ -277,6 +278,7 @@
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    display: none;
 
 
 }
@@ -322,7 +324,7 @@
 
 .gear{
     position: absolute;
-    bottom:29px;
+    bottom:2px;
     display: flex;
     height: 15px;
     margin: 0px;
@@ -378,6 +380,8 @@
     background-color: transparent;
     border-radius: 2px;
     display: flex;
+    transition: 0.3s ease-in-out;
+
 
 }
 
@@ -391,7 +395,14 @@
 }
 
 .geartoggle .active{
-    background-color: #3b3b3b;
+    background-color: #cacaca;
+
+
+}
+
+.geartoggle button:hover{
+    background-color: #c0c0c0;
+    transition: 0.3s ease-in-out;
 
 
 }
@@ -415,7 +426,7 @@
 }
 
 .accordion {
-    background-color: #363636;
+    background-color: #dddddd;
     cursor: pointer;
     width: 100%;
     border: none;
@@ -448,7 +459,7 @@
 
 }
   .accordion:hover {
-    background-color: #2b2a2a; 
+    background-color: #d3d3d3; 
   }
 
 
@@ -456,7 +467,7 @@
   .panel {
     padding: 10px;
     display: none;
-    background-color: #353535;
+    background-color: #dddddd;
     overflow: hidden;
     width: 100%;
     box-sizing: border-box;
@@ -468,7 +479,7 @@
   }
 
   .panel p{
-    color: rgb(204, 204, 204);
+    color: var(--primary-text-color);
     margin: 0px;
     margin-top: 15px;
     margin-bottom: 15px;

@@ -147,7 +147,7 @@
                 
 
                     <div id="twitter-content">
-                        <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Etfw">Tweets by GenshinImpact</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    
+                        <a class="twitter-timeline" data-dnt="true" data-theme="light" href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Etfw">Tweets by GenshinImpact</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    
                     </div>
 
                 </div>

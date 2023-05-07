@@ -80,7 +80,7 @@
                     <td><div class="item waves-effect waves-effect waves"><div class="item-icon bg-5-star"><img class="item-img" src="images/characters/raiden/profile.png"></div><p class="item-text">Raiden</p>
                         <div class="gear"><p>c0</p><p>r5</p><img src="images/weapons/the-catch/profile.png"><img src="images/artifacts/emblem-of-severed-fate/flower.png"></div>
                     </div></td>
-                
+            
                 </tr>
 
                 <tr>
@@ -363,22 +363,22 @@
                 <tr>
                     <td class="damage"><b>DPR: </b>772101</td>
                     <td class="damage">7352</td>
-                    <td class="damage">170720</td>
+                    <td class="damage">204203</td>
                     <td class="damage">136618</td>
 
                 </tr>
                 <tr>
                     <td class="damage"><b>DPS: </b>36767</td>
                     <td class="damage">350</td>
-                    <td class="damage">8130</td>
+                    <td class="damage">9724</td>
                     <td class="damage">6506</td>
 
                 </tr>
                 <tr>
-                    <td class="damage"><b>Ratio: </b>71%</td>
+                    <td class="damage"><b>Ratio: </b>69%</td>
                     <td class="damage">1%</td>
-                    <td class="damage">16%</td>
-                    <td class="damage">13%</td>
+                    <td class="damage">18%</td>
+                    <td class="damage">12%</td>
 
                 </tr>
         </table>
@@ -405,16 +405,16 @@
                 </tr>
 
                 <tr>
-                    <td class="damage"><b>DPR: </b>960510</td>
+                    <td class="damage"><b>DPR: </b>962113</td>
                     <td class="damage">7352</td>
-                    <td class="damage">178362</td>
+                    <td class="damage">211845</td>
                     <td class="damage">136618</td>
 
                 </tr>
                 <tr>
                     <td class="damage"><b>DPS: </b>45739</td>
                     <td class="damage">350</td>
-                    <td class="damage">8493</td>
+                    <td class="damage">10088</td>
                     <td class="damage">6506</td>
 
                 </tr>
@@ -460,16 +460,16 @@
             <div class="total" id="shenhe-waxien-amenoma-total">
                 <p class="label">Total</p>
                 <div class="totalvalues">
-                    <p><b>DPR:</b> 1086791</p>
-                    <p><b>DPS(21s):</b> 51752</p>
+                    <p><b>DPR:</b> 1120274</p>
+                    <p><b>DPS(21s):</b> 53346</p>
                 </div>
             </div>
 
             <div class="total hidden" id="shenhe-waxien-mistsplitter-total">
                 <p class="label">Total</p>
                 <div class="totalvalues">
-                    <p><b>DPR:</b> 1282842</p>
-                    <p><b>DPS(21s):</b> 61088</p>
+                    <p><b>DPR:</b> 1317928</p>
+                    <p><b>DPS(21s):</b> 62758</p>
                 </div>
             </div>
 

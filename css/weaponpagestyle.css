@@ -392,8 +392,10 @@
     padding-right: 10px;
     background-color: #e7e5e5;
     background-color:var(--hover-colour) ;
-    filter: brightness(110%);
+    filter: brightness(95%);
     overflow-x: auto;
+
+
 
 }
 
@@ -414,10 +416,9 @@ wbr{
 tr{
     background-color: #dadada;
     background-color:var(--hover-colour) ;
-    filter: brightness(115%);
+    filter: brightness(95%);
     padding: 0px;
     width: 10px;
-    color: #dadada;
 
 }
 
@@ -427,6 +428,7 @@ td{
     padding-top:2px;
     padding-bottom:2px;
     width: 10px;
+    border-radius: 2px;
 
 }
 
@@ -478,8 +480,7 @@ td{
 
 .passive-content{
     width: 90%;
-    background-color: #f0f0f0;
-    background-color:var(--hover-colour) ;
+    background-color: #E7E9EC;
     margin-left:10px ;
     text-align: left;
     padding: 10px;
@@ -502,11 +503,11 @@ td{
 .passive-content p{
     background-color: #e7e5e5;
     background-color:var(--hover-colour) ;
-    filter: brightness(110%);
+    filter: brightness(95%);
     padding: 10px;
     margin: 0px;
     margin-top: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
     overflow: hidden;
 
 }

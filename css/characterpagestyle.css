@@ -538,7 +538,7 @@
     background-color:var(--hover-colour) ;
     overflow-x: auto;
     margin-bottom: 5px;
-    filter: brightness(110%);
+    filter: brightness(95%);
 
 
 }
@@ -568,7 +568,8 @@ tr{
     padding: 0px;
     width: 10px;
     font-size: 15px;
-    filter: brightness(115%);
+    filter: brightness(95%);
+    border-radius: 2px;
 
 }
 
@@ -578,6 +579,7 @@ td{
     padding-top:2px;
     padding-bottom:2px;
     width: 10px;
+    border-radius: 2px;
 
 }
 

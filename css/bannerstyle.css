@@ -38,7 +38,7 @@
 }
 
 .banner-details .flex{
-    color: rgb(160, 160, 160);
+    color: rgb(126, 126, 126);
 
 }
 
@@ -58,7 +58,8 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 5px;
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(197, 197, 197);
+    color:rgb(80, 80, 80) ;
     border-radius: 100px;
     box-sizing: border-box;
     font-size: 12px;
@@ -73,9 +74,12 @@
 .banner-details{
     width: 400px;
     overflow: hidden;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(230, 230, 230);
     box-sizing: border-box;
     padding: 10px;
+    border-bottom-left-radius:4px ;
+    border-bottom-right-radius:4px ;
+
 }
 
 .rateupitems{

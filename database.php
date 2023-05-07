@@ -23,8 +23,6 @@
                 <div class="dbheader dbheaderbanner">
                     <div>
                         <h1>Database</h1>
-                        <i>If you don't own this copy of akashadb then you're in view only mode. Look at the <a href="https://github.com/scafiy/AkashaDB">github repository</a>.</i>
-
                     </div>
 
                     

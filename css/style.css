@@ -46,12 +46,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(65, 65, 65); 
+  background: rgb(224, 224, 224); 
+  border-radius: 200px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(100, 100, 100); 
+  background: rgb(219, 219, 219); 
 }
 
 ::-webkit-scrollbar-corner { display: none; }

@@ -93,50 +93,49 @@
                                     <div class="item-icon bg-5-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fivestarone']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fivestarone']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ',$fetch['fivestarone']))?></p>
                                 </a>
-
 
                                 <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fivestartwo']?>.php" class="item <?php echo $fetch['type']?>itemhight displaynone<?php echo $fetch['fivestartwo']?>">
                                     <div class="item-icon bg-5-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fivestartwo']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fivestartwo']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ',$fetch['fivestartwo']))?></p>
                                 </a>
 
                                 <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarone']?>.php" class="item <?php echo $fetch['type']?>itemhight displaynone<?php echo $fetch['fourstarone']?>">
                                     <div class="item-icon bg-4-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarone']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fourstarone']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ',$fetch['fourstarone']))?></p>
                                 </a>
 
                                 <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstartwo']?>.php" class="item <?php echo $fetch['type']?>itemhight displaynone<?php echo $fetch['fourstartwo']?>">
                                     <div class="item-icon bg-4-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstartwo']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fourstartwo']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ',$fetch['fourstartwo']))?></p>
                                 </a>
 
                                 <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarthree']?>.php" class="item <?php echo $fetch['type']?>itemhight displaynone<?php echo $fetch['fourstarthree']?>">
                                     <div class="item-icon bg-4-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarthree']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fourstarthree']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ',$fetch['fourstarthree']))?></p>
                                 </a>
 
                                 <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfour']?>.php" class="item <?php echo $fetch['type']?>itemhight displaynone<?php echo $fetch['fourstarfour']?>">
                                     <div class="item-icon bg-4-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfour']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fourstarfour']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ',$fetch['fourstarfour']))?></p>
                                 </a>
 
                                 <a href="<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfive']?>.php" class="item <?php echo $fetch['type']?>itemhight displaynone<?php echo $fetch['fourstarfive']?>">
                                     <div class="item-icon bg-4-star">
                                         <img class="item-img" src="images/<?php echo $fetch['type']?>s/<?php echo $fetch['fourstarfive']?>/profile.png">
                                     </div>
-                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo $fetch['fourstarfive']?></p>
+                                    <p class="item-text <?php echo $fetch['type']?>itemtext"><?php echo ucwords(str_replace('-', ' ', $fetch['fourstarfive']))?></p>
                                 </a>
 
 

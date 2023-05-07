@@ -50,3 +50,7 @@
 12/03/23: Added sucrose national team to teamdps page
 22/04/23: Finished mika page, new 3.6 artifacts added to the database and 3.6 first phase banner added to the database
 
+4/04/23: Changed changed default theme to light mode
+6/04/23: improved banner page by capitalizing first letter and removeing - from the item names
+7/04/23: added Baizhu, Kaveh and Jadefall's Splendor to the website and sql database. added new 3.6 phase 2 banners to banner database.
+
