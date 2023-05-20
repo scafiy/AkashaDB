@@ -107,6 +107,8 @@
                             </div>
                         </div>
                         <h1>Latest Artifacts</h1>
+                        <div id="tweets"></div>
+
 
                         <div class="item-slider">
                             <div class="flex">
@@ -145,12 +147,15 @@
                     </div>
 
                 
-
-                    <div id="twitter-content">
-                        <a class="twitter-timeline" data-dnt="true" data-theme="light" href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Etfw">Tweets by GenshinImpact</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    
+                    
+                    <div id="twitter-content" class="hidden">
+                        <a class="twitter-timeline" data-dnt="true" data-theme="dark" href="https://twitter.com/GenshinImpact?ref_src=twsrc%5Etfw">Tweets by GenshinImpact</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    
                     </div>
+                
 
                 </div>
+
+                
 
             </div>
 
