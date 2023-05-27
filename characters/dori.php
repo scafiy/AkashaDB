@@ -157,19 +157,19 @@
                                     <p>At the end of the sequence, performs a more powerful slash.</p>
                                     <table class="scalingtable">
                                         <tr>
-                                            <td></td>
+                                        <td>Charged Attack Cyclic DMG</td>
                                             <td style="text-align:right;">114.9%</td>
                                         </tr>
                                         <tr>
-                                            <td></td>
+                                        <td>Charged Attack Final DMG</td>
                                             <td style="text-align:right;">208%</td>
                                         </tr>
                                         <tr>
-                                            <td></td>
+                                        <td>Charged Attack Stamina Cost</td>
                                             <td style="text-align:right;">40/s</td>
                                         </tr>
                                         <tr>
-                                            <td></td>
+                                        <td>Max Duration</td>
                                             <td style="text-align:right;">5s</td>
                                         </tr>
 

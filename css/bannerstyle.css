@@ -58,8 +58,8 @@
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 5px;
-    background-color: rgb(197, 197, 197);
-    color:rgb(80, 80, 80) ;
+    background-color: rgb(63, 62, 62);
+    color: rgb(184, 184, 184);
     border-radius: 100px;
     box-sizing: border-box;
     font-size: 12px;
@@ -74,7 +74,7 @@
 .banner-details{
     width: 400px;
     overflow: hidden;
-    background-color: rgb(230, 230, 230);
+    background-color: #28292A;
     box-sizing: border-box;
     padding: 10px;
     border-bottom-left-radius:4px ;

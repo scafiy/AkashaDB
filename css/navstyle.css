@@ -5,6 +5,11 @@
 
 }
 
+@font-face{
+    font-family:ingame;
+    src:url(../fonts/HanyiWenHei/zh-cn.ttf);
+  }
+
 
 /*top nav styling */
 .topnav{

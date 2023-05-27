@@ -392,7 +392,7 @@
     padding-right: 10px;
     background-color: #e7e5e5;
     background-color:var(--hover-colour) ;
-    filter: brightness(95%);
+    filter: brightness(125%);
     overflow-x: auto;
 
 
@@ -414,9 +414,8 @@ wbr{
 }
 
 tr{
-    background-color: #dadada;
     background-color:var(--hover-colour) ;
-    filter: brightness(95%);
+    filter: brightness(110%);
     padding: 0px;
     width: 10px;
 
@@ -477,10 +476,19 @@ td{
 
 }
 
+@media all and (max-width: 1240px) {  
+    .passive-container{
+        margin-top:20px ;
+
+
+    }
+}
+
+
 
 .passive-content{
     width: 90%;
-    background-color: #E7E9EC;
+    background-color:var(--hover-colour) ;
     margin-left:10px ;
     text-align: left;
     padding: 10px;
@@ -503,7 +511,7 @@ td{
 .passive-content p{
     background-color: #e7e5e5;
     background-color:var(--hover-colour) ;
-    filter: brightness(95%);
+    filter: brightness(125%);
     padding: 10px;
     margin: 0px;
     margin-top: 5px;

@@ -8,7 +8,7 @@
     display: flex;
     padding: 10px;
     width: 100%;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(53, 53, 53);
     z-index: 10;
     border-radius: 2px;
     margin: 10px;
@@ -19,7 +19,7 @@
 }
 
 .dbheader input{
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(41, 41, 41);
     border: none;
     padding: 5px;
     outline: none;
@@ -55,7 +55,7 @@
     background-color: var(--highlighted-color);
     border-radius: 5px;
     margin-right: 10px;
-    color: rgb(43, 43, 43);
+    color: rgb(230, 230, 230);
     cursor: pointer;
 
 }
@@ -70,14 +70,14 @@
 
 
 .dbheaderbanner i{
-    color: gray;
+    color: #61B700;
 }
 
 
 .datatable{
     display: none;
     font-size: 1px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(66, 66, 66);
     padding: 10px;
     width: 100%;
     margin-top: -15px;

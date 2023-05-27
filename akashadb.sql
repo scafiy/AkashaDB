@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 07, 2023 at 04:41 AM
+-- Generation Time: May 28, 2023 at 01:28 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -241,7 +241,10 @@ INSERT INTO `banners` (`id`, `name`, `keywords`, `img`, `url`, `category`, `type
 (122, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.6.1weapon.png', '3.6.1weapon', 'Banner', 'Weapon', '3.6', '1', 'April 12, 2023', 'May 02, 2023', 'a-thousand-floating-dreams', 'key-of-khaj-nisut', 'xiphos-moonlight', 'favonius-greatsword', 'dragons-bane', 'sacrificial-fragments', 'the-stringless'),
 (123, 'Adrift in the Harbor', 'Adrift in the Harbor', 'images/banners/3.6.2character1.png', '3.6.2character1', 'Banner', 'Character', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'ganyu', '', 'kaveh', 'candace', 'fischl', '', ''),
 (124, 'Immaculate Pulse', 'Immaculate Pulse', 'images/banners/3.6.2character2.png', '3.6.2character2', 'Banner', 'Character', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'baizhu', '', 'Kaveh', 'candace', 'fischl', '', ''),
-(125, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.6.2weapon.png', '3.6.2weapon', 'Banner', 'Weapon', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'jadefalls-splendor', 'amos-bow', 'makhaira-aquamarine', 'wandering-evenstar', 'lions-roar', 'favonius-lance', 'sacrificial-bow');
+(125, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.6.2weapon.png', '3.6.2weapon', 'Banner', 'Weapon', '3.6', '2', 'May 02, 2023', 'May 23, 2023', 'jadefalls-splendor', 'amos-bow', 'makhaira-aquamarine', 'wandering-evenstar', 'lions-roar', 'favonius-lance', 'sacrificial-bow'),
+(126, 'Everbloom Violet', 'Everbloom Violet', 'images/banners/3.7.1character1.png', '3.7.1character1', 'Banner', 'Character', '3.7', '1', 'May 24, 2023', 'June 13, 2023', 'Yae', '', 'kirara', 'yunjin', 'chongyun', '', ''),
+(127, 'Tapestry of Golden Flames', 'Tapestry of Golden Flames', 'images/banners/3.7.1character2.png', '3.7.1character2', 'Banner', 'Character', '3.7', '1', 'May 24, 2023', 'June 13, 2023', 'yoimiya', '', 'kirara', 'yunjin', 'chongyun', '', ''),
+(128, 'Epitome Invocation', 'Epitome Invocation', 'images/banners/3.7.1weapon.png', '3.7.1weapon', 'Banner', 'Weapon', '3.7', '1', 'May 24, 2023', 'June 13, 2023', 'thundering-pulse', 'kaguras-verity', 'akuoumaru', 'the-flute', 'dragons-bane', 'the-widsith', 'rust');
 
 -- --------------------------------------------------------
 
@@ -336,7 +339,8 @@ INSERT INTO `characters` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `cat
 (604, 'Dehya', 'Dehya', 'images/characters/dehya/profile.png', 'dehya', '5', 'Characters', 'Pyro', 'Claymore', 'Sumeru', 'HP', 'A member of the Eremites, a mercenary organization that roams the sands of Sumeru. Valiant and powerful, she enjoys great fame amongst her fellow Eremites.', '#A60000'),
 (605, 'Mika', 'Mika', 'images/characters/mika/profile.png', 'mika', '4', 'Characters', 'Cryo', 'Polearm', 'Mondstadt', 'HP', 'A young knight born to an ordinary family. He serves as a Front-Line Surveyor in his Company. He is a low-key and cautious character.', '#DED18D'),
 (606, 'Kaveh', 'Kaveh', 'images/characters/kaveh/profile.png', 'kaveh', '4', 'Characters', 'Dendro', 'Claymore', 'Sumeru', 'EM', 'A renowned architect from Sumeru who perhaps cares a bit too much about too many things. He is an aesthete troubled by reality.', '#5BD64D'),
-(607, 'Baizhu', 'Baizhu', 'images/characters/baizhu/profile.png', 'baizhu', '5', 'Characters', 'Dendro', 'Catalyst', 'Sumeru', 'HP', 'The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.', '#AFDEB3');
+(607, 'Baizhu', 'Baizhu', 'images/characters/baizhu/profile.png', 'baizhu', '5', 'Characters', 'Dendro', 'Catalyst', 'Sumeru', 'HP', 'The owner of Bubu Pharmacy, who is rarely seen without the white snake named Changsheng. His medicinal knowledge is encyclopedic, and his personal intrigues subtle.', '#AFDEB3'),
+(608, 'Kirara', 'Kirara', 'images/characters/kirara/profile.png', 'kirara', '4', 'Characters', 'Dendro', 'Sword', 'Sumeru', 'HP', 'A courier for Komaniya Express, a delivery company in Inazuma. A nekomata who loves her job and human society.', '#61B700');
 
 -- --------------------------------------------------------
 
@@ -522,7 +526,8 @@ INSERT INTO `weapons` (`id`, `name`, `keywords`, `img`, `url`, `rarity`, `catego
 (154, 'Light of Foliar Incision', 'Light of Foliar Incision LOFI LOFL LFL LFI', 'images/weapons/light-of-foliar-incision/profile.png', 'light-of-foliar-incision', '5', 'Weapon', 'Sword', 'CD', '44', '542', '19.2%', '88.2%', 'This gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest.', 'Whitemoon Bristle', 'CRIT Rate is increased by 4%/5%/6%/7%/8%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 120%/150%/180%/210%/240% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.'),
 (155, 'Mailed Flower', 'Mailed Flower MF', 'images/weapons/mailed-flower/profile.png', 'mailed-flower', '4', 'Weapon', 'Claymore', 'EM', '44', '565', '24', '110', 'A graceful and elegant greatsword that is decorated with flowers and ribbons.', 'Whispers of Wind and Flower', 'Within 8s after the character\'s Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by 12%/15%/18%/21%/24% and 48/60/72/84/96 respectively.'),
 (156, 'Beacon of the Reed Sea', 'Beacon of the Reed Sea BOTRS BORS BTRS BRS', 'images/weapons/beacon-of-the-reed-sea/profile.png', 'beacon-of-the-reed-sea', '5', 'Weapon', 'Claymore', 'CR', '46', '608', '7.2%', '33.1%', 'A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.', 'Desert Watch', 'After the character\'s Elemental Skill hits an opponent, their ATK will be increased by 20%/25%/30%/35%/40% for 8s. After the character takes DMG, their ATK will be increased by 20%/25%/30%/35%/40% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character\'s Max HP will be increased by 32%/40%/48%/56%/64%..'),
-(157, 'Jadefall\'s Splendor', 'Jadefall\'s Splendor Jadefalls Splendor Jadefall Splendor JS JFS', 'images/weapons/jadefalls-splendor/profile.png', 'jadefalls-splendor', '5', 'Weapon', 'Catalyst', 'HP', '46', '608', '10.8%', '49.6%', 'A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.', 'Primordial Jade Regalia', 'For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5/5/5.5/6 /6.5  Energy every 2.5s, and gain 0.3%/0.5%/0.7%/0.9%/1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12%/20%/28%/36%/44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.');
+(157, 'Jadefall\'s Splendor', 'Jadefall\'s Splendor Jadefalls Splendor Jadefall Splendor JS JFS', 'images/weapons/jadefalls-splendor/profile.png', 'jadefalls-splendor', '5', 'Weapon', 'Catalyst', 'HP', '46', '608', '10.8%', '49.6%', 'A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.', 'Primordial Jade Regalia', 'For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5/5/5.5/6 /6.5  Energy every 2.5s, and gain 0.3%/0.5%/0.7%/0.9%/1.1% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12%/20%/28%/36%/44%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field.'),
+(158, 'Ibis Piercer', 'Ibis Piercer IP ISP Ibi\'s Piercer Ibi Piercer', 'images/weapons/ibis-piercer/profile.png', 'ibis-piercer', '4', 'Weapon', 'Bow', 'ATK', '44', '565', '6.0%', '27.6%', 'A golden bow forged from the description in the story. If you use it as a normal weapon, you can also view it as a part of a fictional world that has made it off the pages.', 'Secret Wisdom\'s Favor', 'The character\'s Elemental Mastery will increase by 40/50/60/70/80 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s.');
 
 -- --------------------------------------------------------
 
@@ -599,19 +604,19 @@ ALTER TABLE `artifacts`
 -- AUTO_INCREMENT for table `banners`
 --
 ALTER TABLE `banners`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
 
 --
 -- AUTO_INCREMENT for table `characters`
 --
 ALTER TABLE `characters`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=608;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=609;
 
 --
 -- AUTO_INCREMENT for table `weapons`
 --
 ALTER TABLE `weapons`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=158;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=159;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

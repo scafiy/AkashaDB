@@ -1,12 +1,13 @@
 
 :root {
     --primary-background-color: #1A1C18; 
-    --topnav-color2: #232820;
-      --search-bar-precolour2:#232820;
-    --primary-text-color: #D9E7CB; 
+    --topnav-color2: #292929;
+      --search-bar-precolour2:#2e2e2e;
+    /** --primary-text-color: #D9E7CB; */
+    --primary-text-color: #e3e3e3; 
     --highlighted-color: #3E4A36; 
 
-    --hover-colour: #242721; 
+    --hover-colour: #272727; 
   }
 
   p, a, button{

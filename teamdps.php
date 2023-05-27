@@ -166,7 +166,7 @@
             <i class="material-symbols-outlined">chevron_right</i>
         </button>
         <div class="panel">
-            <p><b class="label">Description: Hu Tao double hydro with kazuha for grouping and damage buff for xingqiu and yelan.</b></p>
+            <p><b class="label">Description: </b>Hu Tao double hydro with kazuha for grouping and damage buff for xingqiu and yelan.</p>
 
 
             <p><b class="label">2 Skills per Rotation(22s):</b> Yelan E > Xingqiu QE > Yelan Q > Kazuha QE > Yelan n3 E > Hu tao E 8n2cj</p>

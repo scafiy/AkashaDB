@@ -30,6 +30,13 @@
   src:url(../fonts/HanyiWenHei/zh-cn.ttf);
 }
 
+@font-face{
+  font-family:roboto;
+  src:url(../fonts/roboto/Roboto-Medium.ttf);
+}
+
+
+
 
 /* custem scroll bar */
 
