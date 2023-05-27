@@ -53,4 +53,4 @@
 4/04/23: Changed changed default theme to light mode
 6/04/23: improved banner page by capitalizing first letter and removeing - from the item names
 7/04/23: added Baizhu, Kaveh and Jadefall's Splendor to the website and sql database. added new 3.6 phase 2 banners to banner database.
-
+28/05/23: updated database for update 3.7 by adding new banners, kirara and ibis piercer to the database. also changed default theme back to an updated version of dark.
